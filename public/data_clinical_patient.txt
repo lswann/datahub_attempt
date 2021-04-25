@@ -1,0 +1,2839 @@
+#Patient Identifier	Sex	Age	Overall Survival Status	Overall Survival (Months)	First Therapy	First Therapy Response	Patient Smoking History Category	Alcohol
+#Identifier to uniquely specify a patient	Sex	Age at which a condition or disease was first diagnosed			First Therapy	First Therapy Response	Category describing current smoking status and smoking history as self-reported by a patient.	Alcohol
+#String	STRING	NUMBER	STRING	NUMBER	STRING	STRING	STRING	STRING
+#1	1	1	1	1	1	1	1	1
+PATIENT_ID	SEX	AGE	OS_STATUS	OS_MONTHS	FIRST_THERAPY	FIRST THERAPY_RESPONSE	TOBACCO_SMOKING_HISTORY_INDICATOR	ALCOHOL
+DO1000	Female	61	0:LIVING	0	other therapy		Smoking history not documented	Unknown
+DO1001	Female	41		0	other therapy		Smoking history not documented	Unknown
+DO1002	Female	39	0:LIVING	0	other therapy	unknown	Smoking history not documented	Unknown
+DO1003	Female	34	0:LIVING	0	chemotherapy	unknown	Smoking history not documented	Unknown
+DO1004	Female	59	1:DECEASED	0	other therapy		Smoking history not documented	Unknown
+DO1005	Female	39	0:LIVING	0	other therapy		Smoking history not documented	Unknown
+DO1006	Female	39	1:DECEASED	0	other therapy		Smoking history not documented	Unknown
+DO1007	Female	64	0:LIVING	0	other therapy		Smoking history not documented	Unknown
+DO1008	Female	58	1:DECEASED	0	chemotherapy	disease progression	Lifelong non-smoker (<100 cigarettes smoked in lifetime)	Unknown
+DO1009	Female	32	0:LIVING	0	other therapy		Smoking history not documented	Unknown
+DO1010	Female	67		0	other therapy		Smoking history not documented	Unknown
+DO1011	Female	54		0	other therapy		Smoking history not documented	Unknown
+DO1012	Female	32		0	other therapy		Smoking history not documented	Unknown
+DO1013	Female			0	other therapy		Smoking history not documented	Unknown
+DO1014	Female			0	other therapy		Smoking history not documented	Unknown
+DO1015	Female			0	other therapy		Smoking history not documented	Unknown
+DO1016	Female			0	other therapy		Smoking history not documented	Unknown
+DO1017	Female	49	1:DECEASED	0	surgery	unknown	Smoking history not documented	Unknown
+DO10172	Male	31	0:LIVING	0				
+DO1018	Female	46		0	other therapy	unknown	Smoking history not documented	Unknown
+DO1020	Female	33		0	chemotherapy	unknown	Smoking history not documented	Unknown
+DO10324	Female	81	0:LIVING	0				
+DO10486	Female	81	0:LIVING	0				
+DO10558	Female	90	0:LIVING	0				
+DO10631	Female	63	0:LIVING	0				
+DO1076	Female			0				
+DO10806	Male	45	0:LIVING	98.25	no treatment		Smoking history not documented	Unknown
+DO10807	Male	51	0:LIVING	0	no treatment		Smoking history not documented	Unknown
+DO10809	Male	46	0:LIVING	32.75	radiation therapy	disease progression	Smoking history not documented	Unknown
+DO10811	Male	51	0:LIVING	22.75	radiation therapy	unknown	Smoking history not documented	Unknown
+DO10813	Male	50	0:LIVING	0	no treatment		Smoking history not documented	Unknown
+DO10815	Male	38	0:LIVING	60.75	radiation therapy	partial response	Smoking history not documented	Unknown
+DO10817	Male	49	0:LIVING	0	no treatment		Smoking history not documented	Unknown
+DO10819	Male	44	0:LIVING	61.5	no treatment		Smoking history not documented	Unknown
+DO10821	Male	48	0:LIVING	91.75	no treatment		Smoking history not documented	Unknown
+DO10823	Male	46	0:LIVING	122.5	no treatment		Smoking history not documented	Unknown
+DO10825	Male	48	0:LIVING	121.5	no treatment		Smoking history not documented	Unknown
+DO10829	Male	49	0:LIVING	60.25	no treatment		Smoking history not documented	Unknown
+DO10831	Male	45	0:LIVING	91	no treatment		Smoking history not documented	Unknown
+DO10833	Male	49	0:LIVING	120.25	no treatment		Smoking history not documented	Unknown
+DO10835	Male	43	0:LIVING	0	no treatment		Smoking history not documented	Unknown
+DO10837	Male	48	0:LIVING	120.75	no treatment		Smoking history not documented	Unknown
+DO10839	Female	79	1:DECEASED	27.66666667	no treatment		"Current reformed smoker, duration not specified"	no
+DO10840	Male	73	0:LIVING	84.25	no treatment		"Current reformed smoker, duration not specified"	yes
+DO10841	Male	63	0:LIVING	109.3333333	chemotherapy	unknown	Lifelong non-smoker (<100 cigarettes smoked in lifetime)	no
+DO10842	Male	81	1:DECEASED	90.75	no treatment		"Current reformed smoker, duration not specified"	yes
+DO10843	Male	76	0:LIVING	107	no treatment		Lifelong non-smoker (<100 cigarettes smoked in lifetime)	no
+DO10844	Male	76	1:DECEASED	63.41666667	no treatment		"Current reformed smoker, duration not specified"	no
+DO10858	Female	62	1:DECEASED	65.66666667	no treatment		Current smoker (includes daily smokers non-daily/occasional smokers)	no
+DO10859	Male	69	1:DECEASED	57.83333333	no treatment		"Current reformed smoker, duration not specified"	Unknown
+DO10900	Female	50	1:DECEASED	58.41666667				
+DO10908	Male	63	1:DECEASED	40.75				
+DO10960	Male	66	1:DECEASED	38.08333333				
+DO10970	Male	36	0:LIVING	0				
+DO10975	Male	62	1:DECEASED	26.41666667				
+DO11046	Male	60	1:DECEASED	61.41666667				
+DO11148	Female	60	1:DECEASED	40.41666667				
+DO11202	Female	52	1:DECEASED	44.33333333				
+DO11238	Male	68	1:DECEASED	31.25				
+DO11292	Male	61	1:DECEASED	26.5				
+DO11382	Male	65	1:DECEASED	33.25				
+DO11441	Female	63	1:DECEASED	31.5				
+DO11447	Female	72	1:DECEASED	22.5				
+DO11501	Female	59	0:LIVING	0				
+DO11776	Male	42	1:DECEASED	17.33333333				
+DO11782	Male	62	1:DECEASED	40				
+DO11794	Male	47	1:DECEASED	30				
+DO11854	Female	58	1:DECEASED	81.25				
+DO11860	Male	66	0:LIVING	0				
+DO12034	Male	59	1:DECEASED	19.91666667				
+DO12070	Female	58	1:DECEASED	45.25				
+DO12352	Male	43	0:LIVING	0				
+DO12370	Male	56	0:LIVING	0				
+DO12382	Male	51	1:DECEASED	11.75				
+DO12454	Male	60	0:LIVING	0				
+DO12484	Male	51	1:DECEASED	21.16666667				
+DO1249	Female	72	0:LIVING	0				
+DO1257	Female	30	0:LIVING	0				
+DO1274	Female	40	0:LIVING	0				
+DO12742	Male	53	0:LIVING	0				
+DO1281	Female	62	0:LIVING	0				
+DO12814	Female	63	1:DECEASED	8.083333333				
+DO1287	Female	38	0:LIVING	0				
+DO1290	Female	71	0:LIVING	0				
+DO1291	Female	57	0:LIVING	0				
+DO12952	Male	70	1:DECEASED	12.33333333				
+DO1301	Female	53	0:LIVING	0				
+DO13072	Male	72	1:DECEASED	35.41666667				
+DO13132	Male	66	1:DECEASED	42.08333333				
+DO13144	Male	59	1:DECEASED	39				
+DO13192	Female	53	1:DECEASED	5.916666667				
+DO1328	Female	78	0:LIVING	0				
+DO13318	Male	76	1:DECEASED	2.75				
+DO13348	Male	53	0:LIVING	0				
+DO13474	Male	74	0:LIVING	0				
+DO13510	Female	63	1:DECEASED	120.6666667				
+DO13575	Female	21	0:LIVING	0				
+DO1384	Female	38	0:LIVING	0				
+DO13869	Female	72	1:DECEASED	18.75				
+DO1392	Female	46	0:LIVING	0				
+DO13971	Male	31	1:DECEASED	50.25				
+DO14049	Male	51	1:DECEASED	0.416666667				
+DO14159	Male	79	1:DECEASED	214.1666667				
+DO14171	Male	49	0:LIVING	0				
+DO14192	Male	60	0:LIVING	0				
+DO14204	Male	57	0:LIVING	0				
+DO14232	Female	58	0:LIVING	0				
+DO14236	Male	47	1:DECEASED	32				
+DO14238	Male	39	0:LIVING	0				
+DO14242	Male	28	0:LIVING	0				
+DO14250	Male	62	0:LIVING	0				
+DO14264	Male	73	0:LIVING	0				
+DO14282	Male	42	0:LIVING	0				
+DO14296	Male	53	0:LIVING	0				
+DO14343	Male	68	0:LIVING	0				
+DO14420	Male	53	0:LIVING	0				
+DO14502	Male	39	1:DECEASED	34.58333333				
+DO14566	Male	61	1:DECEASED	6.333333333				
+DO14582	Female	35	0:LIVING	0				
+DO14614	Male	62	0:LIVING	0				
+DO14678	Female	76	0:LIVING	0				
+DO14686	Male	38	0:LIVING	0				
+DO14718	Female	32	1:DECEASED	5.333333333				
+DO14742	Male	34	1:DECEASED	27.25				
+DO14750	Female	71	1:DECEASED	38				
+DO14814	Male	64	0:LIVING	0				
+DO14862	Male	47	0:LIVING	0				
+DO14942	Male	59	0:LIVING	0				
+DO15014	Female	62	0:LIVING	0				
+DO15022	Male	38	1:DECEASED	29.25				
+DO15046	Male	53	0:LIVING	0				
+DO15110	Male	19	0:LIVING	0				
+DO15198	Female	36	0:LIVING	0				
+DO1537	Female	40	1:DECEASED	53.25				
+DO15398	Male	67	0:LIVING	0				
+DO15414	Female	52	0:LIVING	0				
+DO15430	Female	56	0:LIVING	0				
+DO15503	Male	66	1:DECEASED	22.83333333				
+DO15527	Male	50	0:LIVING	0				
+DO1559	Female	41	0:LIVING	0				
+DO15591	Male	73	1:DECEASED	43.5				
+DO15791	Male	57	0:LIVING	0				
+DO15815	Male	67	1:DECEASED	18.08333333				
+DO15870	Male	59	0:LIVING	0				
+DO15911	Male	63	0:LIVING	0				
+DO15943	Male	62	0:LIVING	0				
+DO16015	Male	71	0:LIVING	0				
+DO16110	Female	77	0:LIVING	0				
+DO16113	Male	52	0:LIVING	0				
+DO16136	Male	62	0:LIVING	0				
+DO16233	Male	42	0:LIVING	0				
+DO16248	Male	73	0:LIVING	0				
+DO16269	Male	40	0:LIVING	0				
+DO1663	Female	64	0:LIVING	0				
+DO16688	Female	62	0:LIVING	0				
+DO16769	Male	62	1:DECEASED	27.75				
+DO16881	Female	54	1:DECEASED	18.66666667				
+DO16999	Female	75	1:DECEASED	9.083333333				
+DO17054	Female	61	0:LIVING	0				
+DO17074	Male	42	0:LIVING	0				
+DO17085	Male	63	1:DECEASED	60.16666667				
+DO17178	Male	84	0:LIVING	0				
+DO17323	Male	49	0:LIVING	0				
+DO17373	Female	44	1:DECEASED	46				
+DO17722	Female	47	0:LIVING	0				
+DO17751	Male	63	1:DECEASED	73.16666667				
+DO17791	Female	49	0:LIVING	0				
+DO17848	Male	57	0:LIVING	0				
+DO17977	Male	64	1:DECEASED	7.75				
+DO18016	Male	67	0:LIVING	0				
+DO18056	Male	60	0:LIVING	0				
+DO18164	Female	62	0:LIVING	0				
+DO18392	Male	78	0:LIVING	0				
+DO18452	Female	48	0:LIVING	0				
+DO18572	Female	71	1:DECEASED	56.91666667				
+DO18651	Female	67	0:LIVING	0				
+DO18671	Male	75	1:DECEASED	121.9166667				
+DO18701	Male	60	1:DECEASED	37.08333333				
+DO18839	Male	61	0:LIVING	0				
+DO18988	Male	83	0:LIVING	0				
+DO19028	Male	50	0:LIVING	0				
+DO19048	Male	64	0:LIVING	0				
+DO19228	Male	51	0:LIVING	0				
+DO19380	Female	58	0:LIVING	0				
+DO1954	Female	40	0:LIVING	0				
+DO19733	Male	51	0:LIVING	0				
+DO20082	Male	61	1:DECEASED	3.416666667				
+DO20416	Female	53	0:LIVING	0				
+DO2055	Female	67	0:LIVING	0				
+DO20604	Female	71	0:LIVING	0				
+DO20768	Male	53	0:LIVING	0				
+DO20770	Female	48	0:LIVING	0				
+DO2078	Female	50	1:DECEASED	95.16666667				
+DO20780	Male	64	1:DECEASED	128				
+DO20829	Female	59	0:LIVING	0				
+DO20839	Male	74	0:LIVING	0				
+DO2084	Female	82	0:LIVING	0				
+DO20849	Female	75	0:LIVING	0				
+DO20863	Male	41	0:LIVING	0				
+DO20867	Male	52	0:LIVING	0				
+DO20905	Male	55	0:LIVING	0				
+DO20915	Male	49	0:LIVING	0				
+DO20923	Male	57	0:LIVING	0				
+DO20928	Male	41	1:DECEASED	24.41666667				
+DO2096	Female	61	1:DECEASED	174.75				
+DO21024	Male	63	0:LIVING	0				
+DO21033	Female	68	1:DECEASED	50.75				
+DO21039	Male	54	1:DECEASED	0				
+DO21077	Male	29	1:DECEASED	30.41666667				
+DO21102	Male	45	1:DECEASED	27.91666667				
+DO21115	Male	60	1:DECEASED	27.91666667				
+DO2114	Female	69	0:LIVING	0				
+DO21155	Female	82	1:DECEASED	2.5				
+DO21170	Female	75	1:DECEASED	15.33333333				
+DO21199	Female	21	0:LIVING	0				
+DO21217	Female	58	0:LIVING	0				
+DO21223	Male	25	0:LIVING	0				
+DO21229	Female	81	1:DECEASED	22.75				
+DO21277	Female	71	1:DECEASED	2.583333333				
+DO21295	Male	48	0:LIVING	0				
+DO21307	Female	57	1:DECEASED	63.41666667				
+DO21373	Male	68	1:DECEASED	119.25				
+DO21391	Male	53	1:DECEASED	76.25				
+DO21415	Female	30	0:LIVING	0				
+DO21541	Female	61	0:LIVING	0				
+DO21583	Female	68	1:DECEASED	2.583333333				
+DO21607	Female	40	0:LIVING	0				
+DO21631	Male	53	0:LIVING	0				
+DO21667	Male	22	1:DECEASED	68.5				
+DO21697	Male	69	1:DECEASED	0				
+DO21727	Female	25	1:DECEASED	0				
+DO217786	Female	86	1:DECEASED	0	radiation therapy	unknown	Smoking history not documented	Unknown
+DO217787	Female	89		0	no treatment		Smoking history not documented	Unknown
+DO217788	Female	76		0	radiation therapy	unknown	Smoking history not documented	Unknown
+DO217800	Female			0	no treatment		Smoking history not documented	Unknown
+DO217814	Male	66	1:DECEASED	22.5	no treatment		Smoking history not documented	Unknown
+DO217817	Male	57	0:LIVING	140	no treatment		Smoking history not documented	Unknown
+DO217818	Female	80	0:LIVING	108.5	no treatment		Lifelong non-smoker (<100 cigarettes smoked in lifetime)	Unknown
+DO217822	Male	65	0:LIVING	15	no treatment		Lifelong non-smoker (<100 cigarettes smoked in lifetime)	no
+DO217826	Female	39		0	chemotherapy	complete response	Smoking history not documented	Unknown
+DO217836	Male	44	1:DECEASED	26.25	radiation therapy	complete response	Lifelong non-smoker (<100 cigarettes smoked in lifetime)	no
+DO217844	Female	47	0:LIVING	0	radiation therapy	unknown	Smoking history not documented	Unknown
+DO217850	Female	65	1:DECEASED	14.66666667				
+DO217851	Female	61	0:LIVING	90	no treatment		Smoking history not documented	Unknown
+DO217864	Male	63	1:DECEASED	46.5				
+DO217865	Female	79	0:LIVING	0	chemotherapy	unknown	Smoking history not documented	Unknown
+DO217867	Male	55	0:LIVING	95	no treatment		Smoking history not documented	Unknown
+DO217887	Female			0	chemotherapy	unknown	Smoking history not documented	Unknown
+DO217896	Male	69	0:LIVING	15	no treatment		Current smoker (includes daily smokers non-daily/occasional smokers)	yes
+DO217907	Female	65	0:LIVING	0	other therapy		Smoking history not documented	Unknown
+DO217908	Female	55	0:LIVING	0	radiation therapy	unknown	Smoking history not documented	Unknown
+DO217920				0				
+DO217931	Female	58	0:LIVING	0	chemotherapy	unknown	Lifelong non-smoker (<100 cigarettes smoked in lifetime)	yes
+DO217932				0				
+DO217933				0				
+DO217934	Female			0	no treatment		Smoking history not documented	Unknown
+DO217939	Female	47	0:LIVING	0	radiation therapy	unknown	Lifelong non-smoker (<100 cigarettes smoked in lifetime)	Unknown
+DO217946				0				
+DO217950	Male	64	1:DECEASED	9.916666667	combined chemo+radiation therapy	disease progression	Lifelong non-smoker (<100 cigarettes smoked in lifetime)	no
+DO217952	Female			0	no treatment		Smoking history not documented	Unknown
+DO217953	Female	43	0:LIVING	0	chemotherapy	complete response	"Current reformed smoker, duration not specified"	Unknown
+DO217962	Female	48	0:LIVING	0	chemotherapy	unknown	Smoking history not documented	Unknown
+DO217987	Female	44	0:LIVING	0	chemotherapy	unknown	Smoking history not documented	yes
+DO218012	Male	32	0:LIVING	0	radiation therapy	complete response	Lifelong non-smoker (<100 cigarettes smoked in lifetime)	no
+DO218019	Male	54	0:LIVING	125	no treatment		Smoking history not documented	Unknown
+DO21803	Male	50	0:LIVING	0				
+DO218030	Male	61	0:LIVING	70.75	no treatment		Smoking history not documented	Unknown
+DO218031	Male	64	0:LIVING	15	no treatment		Lifelong non-smoker (<100 cigarettes smoked in lifetime)	no
+DO218032				0				
+DO218034	Male	47	0:LIVING	0	radiation therapy	complete response	Current smoker (includes daily smokers non-daily/occasional smokers)	yes
+DO218059	Female	42	0:LIVING	0	radiation therapy	unknown	Smoking history not documented	Unknown
+DO218060	Female			0	no treatment		Smoking history not documented	Unknown
+DO218062	Female	76	1:DECEASED	0	radiation therapy	unknown	Current smoker (includes daily smokers non-daily/occasional smokers)	Unknown
+DO218065	Female			0	no treatment		Smoking history not documented	Unknown
+DO218067	Male	59	1:DECEASED	60	no treatment		Smoking history not documented	Unknown
+DO218068	Male	81	0:LIVING	44.75	no treatment		Lifelong non-smoker (<100 cigarettes smoked in lifetime)	Unknown
+DO218072	Female	38	0:LIVING	0	chemotherapy	unknown	Current smoker (includes daily smokers non-daily/occasional smokers)	Unknown
+DO218075	Male	50	0:LIVING	0	combined chemo+radiation therapy	complete response	Current smoker (includes daily smokers non-daily/occasional smokers)	yes
+DO218088	Male	58	0:LIVING	57.5	no treatment		Smoking history not documented	Unknown
+DO218089	Male	61	1:DECEASED	77.5	no treatment		Smoking history not documented	Unknown
+DO218091				0				
+DO218121	Female	48	0:LIVING	0	radiation therapy	unknown	Smoking history not documented	Unknown
+DO218136	Male	71	0:LIVING	15	no treatment		Lifelong non-smoker (<100 cigarettes smoked in lifetime)	no
+DO218139	Male	45	1:DECEASED	48.16666667				
+DO218140				0				
+DO218141				0				
+DO218150	Female	73	0:LIVING	0	radiation therapy	unknown	Smoking history not documented	Unknown
+DO218159	Female	61	0:LIVING	0	chemotherapy	unknown	Smoking history not documented	Unknown
+DO218167	Female	47	1:DECEASED	0	other therapy	disease progression	Lifelong non-smoker (<100 cigarettes smoked in lifetime)	yes
+DO218168	Female	51	1:DECEASED	0	chemotherapy	complete response	"Current reformed smoker, duration not specified"	Unknown
+DO218173	Female	59	0:LIVING	0	radiation therapy	unknown	Smoking history not documented	Unknown
+DO218174	Female	48	0:LIVING	0	no treatment		Smoking history not documented	Unknown
+DO218176	Female	39	0:LIVING	0	chemotherapy	complete response	Smoking history not documented	Unknown
+DO218180	Male	44	0:LIVING	0	radiation therapy	complete response	Current smoker (includes daily smokers non-daily/occasional smokers)	yes
+DO218182	Female	77	0:LIVING	0	radiation therapy	unknown	Smoking history not documented	Unknown
+DO218205	Female	59	0:LIVING	0	chemotherapy	unknown	Current smoker (includes daily smokers non-daily/occasional smokers)	Unknown
+DO218211	Female	60	0:LIVING	0	radiation therapy	complete response	Lifelong non-smoker (<100 cigarettes smoked in lifetime)	no
+DO218212	Female	67	0:LIVING	0	other therapy		Current smoker (includes daily smokers non-daily/occasional smokers)	Unknown
+DO218223	Female	47	0:LIVING	15	no treatment		Lifelong non-smoker (<100 cigarettes smoked in lifetime)	no
+DO218227	Male	37	1:DECEASED	39.58333333				
+DO218230	Male	79	1:DECEASED	17.5	no treatment		Smoking history not documented	Unknown
+DO218242	Male	67	0:LIVING	37.08333333	no treatment		Lifelong non-smoker (<100 cigarettes smoked in lifetime)	Unknown
+DO218243	Male	52	0:LIVING	15	no treatment		Smoking history not documented	no
+DO218254	Female	46	0:LIVING	0	radiation therapy	unknown	Smoking history not documented	Unknown
+DO218269	Female	49	0:LIVING	0	radiation therapy	unknown	Smoking history not documented	Unknown
+DO218279	Female	56	0:LIVING	0	other therapy		Lifelong non-smoker (<100 cigarettes smoked in lifetime)	no
+DO218280	Male	51	0:LIVING	0	radiation therapy	complete response	Current smoker (includes daily smokers non-daily/occasional smokers)	no
+DO218282	Male	59	0:LIVING	130	no treatment		Smoking history not documented	Unknown
+DO218306	Male	45	0:LIVING	0	combined chemo+radiation therapy	complete response	Current smoker (includes daily smokers non-daily/occasional smokers)	no
+DO218333	Female	51	0:LIVING	0	chemotherapy	unknown	Smoking history not documented	Unknown
+DO218347	Female	35	0:LIVING	0	no treatment		Smoking history not documented	Unknown
+DO218351	Female	49	1:DECEASED	13.91666667				
+DO218368				0				
+DO218377	Female	42	0:LIVING	0	other therapy		Lifelong non-smoker (<100 cigarettes smoked in lifetime)	yes
+DO218381				0				
+DO218383				0				
+DO218384	Female	64	0:LIVING	0	chemotherapy	unknown	Smoking history not documented	Unknown
+DO218388	Female	56	0:LIVING	0	other therapy		Smoking history not documented	Unknown
+DO218399	Female	53	0:LIVING	31.75	chemotherapy	complete response	Smoking history not documented	Unknown
+DO218404	Female	55	1:DECEASED	0	other therapy	complete response	Smoking history not documented	Unknown
+DO218408	Female	42	0:LIVING	0	chemotherapy	unknown	Smoking history not documented	Unknown
+DO218411	Female	56	0:LIVING	175				
+DO218417	Female	53	1:DECEASED	22.16666667				
+DO218419	Female	51	0:LIVING	0	other therapy		Current smoker (includes daily smokers non-daily/occasional smokers)	Unknown
+DO218428	Female	84	0:LIVING	0	no treatment		Smoking history not documented	Unknown
+DO218440	Female	76	1:DECEASED	36.66666667				
+DO218442	Male	74	0:LIVING	80	no treatment		Smoking history not documented	Unknown
+DO218443	Male	58	0:LIVING	15	no treatment		Current smoker (includes daily smokers non-daily/occasional smokers)	yes
+DO218457	Female	64	0:LIVING	0	chemotherapy	complete response	Smoking history not documented	Unknown
+DO218462	Male	39	0:LIVING	0	combined chemo+radiation therapy	complete response	Current smoker (includes daily smokers non-daily/occasional smokers)	yes
+DO218478	Female	55	0:LIVING	0	radiation therapy	unknown	Smoking history not documented	Unknown
+DO218484	Male	46	0:LIVING	137.5	no treatment		Smoking history not documented	Unknown
+DO218487	Male	62	0:LIVING	34.83333333	no treatment		Smoking history not documented	Unknown
+DO218488	Female	48	0:LIVING	0	chemotherapy	unknown	"Current reformed smoker, duration not specified"	yes
+DO218489	Female	45		0	no treatment		Smoking history not documented	Unknown
+DO218491	Female	76	1:DECEASED	37.08333333				
+DO218499				0				
+DO218502	Female	56	0:LIVING	0	radiation therapy	unknown	Smoking history not documented	Unknown
+DO218506	Female	66	0:LIVING	0	chemotherapy	unknown	Smoking history not documented	Unknown
+DO218517	Female	48	0:LIVING	150	no treatment		Smoking history not documented	Unknown
+DO218522				0				
+DO218535	Female	69	0:LIVING	97.33333333				
+DO218543				0				
+DO218544				0				
+DO218547	Female	46	0:LIVING	15	no treatment		Lifelong non-smoker (<100 cigarettes smoked in lifetime)	no
+DO218550	Male	61	1:DECEASED	38				
+DO218553	Female	59	0:LIVING	0	chemotherapy	unknown	Current smoker (includes daily smokers non-daily/occasional smokers)	Unknown
+DO218554	Male	42	0:LIVING	0	combined chemo+radiation therapy	complete response	Current smoker (includes daily smokers non-daily/occasional smokers)	yes
+DO218560	Female	58	0:LIVING	0	chemotherapy	unknown	Smoking history not documented	Unknown
+DO218567				0				
+DO218568				0				
+DO218573	Female	48	0:LIVING	0	chemotherapy	unknown	Smoking history not documented	Unknown
+DO218583	Female	63	0:LIVING	0	chemotherapy	unknown	Current smoker (includes daily smokers non-daily/occasional smokers)	Unknown
+DO218605	Female	60	0:LIVING	0	chemotherapy	unknown	Smoking history not documented	Unknown
+DO218611	Female	49	0:LIVING	0	chemotherapy	complete response	Smoking history not documented	Unknown
+DO218621	Female	64	0:LIVING	0	radiation therapy	unknown	Smoking history not documented	Unknown
+DO218651	Female	38		0	other therapy		Smoking history not documented	Unknown
+DO218656	Female	41		0	other therapy		Smoking history not documented	Unknown
+DO218669	Female	76	0:LIVING	0	no treatment		Smoking history not documented	Unknown
+DO218673	Male	73	0:LIVING	137.5	no treatment		Smoking history not documented	Unknown
+DO218684	Female			0	no treatment		Smoking history not documented	Unknown
+DO218693	Male	79	0:LIVING	140	no treatment		Smoking history not documented	Unknown
+DO218694	Female	53	0:LIVING	111.0833333	no treatment		Lifelong non-smoker (<100 cigarettes smoked in lifetime)	Unknown
+DO218695	Male	60	1:DECEASED	30				
+DO218697	Male	62	0:LIVING	0	radiation therapy	complete response	Lifelong non-smoker (<100 cigarettes smoked in lifetime)	no
+DO218698	Female	44	0:LIVING	0	radiation therapy	unknown	Smoking history not documented	Unknown
+DO218709	Female	59	0:LIVING	0	chemotherapy	unknown	Current smoker (includes daily smokers non-daily/occasional smokers)	Unknown
+DO218719	Female	66	0:LIVING	0	other therapy		"Current reformed smoker, duration not specified"	yes
+DO218728	Female	59	1:DECEASED	20	no treatment		Smoking history not documented	Unknown
+DO218736	Female			0	no treatment		Smoking history not documented	Unknown
+DO218742	Female	45	1:DECEASED	0	other therapy		Smoking history not documented	Unknown
+DO218748				0				
+DO218769	Male	55	0:LIVING	15	no treatment		Lifelong non-smoker (<100 cigarettes smoked in lifetime)	no
+DO218770	Female	52	0:LIVING	0	chemotherapy	complete response	Lifelong non-smoker (<100 cigarettes smoked in lifetime)	yes
+DO218773	Male	26	0:LIVING	0	radiation therapy	complete response	Current smoker (includes daily smokers non-daily/occasional smokers)	yes
+DO218774	Male	63	0:LIVING	15	no treatment		Current smoker (includes daily smokers non-daily/occasional smokers)	yes
+DO218784				0				
+DO218785				0				
+DO218794				0				
+DO218796	Female	34	0:LIVING	0	chemotherapy	stable disease	Smoking history not documented	Unknown
+DO218827	Female	49	0:LIVING	0	chemotherapy	unknown	Smoking history not documented	yes
+DO218828	Female	50	1:DECEASED	0	chemotherapy	unknown	Current smoker (includes daily smokers non-daily/occasional smokers)	yes
+DO218831	Female	64	0:LIVING	0	other therapy	disease progression	Smoking history not documented	Unknown
+DO219106	Female	55	0:LIVING	0				
+DO21924	Male	35	0:LIVING	0				
+DO21948	Female	31	0:LIVING	0				
+DO219580	Male	58	0:LIVING	0				
+DO219585	Male	85	0:LIVING	0				
+DO21984	Male	51	0:LIVING	0				
+DO219944	Male		1:DECEASED	35.58333333				
+DO219945	Male		0:LIVING	0				
+DO219949	Male		1:DECEASED	47				
+DO219951	Male		0:LIVING	0				
+DO219952	Female		0:LIVING	0				
+DO219954	Female		0:LIVING	0				
+DO219960	Male		0:LIVING	0				
+DO219961	Male		0:LIVING	0				
+DO219962	Male		1:DECEASED	24.58333333				
+DO219964	Male		0:LIVING	0				
+DO219965	Female		1:DECEASED	22.91666667				
+DO219966	Male		0:LIVING	0				
+DO219967	Male		0:LIVING	0				
+DO219968	Male		0:LIVING	0				
+DO219969	Male		0:LIVING	0				
+DO219970	Male		0:LIVING	0				
+DO219972	Male		0:LIVING	0				
+DO219973	Female		0:LIVING	0				
+DO219974	Male		0:LIVING	0				
+DO219975	Male		1:DECEASED	11.5				
+DO220116	Female		0:LIVING	0				
+DO220118	Male		0:LIVING	0				
+DO220122	Female		0:LIVING	0				
+DO220126	Female		0:LIVING	0				
+DO220138	Female		0:LIVING	0				
+DO220140	Female		1:DECEASED	32				
+DO220153	Female		0:LIVING	0				
+DO220157	Male		0:LIVING	0				
+DO220163	Male		1:DECEASED	63.91666667				
+DO220168	Female		0:LIVING	0				
+DO220172	Female		1:DECEASED	34.41666667				
+DO220174	Female		0:LIVING	0				
+DO220176	Female		1:DECEASED	15				
+DO22020	Male	59	0:LIVING	0				
+DO220221	Female		0:LIVING	0				
+DO22026	Female	35	0:LIVING	0				
+DO220331	Female	57	1:DECEASED	96.5				
+DO220333	Female	56	1:DECEASED	60.41666667				
+DO220334	Male	69	0:LIVING	0				
+DO220335	Female	46	0:LIVING	0				
+DO220336	Male	60	0:LIVING	0				
+DO220338	Female	44	0:LIVING	0				
+DO220339	Female	48	0:LIVING	0				
+DO220340	Male	55	0:LIVING	0				
+DO220341	Male	69	0:LIVING	0				
+DO220342	Female	37	0:LIVING	0				
+DO220345	Male	26	0:LIVING	0				
+DO220348	Male	34	0:LIVING	0				
+DO220349	Male	41	1:DECEASED	62.83333333				
+DO220350	Female	45	0:LIVING	0				
+DO220351	Male	72	0:LIVING	0				
+DO220352	Male	51	0:LIVING	0				
+DO220354	Male	62	0:LIVING	0				
+DO220355	Female	45	0:LIVING	0				
+DO220356	Male	30	0:LIVING	0				
+DO220357	Male	37	0:LIVING	0				
+DO220358	Female	61	0:LIVING	0				
+DO220359	Male	38	0:LIVING	0				
+DO220360	Male	57	0:LIVING	0				
+DO220361	Male	47	0:LIVING	0				
+DO220362	Male	56	0:LIVING	0				
+DO220363	Male	67	0:LIVING	0				
+DO220423	Female	41	0:LIVING	0				
+DO220433	Male	43	0:LIVING	0				
+DO220439	Female	47	0:LIVING	0				
+DO220449	Female	28	0:LIVING	0				
+DO220468	Female	42	0:LIVING	0				
+DO220474	Male	53	0:LIVING	0				
+DO220478	Male	50	0:LIVING	0				
+DO220479	Male	54	0:LIVING	0				
+DO220484	Male	71	1:DECEASED	132.5				
+DO220490	Female	38	0:LIVING	0				
+DO220509	Female	35	0:LIVING	0				
+DO220510	Female	86	0:LIVING	0				
+DO220519	Female	65	0:LIVING	0				
+DO220525	Male	59	0:LIVING	0				
+DO220535	Female	42	0:LIVING	0				
+DO220549	Male	29	0:LIVING	0				
+DO220554	Female	17	0:LIVING	0				
+DO220556	Male	42	0:LIVING	0				
+DO220568	Male	69	0:LIVING	0				
+DO220572	Female	74	0:LIVING	0				
+DO220577	Male	58	0:LIVING	0				
+DO220599	Male	41	0:LIVING	0				
+DO220608	Female	30	0:LIVING	0				
+DO22080	Female	29	0:LIVING	0				
+DO220820	Female	69		0	other therapy		Smoking history not documented	Unknown
+DO220821	Female			0	no treatment		Smoking history not documented	Unknown
+DO220822	Female	51	0:LIVING	0	other therapy		Smoking history not documented	Unknown
+DO220823	Female	82	0:LIVING	0	radiation therapy	unknown	Smoking history not documented	Unknown
+DO220824	Female	63	0:LIVING	0	chemotherapy	unknown	Smoking history not documented	Unknown
+DO220825	Female	40	0:LIVING	0	chemotherapy	unknown	Lifelong non-smoker (<100 cigarettes smoked in lifetime)	yes
+DO220828	Female	57	0:LIVING	0	chemotherapy	unknown	Smoking history not documented	Unknown
+DO220841	Female	67	0:LIVING	506.6666667	surgery	unknown	Smoking history not documented	Unknown
+DO220842	Male	75	1:DECEASED	205.3333333	surgery	unknown	Smoking history not documented	Unknown
+DO220843	Female	79	1:DECEASED	43.25	surgery	unknown	Smoking history not documented	Unknown
+DO220844	Female	58	1:DECEASED	405.8333333	surgery	unknown	Smoking history not documented	Unknown
+DO220845	Female	69	1:DECEASED	226.4166667	surgery	complete response	Smoking history not documented	Unknown
+DO220846	Female	84	1:DECEASED	24.5	surgery	unknown	Smoking history not documented	Unknown
+DO220847	Male	71	1:DECEASED	144.3333333	surgery	unknown	Smoking history not documented	Unknown
+DO220848	Female	41	0:LIVING	159.8333333	surgery	unknown	Smoking history not documented	Unknown
+DO220849	Female	78	1:DECEASED	26.91666667	surgery	unknown	Smoking history not documented	Unknown
+DO220850	Male	75	0:LIVING	351.5833333	surgery	unknown	Smoking history not documented	Unknown
+DO220851	Male	83	0:LIVING	96.66666667	surgery	unknown	Smoking history not documented	Unknown
+DO220852	Male	63	1:DECEASED	254.0833333	surgery	unknown	Smoking history not documented	Unknown
+DO220853	Male	77	1:DECEASED	583.3333333	surgery	unknown	Smoking history not documented	Unknown
+DO220855	Male	47	1:DECEASED	361.9166667	surgery	unknown	Smoking history not documented	Unknown
+DO220857	Female	38	0:LIVING	289.9166667	surgery	unknown	Smoking history not documented	Unknown
+DO220858	Male	51	1:DECEASED	49.16666667	surgery	complete response	Smoking history not documented	Unknown
+DO220859	Female	61	1:DECEASED	396.0833333	surgery	unknown	Smoking history not documented	Unknown
+DO22086	Male	74	0:LIVING	0				
+DO220860	Male	49	0:LIVING	458.4166667	surgery	unknown	Smoking history not documented	Unknown
+DO220861	Female	85	1:DECEASED	26.08333333	surgery	unknown	Smoking history not documented	Unknown
+DO220862	Female	67	0:LIVING	556	surgery	unknown	Smoking history not documented	Unknown
+DO220863	Female	49	1:DECEASED	125.3333333	surgery	complete response	Smoking history not documented	Unknown
+DO220864	Male	53	0:LIVING	155	surgery	unknown	Smoking history not documented	Unknown
+DO220865	Female	84	0:LIVING	43.58333333	surgery	unknown	Smoking history not documented	Unknown
+DO220866	Male	63	1:DECEASED	99	surgery	complete response	Smoking history not documented	Unknown
+DO220867	Female	81	0:LIVING	106.25	surgery	unknown	Smoking history not documented	Unknown
+DO220868	Male	61	0:LIVING	104.75	surgery	complete response	Smoking history not documented	Unknown
+DO220869	Female	80	0:LIVING	307.5	surgery	complete response	Smoking history not documented	Unknown
+DO220870	Male	60	1:DECEASED	160.25	surgery	complete response	Smoking history not documented	Unknown
+DO220871	Female	87	0:LIVING	10.75	surgery	unknown	Smoking history not documented	Unknown
+DO220872	Male	69	1:DECEASED	22.08333333	surgery	unknown	Smoking history not documented	Unknown
+DO220873	Male	39	0:LIVING	337.5833333	surgery	unknown	Smoking history not documented	Unknown
+DO220874	Male	55	1:DECEASED	380.5	surgery	complete response	Smoking history not documented	Unknown
+DO220875	Male	64	1:DECEASED	217.75	surgery	unknown	Smoking history not documented	Unknown
+DO220877	Male	25	0:LIVING	35.58333333	surgery	unknown	Smoking history not documented	Unknown
+DO220878	Female	46	0:LIVING	344.6666667	surgery	unknown	Smoking history not documented	Unknown
+DO220879	Male	67	1:DECEASED	150.8333333	surgery	unknown	Smoking history not documented	Unknown
+DO220880	Male	65	1:DECEASED	311.9166667	surgery	unknown	Smoking history not documented	Unknown
+DO220881	Male	59	0:LIVING	465.8333333	surgery	unknown	Smoking history not documented	Unknown
+DO220882	Female	76	1:DECEASED	49.83333333	surgery	unknown	Smoking history not documented	Unknown
+DO220883	Male	23	1:DECEASED	249.4166667	surgery	unknown	Smoking history not documented	Unknown
+DO220884	Male	23	1:DECEASED	233.3333333	surgery	unknown	Smoking history not documented	Unknown
+DO220885	Male	71	0:LIVING	331.5	surgery	unknown	Smoking history not documented	Unknown
+DO220886	Male	56	0:LIVING	644.1666667	surgery	unknown	Smoking history not documented	Unknown
+DO220887	Female	57	0:LIVING	207.9166667	surgery	unknown	Smoking history not documented	Unknown
+DO220888	Male	64	1:DECEASED	120.5833333	surgery	unknown	Smoking history not documented	Unknown
+DO220889	Male	27	1:DECEASED	40.5	surgery	unknown	Smoking history not documented	Unknown
+DO220890	Male	63	1:DECEASED	55.33333333	surgery	unknown	Smoking history not documented	Unknown
+DO220891	Male	78	0:LIVING	110.3333333	surgery	unknown	Smoking history not documented	Unknown
+DO220892	Male	53	1:DECEASED	443.75	surgery	unknown	Smoking history not documented	Unknown
+DO220893	Female	56	0:LIVING	25.83333333	surgery	unknown	Smoking history not documented	Unknown
+DO220894	Male	43	0:LIVING	0			Smoking history not documented	Unknown
+DO220895	Male	50	0:LIVING	281.4166667	surgery	unknown	Smoking history not documented	Unknown
+DO220896	Female	70	0:LIVING	311.25			Smoking history not documented	Unknown
+DO220897	Male	38	0:LIVING	186.25	surgery	unknown	Smoking history not documented	Unknown
+DO220898	Female	63	0:LIVING	192.25	surgery	unknown	Smoking history not documented	Unknown
+DO220899	Female	52	1:DECEASED	856.1666667	surgery	unknown	Smoking history not documented	Unknown
+DO220900	Male	39	1:DECEASED	22.16666667	surgery	unknown	Smoking history not documented	Unknown
+DO220901	Male	56	0:LIVING	706.5833333	surgery	unknown	Smoking history not documented	Unknown
+DO220902	Male	70	1:DECEASED	49.58333333	surgery	unknown	Smoking history not documented	Unknown
+DO220903	Male	16	0:LIVING	103	surgery	unknown	Smoking history not documented	Unknown
+DO220904	Male	48	1:DECEASED	251.9166667	radiation therapy	unknown	Smoking history not documented	Unknown
+DO220905	Female	47	1:DECEASED	20.66666667	surgery	unknown	Smoking history not documented	Unknown
+DO220906	Female	70	1:DECEASED	70.16666667	surgery	unknown	Smoking history not documented	Unknown
+DO220907	Male	30	0:LIVING	98	surgery	unknown	Smoking history not documented	Unknown
+DO220908	Male	19	0:LIVING	286.5833333	surgery	unknown	Smoking history not documented	Unknown
+DO220909	Male	51	0:LIVING	113.8333333	surgery	unknown	Smoking history not documented	Unknown
+DO220910	Male	43	0:LIVING	386.25	surgery	unknown	Smoking history not documented	Unknown
+DO220911	Female	39	1:DECEASED	334.5833333			Smoking history not documented	Unknown
+DO220912	Female	37	1:DECEASED	214.5833333			Smoking history not documented	Unknown
+DO220913	Male	49	1:DECEASED	42.66666667			Smoking history not documented	Unknown
+DO22106	Male	21	0:LIVING	0				
+DO221123	Male	73	0:LIVING	25	other therapy	complete response	Smoking history not documented	Unknown
+DO221124	Female	85	1:DECEASED	31.16666667	other therapy	partial response	Smoking history not documented	Unknown
+DO221127	Male	58	0:LIVING	45.75	other therapy	complete response	Smoking history not documented	Unknown
+DO221129	Female	57	0:LIVING	11.83333333	other therapy	complete response	Smoking history not documented	Unknown
+DO22117	Female	32	0:LIVING	0				
+DO22145	Female	47	0:LIVING	0				
+DO221503	Male	54	0:LIVING	151.1666667			Smoking history not documented	Unknown
+DO221504	Male	58	0:LIVING	51.91666667			Smoking history not documented	Unknown
+DO221539	Male	49	0:LIVING	144.4166667	combined chemo+radiation therapy	complete response	Smoking history not documented	yes
+DO221540	Male	56	1:DECEASED	24.16666667	combined chemo+radiation therapy	complete response	Lifelong non-smoker (<100 cigarettes smoked in lifetime)	yes
+DO221541	Male	75	1:DECEASED	16.25	no treatment		Smoking history not documented	Unknown
+DO221542	Male	60	0:LIVING	31.25	combined chemo+radiation therapy	complete response	Smoking history not documented	yes
+DO221543	Male	54	0:LIVING	170.4166667	combined chemo+radiation therapy	complete response	Smoking history not documented	Unknown
+DO221544	Male	42	0:LIVING	62.91666667	chemotherapy	complete response	Smoking history not documented	Unknown
+DO221545	Male	63	0:LIVING	58.83333333	chemotherapy	complete response	"Current reformed smoker, duration not specified"	Unknown
+DO221546	Male	61	1:DECEASED	40	combined chemo+radiation therapy	complete response	Smoking history not documented	yes
+DO221547	Male	47	0:LIVING	111.5	chemotherapy	complete response	Smoking history not documented	Unknown
+DO221548	Female	35	0:LIVING	54.75	chemotherapy	complete response	Smoking history not documented	Unknown
+DO22195	Female	42	1:DECEASED	198.25				
+DO2222	Female	58	0:LIVING	0				
+DO222275	Male	69	1:DECEASED	16.91666667	no treatment		Current smoker (includes daily smokers non-daily/occasional smokers)	Unknown
+DO222276	Male	36	1:DECEASED	22.5	no treatment		Smoking history not documented	Unknown
+DO222282	Female	63	0:LIVING	15	no treatment		Lifelong non-smoker (<100 cigarettes smoked in lifetime)	no
+DO222285	Male	71	1:DECEASED	52.5	no treatment		Smoking history not documented	Unknown
+DO222286	Male	55	0:LIVING	35				
+DO222288	Male	67	0:LIVING	15	no treatment		Lifelong non-smoker (<100 cigarettes smoked in lifetime)	yes
+DO222292	Male	65	0:LIVING	0				
+DO222299	Male	69	1:DECEASED	120				
+DO222303	Male	51	0:LIVING	0				
+DO222304	Female	38	0:LIVING	0				
+DO222305	Female	28	0:LIVING	0				
+DO222306	Female	57	0:LIVING	0				
+DO222307	Male	42	0:LIVING	0				
+DO222308	Female	70	0:LIVING	0				
+DO222309	Female	60	0:LIVING	0				
+DO22257	Female	26	0:LIVING	0				
+DO22285	Male	35	0:LIVING	0				
+DO22293	Male	62	0:LIVING	0				
+DO22295	Female	35	1:DECEASED	239.5833333				
+DO22324	Male	39	0:LIVING	0				
+DO22356	Male	43	1:DECEASED	53.25				
+DO22382	Male	53	1:DECEASED	65.66666667				
+DO22417	Female	29	0:LIVING	0				
+DO224498	Male	70	0:LIVING	100	no treatment		Smoking history not documented	Unknown
+DO224499	Male	50	0:LIVING	107.5	no treatment		Smoking history not documented	Unknown
+DO22490	Female	31	1:DECEASED	221.6666667				
+DO22496	Male	17	0:LIVING	0				
+DO2252	Female	41	0:LIVING	0				
+DO22524	Female	62	0:LIVING	0				
+DO22536	Female	48	1:DECEASED	242.25				
+DO22548	Female	57	0:LIVING	0				
+DO22720	Male	43	1:DECEASED	48.16666667				
+DO22736	Male	37	0:LIVING	0				
+DO22836	Female	72	0:LIVING	0				
+DO22838	Male	80	1:DECEASED	57.91666667				
+DO22839	Male	61	0:LIVING	0				
+DO22854	Male	70	0:LIVING	0				
+DO22860	Female	61	0:LIVING	0				
+DO22866	Male	68	0:LIVING	0				
+DO22875	Male	44	0:LIVING	0				
+DO22884	Female	45	0:LIVING	0				
+DO22887	Female	72	1:DECEASED	94.58333333				
+DO22890	Male	70	1:DECEASED	229.9166667				
+DO22896	Female	75	0:LIVING	0				
+DO22914	Female	81	0:LIVING	0				
+DO22929	Female	62	0:LIVING	0				
+DO22932	Female	46	0:LIVING	0				
+DO22935	Male	73	0:LIVING	0				
+DO22953	Male	67	0:LIVING	0				
+DO22956	Male	54	1:DECEASED	36.5				
+DO22959	Male	46	0:LIVING	0				
+DO22970	Female	79	0:LIVING	0				
+DO22978	Female	38	0:LIVING	0				
+DO22986	Male	23	0:LIVING	0				
+DO22994	Female	71	0:LIVING	0				
+DO22998	Male	68	0:LIVING	0				
+DO23018	Male	64	0:LIVING	0				
+DO23023	Female	52	0:LIVING	0				
+DO23028	Male	50	0:LIVING	0				
+DO23048	Male	23	1:DECEASED	34.58333333				
+DO23073	Female	52	1:DECEASED	37.66666667				
+DO2323	Female	56	0:LIVING	0				
+DO2341	Female	61	0:LIVING	0				
+DO23508	Female	79	0:LIVING	32.5				
+DO23509	Male	60	1:DECEASED	65				
+DO23510	Female	80	0:LIVING	72.5				
+DO23511	Female	83	1:DECEASED	15				
+DO23512	Male	60	0:LIVING	105				
+DO23513	Male	76	0:LIVING	100				
+DO23514	Male	64	0:LIVING	107.5				
+DO23515	Male	71	0:LIVING	102.5				
+DO23516	Male	69	1:DECEASED	1.666666667				
+DO23517	Male	62	0:LIVING	100				
+DO23518	Male	67	0:LIVING	110				
+DO23519	Male	65	0:LIVING	52.5				
+DO23520	Male	59	0:LIVING	117.5				
+DO23521	Male	63	0:LIVING	92.5				
+DO23522	Female	82	0:LIVING	110				
+DO23523	Male	52	0:LIVING	90				
+DO23524	Female	71	0:LIVING	87.5				
+DO23525	Male	71	0:LIVING	87.5				
+DO23526	Male	66	0:LIVING	87.5				
+DO23527	Male	72	0:LIVING	87.5				
+DO23528	Female	45	0:LIVING	85				
+DO23529	Male	72	0:LIVING	77.5				
+DO23530	Male	53	1:DECEASED	15				
+DO23531	Female	78	0:LIVING	75				
+DO23532	Female	71	0:LIVING	80				
+DO23533	Male	61	0:LIVING	75				
+DO23534	Male	60	0:LIVING	70				
+DO23535	Male	67	0:LIVING	80				
+DO23536	Male	56	0:LIVING	77.5				
+DO23537	Male	79	1:DECEASED	75				
+DO23538	Male	67	0:LIVING	37.5				
+DO23539	Male	77	0:LIVING	92.5				
+DO23540	Male	73	0:LIVING	62.5				
+DO23541	Male	65	0:LIVING	77.5				
+DO23542	Male	66	0:LIVING	80				
+DO23543	Male	63	0:LIVING	85				
+DO23544	Male	67	0:LIVING	80				
+DO23545	Male	67	1:DECEASED	47.5				
+DO23546	Male	63	0:LIVING	87.5				
+DO23547	Male	74	0:LIVING	85				
+DO23548	Female	78	0:LIVING	70				
+DO23549	Male	74	0:LIVING	82.5				
+DO23550	Male	69	0:LIVING	82.5				
+DO23551	Male	73	1:DECEASED	12.5				
+DO23552	Female	80	0:LIVING	67.5				
+DO23582	Female	55	0:LIVING	0				
+DO23584	Female	62	0:LIVING	0				
+DO23608	Female	59	0:LIVING	0				
+DO23610	Male	75	1:DECEASED	102.9166667				
+DO23648	Male		0:LIVING	0				
+DO23651	Female	74	0:LIVING	0				
+DO23687	Female	71	1:DECEASED	63.33333333				
+DO23702	Female	63	1:DECEASED	9.916666667				
+DO23717	Female	71	1:DECEASED	14.41666667				
+DO23720	Male	62	1:DECEASED	81.33333333				
+DO23735	Female	69	1:DECEASED	75.41666667				
+DO23744	Female	65	0:LIVING	0				
+DO23786	Male	72	1:DECEASED	193.1666667				
+DO23838	Male	76	1:DECEASED	25.25				
+DO23942	Male	60	0:LIVING	0				
+DO24130	Male	81	0:LIVING	0				
+DO24307	Male	70	0:LIVING	0				
+DO24467	Male	66	1:DECEASED	59.25				
+DO24497	Female		0:LIVING	0				
+DO2455	Female	79	0:LIVING	0				
+DO24646	Male	63	0:LIVING	0				
+DO24675	Male	41	0:LIVING	0				
+DO24729	Female	59	1:DECEASED	14.91666667				
+DO24860	Male	45	1:DECEASED	79.08333333				
+DO25010	Male	72	0:LIVING	0				
+DO2503	Female	41	0:LIVING	0				
+DO25040	Male	72	0:LIVING	0				
+DO25068	Female	52	0:LIVING	0				
+DO2509	Female	65	0:LIVING	0				
+DO25104	Female	70	0:LIVING	0				
+DO25189	Male	47	1:DECEASED	23.5				
+DO25218	Female	62	1:DECEASED	413.4166667				
+DO25320	Male	65	1:DECEASED	60.91666667				
+DO2539	Female	69	0:LIVING	0				
+DO25444	Male	76	1:DECEASED	0				
+DO2551	Female	52	0:LIVING	0				
+DO25622	Male	70	0:LIVING	0				
+DO25737	Male	60	0:LIVING	0				
+DO25797	Female	77	0:LIVING	0				
+DO25847	Female	47	0:LIVING	0				
+DO25887	Female		0:LIVING	0				
+DO25927	Female	61	0:LIVING	0				
+DO2593	Female	75	0:LIVING	0				
+DO25985	Female	70	0:LIVING	0				
+DO26062	Female	79	0:LIVING	0				
+DO26230	Female	52	0:LIVING	0				
+DO26280	Female	79	1:DECEASED	82.91666667				
+DO2629	Female	40	0:LIVING	0				
+DO26354	Female	65	1:DECEASED	124.3333333				
+DO26427	Male	77	0:LIVING	0				
+DO26434	Male	70	0:LIVING	0				
+DO26445	Male	71	0:LIVING	0				
+DO26459	Male	53	0:LIVING	0				
+DO26461	Male	58	1:DECEASED	73.41666667				
+DO26463	Male	61	0:LIVING	0				
+DO26469	Male	62	1:DECEASED	25.91666667				
+DO2647	Female	62	1:DECEASED	35.5				
+DO26475	Male	80	0:LIVING	0				
+DO26476	Male	64	0:LIVING	0				
+DO26492	Male	73	0:LIVING	0				
+DO26508	Male	70	1:DECEASED	6.666666667				
+DO26512	Female	60	0:LIVING	0				
+DO26540	Male	47	0:LIVING	0				
+DO26553	Female	58	1:DECEASED	76.33333333				
+DO26563	Female	73	0:LIVING	0				
+DO26572	Female	77	0:LIVING	0				
+DO26596	Male	52	0:LIVING	0				
+DO26599	Female	54	0:LIVING	0				
+DO26653	Male	77	1:DECEASED	39.5				
+DO26692	Male	56	0:LIVING	0				
+DO26710	Male	68	0:LIVING	0				
+DO26719	Male	70	0:LIVING	0				
+DO26769	Male	75	1:DECEASED	109.5833333				
+DO26798	Male	66	0:LIVING	0				
+DO26806	Male	68	0:LIVING	0				
+DO26894	Male	65	1:DECEASED	112.1666667				
+DO26934	Male	61	0:LIVING	0				
+DO2694	Female	73	0:LIVING	0				
+DO26957	Male	58	0:LIVING	0				
+DO26971	Male	65	1:DECEASED	68.5				
+DO26976	Male	83	0:LIVING	0				
+DO26987	Female	64	0:LIVING	0				
+DO26993	Male	66	0:LIVING	0				
+DO27025	Male	71	0:LIVING	0				
+DO2706	Female	39	0:LIVING	0				
+DO27067	Male	68	1:DECEASED	69.58333333				
+DO27081	Female	76	1:DECEASED	156.1666667				
+DO27104	Male	74	0:LIVING	0				
+DO2712	Female	69	0:LIVING	0				
+DO27120	Female	68	1:DECEASED	80.16666667				
+DO27128	Male	68	0:LIVING	0				
+DO2719	Female	84	1:DECEASED	22.16666667				
+DO27208	Female	73	1:DECEASED	42.16666667				
+DO27279	Male	73	1:DECEASED	10.25				
+DO27318	Male	57	1:DECEASED	35.66666667				
+DO27326	Male	66	0:LIVING	0				
+DO27334	Male	68	1:DECEASED	25.5				
+DO27453	Female	83	0:LIVING	0				
+DO27484	Male	56	1:DECEASED	29.83333333				
+DO27588	Male	74	1:DECEASED	185.3333333				
+DO27636	Male	56	0:LIVING	0				
+DO27747	Male	54	0:LIVING	0				
+DO27763	Male	10	0:LIVING	192.3333333	other therapy	complete response	Smoking history not documented	Unknown
+DO27764	Male	12	0:LIVING	189.25	other therapy	complete response	Smoking history not documented	Unknown
+DO27765	Male	4	0:LIVING	67.83333333	other therapy	complete response	Smoking history not documented	Unknown
+DO27767	Male	15	0:LIVING	35	other therapy	complete response	Smoking history not documented	Unknown
+DO27769	Male	13	0:LIVING	100.5	other therapy	complete response	Smoking history not documented	Unknown
+DO27771	Male	8	0:LIVING	129.4166667	other therapy	complete response	Smoking history not documented	Unknown
+DO27773	Male	43	0:LIVING	134.5833333	other therapy	complete response	Smoking history not documented	Unknown
+DO27775	Male	4	0:LIVING	42.5	other therapy	complete response	Smoking history not documented	Unknown
+DO27777	Male	15	0:LIVING	126.0833333	other therapy	complete response	Smoking history not documented	Unknown
+DO27779	Female	75	0:LIVING	69	other therapy	partial response	Smoking history not documented	Unknown
+DO27781	Female	40	0:LIVING	43	other therapy	complete response	Smoking history not documented	Unknown
+DO27783	Male	72	0:LIVING	65.25	other therapy	partial response	Smoking history not documented	Unknown
+DO27785	Female	51	0:LIVING	160.4166667	other therapy	complete response	Smoking history not documented	Unknown
+DO27787	Female	74	0:LIVING	35	other therapy	partial response	Smoking history not documented	Unknown
+DO27789	Male	66	0:LIVING	24.33333333	other therapy	partial response	Smoking history not documented	Unknown
+DO27791	Male	6	0:LIVING	79.58333333	other therapy	complete response	Smoking history not documented	Unknown
+DO27793	Male	14	0:LIVING	38	other therapy	complete response	Smoking history not documented	Unknown
+DO27795	Female	18	0:LIVING	125.8333333	other therapy	complete response	Smoking history not documented	Unknown
+DO27797	Male	48	0:LIVING	42.5	other therapy	complete response	Smoking history not documented	Unknown
+DO27799	Male	17	0:LIVING	86.83333333	other therapy	complete response	Smoking history not documented	Unknown
+DO27801	Male	74	0:LIVING	10.25	other therapy	complete response	Smoking history not documented	Unknown
+DO27803	Male	67	0:LIVING	41.33333333	other therapy	partial response	Smoking history not documented	Unknown
+DO27805	Male	76	0:LIVING	41.91666667	other therapy	complete response	Smoking history not documented	Unknown
+DO27807	Male	16	0:LIVING	104.75	other therapy	complete response	Smoking history not documented	Unknown
+DO27809	Female	73	0:LIVING	36.58333333	other therapy	partial response	Smoking history not documented	Unknown
+DO27811	Male	49	0:LIVING	49.66666667	other therapy	partial response	Smoking history not documented	Unknown
+DO27813	Female	74	0:LIVING	21	other therapy	complete response	Smoking history not documented	Unknown
+DO27815	Female	16	0:LIVING	71.66666667	other therapy	complete response	Smoking history not documented	Unknown
+DO27817	Male	71	0:LIVING	16.91666667	other therapy	partial response	Smoking history not documented	Unknown
+DO27819	Male	5	0:LIVING	182.4166667	other therapy	complete response	Smoking history not documented	Unknown
+DO27821	Male	10	0:LIVING	136.9166667	other therapy	partial response	Smoking history not documented	Unknown
+DO27823	Male	5	0:LIVING	17.58333333	other therapy	complete response	Smoking history not documented	Unknown
+DO27825	Male	4	0:LIVING	148.0833333	other therapy	complete response	Smoking history not documented	Unknown
+DO27827	Male	59	0:LIVING	98.5	other therapy	complete response	Smoking history not documented	Unknown
+DO27829	Male	8	0:LIVING	112.4166667	other therapy	complete response	Smoking history not documented	Unknown
+DO2783	Female	62	0:LIVING	0				
+DO27833	Male	64	0:LIVING	141.25	other therapy	complete response	Smoking history not documented	Unknown
+DO27835	Male	62	1:DECEASED	220.4166667	other therapy	complete response	Smoking history not documented	Unknown
+DO27837	Male	56	0:LIVING	76.41666667	other therapy	disease progression	Smoking history not documented	Unknown
+DO27841	Male	70	0:LIVING	13.41666667	other therapy	complete response	Smoking history not documented	Unknown
+DO27843	Male	72	0:LIVING	127.0833333	other therapy	complete response	Smoking history not documented	Unknown
+DO27845	Female	52	0:LIVING	70	other therapy	stable disease	Smoking history not documented	Unknown
+DO27847	Male	16	0:LIVING	73.91666667	other therapy	complete response	Smoking history not documented	Unknown
+DO27849	Male	70	1:DECEASED	25.5	other therapy	stable disease	Smoking history not documented	Unknown
+DO27851	Female	41	0:LIVING	212.5833333	other therapy	complete response	Smoking history not documented	Unknown
+DO27853	Male	62	0:LIVING	39.5	other therapy	partial response	Smoking history not documented	Unknown
+DO27855	Female	61	0:LIVING	27.16666667	other therapy	complete response	Smoking history not documented	Unknown
+DO27857	Female	57	0:LIVING	13.41666667	other therapy	partial response	Smoking history not documented	Unknown
+DO27859	Female	47	0:LIVING	190.5833333	other therapy	complete response	Smoking history not documented	Unknown
+DO27978	Female	49	1:DECEASED	138.5				
+DO28004	Female	55	1:DECEASED	132.9166667				
+DO28024	Female	75	1:DECEASED	90.91666667				
+DO28053	Female	76	1:DECEASED	106.5				
+DO28089	Female	50	1:DECEASED	137.1666667				
+DO28093	Female	81	0:LIVING	0				
+DO28119	Female	78	1:DECEASED	111.3333333				
+DO28233	Female	44	1:DECEASED	50.66666667				
+DO28273	Female	56	0:LIVING	0				
+DO28289	Female	58	0:LIVING	0				
+DO28412	Female	67	1:DECEASED	115.3333333				
+DO2842	Female	58	1:DECEASED	19.91666667				
+DO28521	Female	68	1:DECEASED	149.9166667				
+DO28763	Female	45	1:DECEASED	143.3333333				
+DO28823	Female	71	1:DECEASED	38.5				
+DO28873	Female	50	1:DECEASED	17				
+DO28952	Female	71	1:DECEASED	68.33333333				
+DO28962	Female	57	1:DECEASED	122.5				
+DO2897	Female	82	0:LIVING	0				
+DO29146	Female	80	1:DECEASED	53				
+DO29308	Female	69	1:DECEASED	54.66666667				
+DO29398	Female	42	0:LIVING	0				
+DO29760	Female	74	1:DECEASED	56.75				
+DO29820	Female	53	1:DECEASED	57.91666667				
+DO29850	Female	74	1:DECEASED	114.4166667				
+DO29940	Female	67	0:LIVING	0				
+DO2995	Female	60	0:LIVING	0				
+DO29970	Female	49	0:LIVING	0				
+DO29980	Female	63	1:DECEASED	100.3333333				
+DO30060	Female	73	1:DECEASED	49.5				
+DO30090	Female	56	1:DECEASED	91.83333333				
+DO30220	Female	45	0:LIVING	0				
+DO30340	Female	48	0:LIVING	0				
+DO3037	Male	77	0:LIVING	0				
+DO30550	Female	62	0:LIVING	0				
+DO30650	Female	44	1:DECEASED	139.8333333				
+DO30750	Female	49	1:DECEASED	101.0833333				
+DO30970	Female	50	0:LIVING	0				
+DO3110	Female	89	1:DECEASED	25.33333333				
+DO31150	Female	50	0:LIVING	0				
+DO3140	Female	71	0:LIVING	0				
+DO31420	Female	57	1:DECEASED	41.08333333				
+DO3152	Female	72	1:DECEASED	82.58333333				
+DO31551	Female	77	1:DECEASED	104.9166667				
+DO3158	Female	69	0:LIVING	0				
+DO31729	Female	52	1:DECEASED	213.4166667				
+DO31769	Female	57	1:DECEASED	124.3333333				
+DO3182	Female	78	0:LIVING	0				
+DO31869	Female	65	0:LIVING	0				
+DO3188	Female	84	0:LIVING	0				
+DO32237	Female	72	1:DECEASED	147.4166667				
+DO32391	Female	57	0:LIVING	0				
+DO32420	Female	50	1:DECEASED	89.08333333				
+DO32596	Female	62	1:DECEASED	147.3333333				
+DO32646	Female	77	1:DECEASED	56.58333333				
+DO32831	Female	49	0:LIVING	142.9166667				
+DO32833	Female	74	1:DECEASED	4.666666667				
+DO32837	Male	34	1:DECEASED	33.25				
+DO32860	Male	57	1:DECEASED	104.9166667				
+DO32863	Male	60	1:DECEASED	59.58333333				
+DO32875	Male	69	1:DECEASED	29				
+DO32878	Female	69	1:DECEASED	21.66666667				
+DO32893	Female	61	1:DECEASED	89.75				
+DO32900	Male	51	1:DECEASED	64				
+DO32916	Male	78	1:DECEASED	12.83333333				
+DO32960	Female	65	0:LIVING	104.8333333				
+DO32972	Male	66	1:DECEASED	50.41666667				
+DO32976	Female	73	1:DECEASED	50.83333333				
+DO32980	Female	72	1:DECEASED	6.5				
+DO32984	Male	61	1:DECEASED	34.58333333				
+DO33000	Male	68	0:LIVING	104.8333333				
+DO33008	Female	56	1:DECEASED	80.83333333				
+DO33016	Male	54	0:LIVING	106.25				
+DO33028	Male	58	1:DECEASED	25.91666667				
+DO33032	Male	64	1:DECEASED	41.25				
+DO33042	Male	76	0:LIVING	118.6666667				
+DO33077	Female	76	1:DECEASED	39.66666667				
+DO33128	Male	72	1:DECEASED	35.25				
+DO33152	Male	88	1:DECEASED	35.83333333				
+DO33160	Female	78	1:DECEASED	90.91666667				
+DO33168	Female	80	1:DECEASED	0.666666667				
+DO33184	Male	70	1:DECEASED	76.08333333				
+DO33200	Female	90	1:DECEASED	9.083333333				
+DO33208	Male	59	1:DECEASED	23.41666667				
+DO33248	Female	70	1:DECEASED	66.33333333				
+DO33264	Male	80	1:DECEASED	17.08333333				
+DO33288	Male	71	0:LIVING	117.3333333				
+DO33344	Male	70	1:DECEASED	30.08333333				
+DO33368	Male	81	1:DECEASED	8.166666667				
+DO33376	Female	62	0:LIVING	75.75				
+DO33392	Male	70	0:LIVING	84.5				
+DO33400	Female	76	0:LIVING	86.91666667				
+DO33408	Female	68	0:LIVING	75.75				
+DO33472	Female	75	1:DECEASED	32.33333333				
+DO33480	Male	52	0:LIVING	87.83333333				
+DO33488	Male	61	0:LIVING	70.33333333				
+DO33512	Female		1:DECEASED	41.58333333				
+DO3352	Female	58	0:LIVING	0				
+DO33544	Female	83	1:DECEASED	34.33333333				
+DO33552	Female	70	0:LIVING	72.75				
+DO33600	Female	77	0:LIVING	71.16666667				
+DO33960	Male	57	1:DECEASED	50.16666667				
+DO33984	Male	64	0:LIVING	70.58333333				
+DO3412	Female	55	0:LIVING	0				
+DO34240	Male	72	1:DECEASED	19.66666667				
+DO34264	Female	63	1:DECEASED	95.33333333				
+DO34288	Female	83	1:DECEASED	18.33333333				
+DO34312	Female	58	1:DECEASED	18.83333333				
+DO34336	Female	70	0:LIVING	61.91666667				
+DO34368	Female	64	1:DECEASED	44.75				
+DO34432	Female	82	1:DECEASED	33.33333333				
+DO34448	Female	79	1:DECEASED	59.91666667				
+DO34504	Male	37	1:DECEASED	21.41666667				
+DO3458	Female	34	0:LIVING	0				
+DO34600	Male	77	1:DECEASED	44.75				
+DO34608	Female	72	1:DECEASED	59.08333333				
+DO34616	Female	68	0:LIVING	55.5				
+DO34640	Female	49	1:DECEASED	23.91666667				
+DO34656	Female	61	0:LIVING	69.5				
+DO34680	Male	75	1:DECEASED	8.25				
+DO34696	Male	75	0:LIVING	57.41666667				
+DO34720	Male	68	0:LIVING	46.25				
+DO34728	Female	77	0:LIVING	42.33333333				
+DO34736	Female	78	1:DECEASED	16.91666667				
+DO34785	Female	67	0:LIVING	60.08333333				
+DO34793	Male	56	1:DECEASED	35.58333333				
+DO34801	Male	60	0:LIVING	52.16666667				
+DO34809	Female	74	1:DECEASED	24.75				
+DO34817	Female	72	0:LIVING	45				
+DO3482	Female	61	0:LIVING	0				
+DO34849	Female	86	1:DECEASED	22.66666667				
+DO34905	Male	64	0:LIVING	95.16666667				
+DO34961	Male	71	1:DECEASED	52.66666667				
+DO3500	Female	55	0:LIVING	0				
+DO35082	Male	68	1:DECEASED	30.91666667	chemotherapy	complete response	"Current reformed smoker, duration not specified"	Unknown
+DO35083	Female	68	0:LIVING	105.3333333	chemotherapy	complete response	Lifelong non-smoker (<100 cigarettes smoked in lifetime)	Unknown
+DO35085	Male	59	1:DECEASED	18.66666667	chemotherapy	unknown	Smoking history not documented	Unknown
+DO35098	Male	63	1:DECEASED	124.9166667	chemotherapy	complete response	"Current reformed smoker, duration not specified"	Unknown
+DO35114	Female	65	1:DECEASED	144.8333333	no treatment		Smoking history not documented	Unknown
+DO35116	Female	76	0:LIVING	168.0833333	no treatment		Smoking history not documented	Unknown
+DO35118	Female	79	1:DECEASED	23.75	no treatment		Smoking history not documented	Unknown
+DO35126	Female	55	1:DECEASED	23.33333333	no treatment		Smoking history not documented	Unknown
+DO35128	Female	83	1:DECEASED	30.08333333	chemotherapy	unknown	Smoking history not documented	Unknown
+DO35132	Male	69	1:DECEASED	7.5	no treatment		Smoking history not documented	Unknown
+DO35136	Female	61	0:LIVING	135	chemotherapy	complete response	Lifelong non-smoker (<100 cigarettes smoked in lifetime)	Unknown
+DO35138	Female	69	1:DECEASED	20.58333333	chemotherapy	complete response	Lifelong non-smoker (<100 cigarettes smoked in lifetime)	no
+DO35144	Male	69	1:DECEASED	25.91666667	chemotherapy	disease progression	"Current reformed smoker, duration not specified"	Unknown
+DO35148	Female	77	1:DECEASED	84.41666667	radiation therapy	unknown	"Current reformed smoker, duration not specified"	Unknown
+DO35152	Male	55	1:DECEASED	27.5	chemotherapy	disease progression	"Current reformed smoker, duration not specified"	Unknown
+DO35184	Male	75	1:DECEASED	8.5	no treatment		Lifelong non-smoker (<100 cigarettes smoked in lifetime)	Unknown
+DO35186	Female	76	1:DECEASED	0	combined chemo+radiation therapy	unknown	Smoking history not documented	Unknown
+DO35198	Female	70	1:DECEASED	38.58333333	chemotherapy	complete response	Lifelong non-smoker (<100 cigarettes smoked in lifetime)	Unknown
+DO35200	Female	62	0:LIVING	26.66666667	chemotherapy	complete response	"Current reformed smoker, duration not specified"	Unknown
+DO35216	Female	63	1:DECEASED	71.41666667	combined chemo+radiation therapy	complete response	Smoking history not documented	Unknown
+DO35222	Male	53	1:DECEASED	102.8333333	chemotherapy	complete response	Lifelong non-smoker (<100 cigarettes smoked in lifetime)	Unknown
+DO35228	Male	68	0:LIVING	151.5833333	chemotherapy	complete response	"Current reformed smoker, duration not specified"	Unknown
+DO35230	Female	52	1:DECEASED	21.91666667	no treatment		Smoking history not documented	Unknown
+DO35236	Female	58	0:LIVING	135.75	chemotherapy	complete response	Current smoker (includes daily smokers non-daily/occasional smokers)	Unknown
+DO35258	Male	82	1:DECEASED	30.16666667	chemotherapy	stable disease	Smoking history not documented	Unknown
+DO35290	Male	65	1:DECEASED	56.08333333	combined chemo+radiation therapy	disease progression	Lifelong non-smoker (<100 cigarettes smoked in lifetime)	Unknown
+DO35305	Male	70	1:DECEASED	62.16666667	chemotherapy	complete response	Smoking history not documented	Unknown
+DO35330	Male	63	1:DECEASED	113.25	chemotherapy	complete response	Lifelong non-smoker (<100 cigarettes smoked in lifetime)	Unknown
+DO35350	Male	76	1:DECEASED	12.16666667	no treatment		Smoking history not documented	Unknown
+DO35360	Male	65	0:LIVING	198.9166667	chemotherapy	complete response	Lifelong non-smoker (<100 cigarettes smoked in lifetime)	Unknown
+DO35376	Female	42	1:DECEASED	73.08333333	chemotherapy	complete response	Lifelong non-smoker (<100 cigarettes smoked in lifetime)	Unknown
+DO35406	Male	54	1:DECEASED	13.33333333	combined chemo+radiation therapy	unknown	Smoking history not documented	Unknown
+DO35424	Male	74	1:DECEASED	47.91666667	chemotherapy	complete response	Lifelong non-smoker (<100 cigarettes smoked in lifetime)	Unknown
+DO35442	Female	53	0:LIVING	110.9166667	combined chemo+radiation therapy	complete response	"Current reformed smoker, duration not specified"	Unknown
+DO35454	Female	74	1:DECEASED	26.25	chemotherapy	unknown	Lifelong non-smoker (<100 cigarettes smoked in lifetime)	Unknown
+DO35496	Female	63	1:DECEASED	89.33333333	chemotherapy	stable disease	"Current reformed smoker, duration not specified"	Unknown
+DO35538	Female	6	0:LIVING	159.8333333			Smoking history not documented	Unknown
+DO35539	Male	7	0:LIVING	268.9166667			Smoking history not documented	Unknown
+DO35540	Female	16	0:LIVING	106.5			Smoking history not documented	Unknown
+DO35541	Female	6	0:LIVING	190.25			Smoking history not documented	Unknown
+DO35542	Female	14	0:LIVING	197.8333333			Smoking history not documented	Unknown
+DO35543	Male	9	0:LIVING	159.8333333			Smoking history not documented	Unknown
+DO35544	Female	11	0:LIVING	157.25			Smoking history not documented	Unknown
+DO35545	Male	6	0:LIVING	190.25			Smoking history not documented	Unknown
+DO35547	Male	3	0:LIVING	137			Smoking history not documented	Unknown
+DO35549	Female	14	0:LIVING	104			Smoking history not documented	Unknown
+DO35550	Male	17	0:LIVING	58.33333333			Smoking history not documented	Unknown
+DO35551	Male	3	1:DECEASED	35.5			Smoking history not documented	Unknown
+DO35552	Female	15	0:LIVING	96.41666667			Smoking history not documented	Unknown
+DO35553	Female	13	0:LIVING	106.5			Smoking history not documented	Unknown
+DO35554	Female	13	0:LIVING	106.5			Smoking history not documented	Unknown
+DO35555	Female	9	0:LIVING	96.41666667			Smoking history not documented	Unknown
+DO35556	Female	4	1:DECEASED	40.58333333			Smoking history not documented	Unknown
+DO35558	Female	10	0:LIVING	101.5			Smoking history not documented	Unknown
+DO35559	Male	7	0:LIVING	93.83333333			Smoking history not documented	Unknown
+DO35564	Male	8	0:LIVING	159.8333333			Smoking history not documented	Unknown
+DO35566	Male	1	0:LIVING	220.6666667			Smoking history not documented	Unknown
+DO35568	Female	14	0:LIVING	159.8333333			Smoking history not documented	Unknown
+DO35569	Female	8	0:LIVING	241			Smoking history not documented	Unknown
+DO35571	Female	13	0:LIVING	91.33333333			Smoking history not documented	Unknown
+DO35572	Female	4	0:LIVING	76.08333333			Smoking history not documented	Unknown
+DO35573	Male	4	0:LIVING	91.33333333			Smoking history not documented	Unknown
+DO35574	Female	1	0:LIVING	81.16666667			Smoking history not documented	Unknown
+DO35575	Male	6	0:LIVING	68.5			Smoking history not documented	Unknown
+DO35576	Male	4	0:LIVING	71			Smoking history not documented	Unknown
+DO35577	Male	3	0:LIVING	83.75			Smoking history not documented	Unknown
+DO35581	Male	3	0:LIVING	81.16666667			Smoking history not documented	Unknown
+DO35582	Female	6	0:LIVING	162.3333333			Smoking history not documented	Unknown
+DO35584	Male	10	0:LIVING	169.9166667			Smoking history not documented	Unknown
+DO35585	Female	10	1:DECEASED	30.41666667			Smoking history not documented	Unknown
+DO35586	Male	7	0:LIVING	45.66666667			Smoking history not documented	Unknown
+DO35611	Male	19	0:LIVING	116.6666667			Smoking history not documented	Unknown
+DO35612	Male	18	0:LIVING	15.25			Smoking history not documented	Unknown
+DO35613	Male	18	0:LIVING	15.25			Smoking history not documented	Unknown
+DO35614	Male	28	0:LIVING	114.1666667			Smoking history not documented	Unknown
+DO35615	Male	20	0:LIVING	111.5833333			Smoking history not documented	Unknown
+DO35616	Female	14	0:LIVING	0			Smoking history not documented	Unknown
+DO35617	Male	12	0:LIVING	0			Smoking history not documented	Unknown
+DO35618	Female	5	0:LIVING	289.1666667			Smoking history not documented	Unknown
+DO35619	Male	4	0:LIVING	185.1666667			Smoking history not documented	Unknown
+DO35620	Male	2	0:LIVING	68.5			Smoking history not documented	Unknown
+DO35621	Female	4	1:DECEASED	15.25			Smoking history not documented	Unknown
+DO35622	Male	2	0:LIVING	55.83333333			Smoking history not documented	Unknown
+DO35623	Male	15	0:LIVING	65.91666667			Smoking history not documented	Unknown
+DO35624	Male	10	0:LIVING	60.91666667			Smoking history not documented	Unknown
+DO35625	Female	15	1:DECEASED	45.66666667			Smoking history not documented	Unknown
+DO35626	Male	3	0:LIVING	55.83333333			Smoking history not documented	Unknown
+DO35627	Male	3	0:LIVING	60.91666667			Smoking history not documented	Unknown
+DO35628	Male	8	0:LIVING	30.41666667			Smoking history not documented	Unknown
+DO35654	Male	16	0:LIVING	46			Smoking history not documented	Unknown
+DO35668	Male	8	1:DECEASED	53.25			Smoking history not documented	Unknown
+DO35672	Female	9	0:LIVING	459.1666667			Smoking history not documented	Unknown
+DO35676	Female	9	1:DECEASED	169.9166667			Smoking history not documented	Unknown
+DO35678	Female	9	1:DECEASED	385.5833333			Smoking history not documented	Unknown
+DO35704	Male	3	0:LIVING	131.9166667			Smoking history not documented	Unknown
+DO35715	Male	4	0:LIVING	0			Smoking history not documented	Unknown
+DO35719	Male	6	0:LIVING	0			Smoking history not documented	Unknown
+DO35721	Male	9	0:LIVING	0			Smoking history not documented	Unknown
+DO35723	Female	9	0:LIVING	0			Smoking history not documented	Unknown
+DO35725	Male	11	0:LIVING	48.16666667			Smoking history not documented	Unknown
+DO35729	Male	1	1:DECEASED	27.91666667			Smoking history not documented	Unknown
+DO35733	Male	3	1:DECEASED	25.33333333			Smoking history not documented	Unknown
+DO35737	Male	10	0:LIVING	0			Smoking history not documented	Unknown
+DO35739	Female	10	0:LIVING	0			Smoking history not documented	Unknown
+DO35741	Female	4	0:LIVING	0			Smoking history not documented	Unknown
+DO35747	Male	8	0:LIVING	0			Smoking history not documented	Unknown
+DO35749	Male	16	0:LIVING	0			Smoking history not documented	Unknown
+DO35753	Male	11	0:LIVING	0			Smoking history not documented	Unknown
+DO35755	Female	5	0:LIVING	0			Smoking history not documented	Unknown
+DO35757	Male	8	0:LIVING	0			Smoking history not documented	Unknown
+DO35763	Female	3	0:LIVING	15.25			Smoking history not documented	Unknown
+DO35841	Male	16	0:LIVING	15.25			Smoking history not documented	Unknown
+DO35845	Male	5	1:DECEASED	20.33333333			Smoking history not documented	Unknown
+DO35847	Female	5	0:LIVING	15.25			Smoking history not documented	Unknown
+DO35851	Male	10	0:LIVING	68.5			Smoking history not documented	Unknown
+DO35857	Male	3	0:LIVING	15.25			Smoking history not documented	Unknown
+DO35866	Female	3	0:LIVING	71			Smoking history not documented	Unknown
+DO35869	Male	1	0:LIVING	55.83333333			Smoking history not documented	Unknown
+DO35871	Female	4	0:LIVING	40.58333333			Smoking history not documented	Unknown
+DO35874	Female	7	0:LIVING	45.66666667			Smoking history not documented	Unknown
+DO35877	Female	15	0:LIVING	58.33333333			Smoking history not documented	Unknown
+DO35880	Female	3	0:LIVING	35.5			Smoking history not documented	Unknown
+DO35883	Female	11	0:LIVING	53.25			Smoking history not documented	Unknown
+DO35886	Female	14	0:LIVING	63.41666667			Smoking history not documented	Unknown
+DO35889	Female	5	0:LIVING	58.33333333			Smoking history not documented	Unknown
+DO35892	Male	4	0:LIVING	60.91666667	radiation therapy	unknown	Smoking history not documented	Unknown
+DO35895	Female	23	0:LIVING	58.33333333			Smoking history not documented	Unknown
+DO35898	Female	15	0:LIVING	60.91666667	radiation therapy	unknown	Smoking history not documented	Unknown
+DO35901	Male	4	0:LIVING	55.83333333			Smoking history not documented	Unknown
+DO35904	Male	2	0:LIVING	53.25			Smoking history not documented	Unknown
+DO35907	Male	3	0:LIVING	60.91666667			Smoking history not documented	Unknown
+DO35910	Female	3	0:LIVING	555.5	radiation therapy	unknown	Smoking history not documented	Unknown
+DO35913	Female	8	0:LIVING	2.5	no treatment		Smoking history not documented	Unknown
+DO35916	Male	12	0:LIVING	565.6666667	chemotherapy	unknown	Smoking history not documented	Unknown
+DO35919	Female	14	0:LIVING	525.0833333	no treatment		Smoking history not documented	Unknown
+DO35922	Male	4	0:LIVING	446.4166667	no treatment		Smoking history not documented	Unknown
+DO35925	Male	2	0:LIVING	443.9166667	no treatment		Smoking history not documented	Unknown
+DO35928	Female	11	0:LIVING	464.25	no treatment		Smoking history not documented	Unknown
+DO35931	Male	9	0:LIVING	400.8333333	no treatment		Smoking history not documented	Unknown
+DO35934	Female	9	0:LIVING	644.3333333	no treatment		Smoking history not documented	Unknown
+DO35937	Female	15	1:DECEASED	0.166666667			Smoking history not documented	Unknown
+DO35940	Male	3	0:LIVING	60.91666667			Smoking history not documented	Unknown
+DO35943	Female	6	0:LIVING	60.91666667	radiation therapy	unknown	Smoking history not documented	Unknown
+DO35946	Male	9	0:LIVING	30.41666667			Smoking history not documented	Unknown
+DO35949	Female	3	0:LIVING	50.75			Smoking history not documented	Unknown
+DO35952	Male	6	0:LIVING	55.83333333	radiation therapy	unknown	Smoking history not documented	Unknown
+DO35955	Male	10	0:LIVING	38.08333333			Smoking history not documented	Unknown
+DO35959	Female	5	0:LIVING	60.91666667	radiation therapy	unknown	Smoking history not documented	Unknown
+DO35961	Male	9	0:LIVING	30.41666667			Smoking history not documented	Unknown
+DO35964	Male	13	0:LIVING	30.41666667			Smoking history not documented	Unknown
+DO35967	Female	5	0:LIVING	60.91666667	radiation therapy	unknown	Smoking history not documented	Unknown
+DO35970	Female	4	0:LIVING	43.08333333	radiation therapy	unknown	Smoking history not documented	Unknown
+DO35973	Female	17	0:LIVING	30.41666667	radiation therapy	unknown	Smoking history not documented	Unknown
+DO35976	Male	4	0:LIVING	50.75			Smoking history not documented	Unknown
+DO35979	Male	16	0:LIVING	25.33333333			Smoking history not documented	Unknown
+DO35982	Female	6	0:LIVING	43.08333333			Smoking history not documented	Unknown
+DO35985	Male	6	0:LIVING	30.41666667			Smoking history not documented	Unknown
+DO35988	Female	2	0:LIVING	40.58333333			Smoking history not documented	Unknown
+DO35991	Male	9	0:LIVING	25.33333333			Smoking history not documented	Unknown
+DO35994	Male	14	0:LIVING	30.41666667			Smoking history not documented	Unknown
+DO35997	Male	6	0:LIVING	20.33333333			Smoking history not documented	Unknown
+DO36000	Male	14	0:LIVING	25.33333333			Smoking history not documented	Unknown
+DO36003	Male	12	0:LIVING	17.75			Smoking history not documented	Unknown
+DO36006	Female	8	0:LIVING	30.41666667			Smoking history not documented	Unknown
+DO36009	Male	9	0:LIVING	25.33333333	radiation therapy	unknown	Smoking history not documented	Unknown
+DO36012	Female	4	0:LIVING	17.75			Smoking history not documented	Unknown
+DO36015	Male	11	0:LIVING	20.33333333			Smoking history not documented	Unknown
+DO36018	Female	4	0:LIVING	25.33333333			Smoking history not documented	Unknown
+DO36021	Female	6	0:LIVING	20.33333333			Smoking history not documented	Unknown
+DO36024	Male	8	0:LIVING	15.25			Smoking history not documented	Unknown
+DO36027	Female	3	0:LIVING	15.25			Smoking history not documented	Unknown
+DO36030	Male	12	0:LIVING	10.16666667			Smoking history not documented	Unknown
+DO36033	Female	21	0:LIVING	17.75			Smoking history not documented	Unknown
+DO36036	Female	4	0:LIVING	35.5			Smoking history not documented	Unknown
+DO36039	Female	7	0:LIVING	20.33333333			Smoking history not documented	Unknown
+DO36042	Female	15	0:LIVING	17.75			Smoking history not documented	Unknown
+DO36045	Female	8	0:LIVING	30.41666667			Smoking history not documented	Unknown
+DO36048	Male	9	0:LIVING	17.75			Smoking history not documented	Unknown
+DO36051	Female	1	0:LIVING	27.91666667			Smoking history not documented	Unknown
+DO36054	Male	15	0:LIVING	10.16666667			Smoking history not documented	Unknown
+DO36057	Male	7	0:LIVING	20.33333333			Smoking history not documented	Unknown
+DO36059	Female	13	0:LIVING	10.16666667			Smoking history not documented	Unknown
+DO36062	Female	4	0:LIVING	20.33333333			Smoking history not documented	Unknown
+DO36065	Female	5	0:LIVING	10.16666667			Smoking history not documented	Unknown
+DO36068	Female	5	0:LIVING	22.83333333			Smoking history not documented	Unknown
+DO36071	Male	12	0:LIVING	7.583333333			Smoking history not documented	Unknown
+DO36074	Male	14	0:LIVING	20.33333333			Smoking history not documented	Unknown
+DO36077	Female	50	0:LIVING	15.25			Smoking history not documented	Unknown
+DO36080	Female	40	0:LIVING	10.16666667			Smoking history not documented	Unknown
+DO36083	Female	9	0:LIVING	116.6666667	no treatment		Smoking history not documented	Unknown
+DO36087	Male	25	0:LIVING	459.1666667	no treatment		Smoking history not documented	Unknown
+DO36091	Female	20	0:LIVING	30.41666667	no treatment		Smoking history not documented	Unknown
+DO36095	Male	7	0:LIVING	15.25			Smoking history not documented	Unknown
+DO36099	Male	3	0:LIVING	17.75			Smoking history not documented	Unknown
+DO36103	Female	14	0:LIVING	10.16666667			Smoking history not documented	Unknown
+DO36107	Female	11	0:LIVING	10.16666667			Smoking history not documented	Unknown
+DO36111	Female	10	0:LIVING	10.16666667			Smoking history not documented	Unknown
+DO36115	Female	22	0:LIVING	10.16666667			Smoking history not documented	Unknown
+DO36119	Female	17	0:LIVING	12.66666667			Smoking history not documented	Unknown
+DO36123	Female	2	0:LIVING	10.16666667			Smoking history not documented	Unknown
+DO36127	Female	7	0:LIVING	10.16666667			Smoking history not documented	Unknown
+DO36131	Male	12	0:LIVING	12.66666667			Smoking history not documented	Unknown
+DO36135	Male	1	0:LIVING	12.66666667			Smoking history not documented	Unknown
+DO36139	Male	2	0:LIVING	12.66666667			Smoking history not documented	Unknown
+DO3614	Female	62	0:LIVING	0				
+DO36143	Female	11	0:LIVING	7.583333333			Smoking history not documented	Unknown
+DO36147	Female	5	0:LIVING	7.583333333			Smoking history not documented	Unknown
+DO36151	Male	5	0:LIVING	7.583333333			Smoking history not documented	Unknown
+DO36155	Male	1	0:LIVING	7.583333333			Smoking history not documented	Unknown
+DO36159	Male	7	0:LIVING	7.583333333			Smoking history not documented	Unknown
+DO36163	Female	29	0:LIVING	7.583333333			Smoking history not documented	Unknown
+DO36167	Male	5	0:LIVING	7.583333333			Smoking history not documented	Unknown
+DO36171	Female	8	0:LIVING	78.66666667	combined chemo+radiation therapy	unknown	Smoking history not documented	Unknown
+DO36221	Male	59	0:LIVING	128.9166667			Smoking history not documented	Unknown
+DO36223	Male	63	0:LIVING	136			Smoking history not documented	Unknown
+DO36226	Male	63	0:LIVING	0				
+DO36239	Male	66	0:LIVING	0				
+DO36248	Male	72	0:LIVING	0				
+DO36253	Male	69	0:LIVING	0				
+DO36254	Male	63	0:LIVING	0				
+DO36262	Male	59	0:LIVING	0				
+DO36265	Male	61	0:LIVING	0				
+DO36273	Male	49	0:LIVING	0				
+DO36283	Male	46	0:LIVING	0				
+DO36285	Male	55	0:LIVING	0				
+DO36335	Male	67	0:LIVING	0				
+DO36345	Male	71	0:LIVING	0				
+DO36352	Male	51	0:LIVING	0				
+DO36356	Male	55	0:LIVING	0				
+DO36359	Male	50	0:LIVING	0				
+DO36360	Male	67	0:LIVING	0				
+DO36361	Male	52	0:LIVING	0				
+DO36372	Male	57	0:LIVING	0				
+DO36386	Male	63	0:LIVING	0				
+DO36431	Male	62	0:LIVING	0				
+DO36459	Female	85	0:LIVING	0				
+DO36556	Male	57	0:LIVING	0				
+DO36572	Female	67	0:LIVING	0				
+DO36619	Female	71	0:LIVING	0				
+DO3662	Female	71	0:LIVING	0				
+DO36710	Male	75	0:LIVING	0				
+DO36801	Female	72	0:LIVING	0				
+DO36822	Female	41	0:LIVING	0				
+DO36881	Male	33	0:LIVING	0				
+DO36945	Male	68	0:LIVING	0				
+DO36969	Female	48	0:LIVING	0				
+DO37074	Male	87	0:LIVING	0				
+DO37138	Female	78	0:LIVING	0				
+DO37259	Female	85	0:LIVING	0				
+DO37267	Female	89	0:LIVING	0				
+DO37409	Male	42	0:LIVING	0				
+DO37418	Male	39	0:LIVING	0				
+DO37424	Female	63	0:LIVING	0				
+DO37425	Male	49	1:DECEASED	54.91666667				
+DO37426	Male	54	1:DECEASED	16.33333333				
+DO37427	Male	47	1:DECEASED	23.66666667				
+DO37430	Male	81	0:LIVING	0				
+DO37432	Male	45	1:DECEASED	25.66666667				
+DO37435	Male	45	0:LIVING	0				
+DO37439	Female	77	1:DECEASED	118.6666667				
+DO37440	Male	72	0:LIVING	0				
+DO37445	Female	79	1:DECEASED	42				
+DO37474	Male	68	1:DECEASED	60.66666667				
+DO37515	Female	47	0:LIVING	0				
+DO37527	Male	60	1:DECEASED	298.9166667				
+DO37531	Male	43	1:DECEASED	518.75				
+DO37587	Male	35	1:DECEASED	333.3333333				
+DO37599	Female	55	1:DECEASED	12.58333333				
+DO37607	Male	52	0:LIVING	0				
+DO37627	Male	63	1:DECEASED	135.6666667				
+DO37659	Female	75	0:LIVING	0				
+DO37703	Male	52	1:DECEASED	189.4166667				
+DO37719	Male	63	0:LIVING	0				
+DO37723	Female	70	1:DECEASED	67.33333333				
+DO37750	Female	46	1:DECEASED	31.91666667				
+DO37758	Male	45	1:DECEASED	0				
+DO37782	Male	77	1:DECEASED	68.41666667				
+DO37827	Male	60	1:DECEASED	285.3333333				
+DO37861	Female	63	1:DECEASED	82.33333333				
+DO37896	Male	67	0:LIVING	0				
+DO37946	Male	77	0:LIVING	0				
+DO3804	Female	52	0:LIVING	0				
+DO38129	Female	37	0:LIVING	0				
+DO38190	Male	77	0:LIVING	0				
+DO38226	Male		0:LIVING	0				
+DO38229	Female	46	0:LIVING	0				
+DO38238	Female	64	0:LIVING	0				
+DO38376	Male	83	0:LIVING	0				
+DO38380	Male	85	0:LIVING	0				
+DO38388	Male	62	0:LIVING	0				
+DO3840	Female	53	0:LIVING	0				
+DO38404	Female	78	0:LIVING	0				
+DO38423	Male	77	0:LIVING	0				
+DO38519	Male	75	0:LIVING	0				
+DO38535	Female	67	0:LIVING	0				
+DO38547	Female	70	0:LIVING	0				
+DO38571	Male	74	0:LIVING	0				
+DO38603	Female	70	0:LIVING	0				
+DO38635	Male	62	0:LIVING	0				
+DO38655	Female	74	0:LIVING	0				
+DO38663	Female	78	0:LIVING	0				
+DO38671	Male	39	0:LIVING	0				
+DO38727	Male	90	0:LIVING	0				
+DO38731	Male	79	1:DECEASED	183.0833333				
+DO3874	Female	55	0:LIVING	0				
+DO38775	Male	45	0:LIVING	0				
+DO38779	Male	68	0:LIVING	0				
+DO38791	Female	76	0:LIVING	0				
+DO38807	Female	86	1:DECEASED	1.583333333				
+DO38831	Male	50	0:LIVING	0				
+DO38847	Male	59	1:DECEASED	30.5				
+DO38871	Male	58	0:LIVING	0				
+DO38899	Male	75	0:LIVING	0				
+DO38901	Female	47	0:LIVING	0				
+DO38903	Male	40	0:LIVING	0				
+DO38911	Male	75	0:LIVING	0				
+DO38946	Female	60	0:LIVING	0				
+DO38966	Female	44	0:LIVING	0				
+DO38978	Female	44	0:LIVING	0				
+DO39016	Female	66	1:DECEASED	125				
+DO39020	Female	61	0:LIVING	0				
+DO39022	Female	47	0:LIVING	0				
+DO39046	Female	26	0:LIVING	0				
+DO39062	Female	34	0:LIVING	0				
+DO39070	Female	80	0:LIVING	0				
+DO39072	Female	51	0:LIVING	0				
+DO39084	Female	18	0:LIVING	0				
+DO39127	Female	43	0:LIVING	0				
+DO39210	Female	61	0:LIVING	0				
+DO39216	Female	37	0:LIVING	0				
+DO39246	Female	47	0:LIVING	0				
+DO39306	Male	57	0:LIVING	0				
+DO39363	Male	66	0:LIVING	0				
+DO39481	Female	75	0:LIVING	0				
+DO39534	Female	19	0:LIVING	0				
+DO39564	Female	51	0:LIVING	0				
+DO3958	Female	76	0:LIVING	0				
+DO39610	Male	81	1:DECEASED	44.41666667				
+DO39635	Female	69	1:DECEASED	14.5				
+DO39684	Female	64	0:LIVING	0				
+DO39798	Female	31	0:LIVING	0				
+DO39804	Female	47	0:LIVING	0				
+DO39841	Male	50	0:LIVING	0				
+DO39847	Female	61	0:LIVING	0				
+DO39886	Male	62	0:LIVING	0				
+DO39910	Female	49	0:LIVING	0				
+DO39956	Female	37	0:LIVING	0				
+DO40069	Female	32	0:LIVING	0				
+DO40147	Female	49	0:LIVING	0				
+DO40167	Female	49	0:LIVING	0				
+DO4018	Female	50	0:LIVING	0				
+DO40193	Female	17	0:LIVING	0				
+DO40274	Male	70	0:LIVING	0				
+DO4036	Female	63	0:LIVING	0				
+DO40405	Female	57	0:LIVING	0				
+DO40484	Female	85	0:LIVING	0				
+DO40496	Female	68	0:LIVING	0				
+DO40664	Female	45	0:LIVING	0				
+DO40735	Female	22	0:LIVING	0				
+DO40759	Female	45	0:LIVING	0				
+DO4080	Female	57	0:LIVING	0				
+DO40806	Female	69	0:LIVING	0				
+DO40831	Female	71	0:LIVING	0				
+DO40867	Female	45	1:DECEASED	84.66666667				
+DO40930	Female	72	0:LIVING	0				
+DO40948	Female	71	0:LIVING	0				
+DO41056	Female	76	0:LIVING	0				
+DO41080	Female	60	1:DECEASED	92.16666667				
+DO41157	Female	67	0:LIVING	0				
+DO41199	Female	80	0:LIVING	0				
+DO41217	Female	61	0:LIVING	0				
+DO41229	Female	65	0:LIVING	0				
+DO41343	Female	87	0:LIVING	0				
+DO4138	Female	73	1:DECEASED	196.75				
+DO41398	Female	76	0:LIVING	0				
+DO41446	Female	56	0:LIVING	0				
+DO41530	Female	81	0:LIVING	0				
+DO4155	Female	45	1:DECEASED	237.8333333				
+DO41578	Female	63	0:LIVING	0				
+DO41716	Female	74	0:LIVING	0				
+DO4185	Female	42	0:LIVING	0				
+DO41911	Female	63	0:LIVING	0				
+DO41943	Female	84	0:LIVING	0				
+DO41951	Female	67	0:LIVING	0				
+DO42169	Female	70	1:DECEASED	123.6666667				
+DO42209	Female	60	0:LIVING	0				
+DO42240	Female	68	0:LIVING	0				
+DO42256	Female	64	1:DECEASED	59.08333333				
+DO42304	Female	79	0:LIVING	0				
+DO4233	Female	61	0:LIVING	0				
+DO42400	Female	69	0:LIVING	0				
+DO42424	Female	38	0:LIVING	0				
+DO42432	Female	65	0:LIVING	0				
+DO42464	Female	72	0:LIVING	0				
+DO42536	Female	73	0:LIVING	0				
+DO42544	Female	61	0:LIVING	0				
+DO42673	Female	69	0:LIVING	0				
+DO42825	Female	67	0:LIVING	0				
+DO42881	Female	59	1:DECEASED	55.75				
+DO42937	Female	74	0:LIVING	0				
+DO43074	Female	74	1:DECEASED	69.5				
+DO43162	Female	71	0:LIVING	0				
+DO43210	Female	44	0:LIVING	0				
+DO43218	Female	81	1:DECEASED	34.41666667				
+DO43314	Female	62	0:LIVING	0				
+DO43338	Female	77	0:LIVING	0				
+DO43378	Female	90	0:LIVING	0				
+DO43418	Female	57	0:LIVING	0				
+DO43506	Female	35	1:DECEASED	12.16666667				
+DO43514	Female	71	0:LIVING	0				
+DO4359	Female	50	0:LIVING	0				
+DO43610	Female	82	0:LIVING	0				
+DO43658	Female	67	0:LIVING	0				
+DO43739	Female	59	0:LIVING	0				
+DO43763	Female	67	1:DECEASED	45.25				
+DO43811	Female	74	0:LIVING	0				
+DO43859	Female	62	1:DECEASED	30.08333333				
+DO44086	Female	68	0:LIVING	0				
+DO44087	Male	56	1:DECEASED	156.75				
+DO44088	Female	64	0:LIVING	0				
+DO44089	Male	51	0:LIVING	0				
+DO44090	Female	34	1:DECEASED	41.16666667				
+DO44091	Female	74	0:LIVING	0				
+DO44092	Female	55	1:DECEASED	63.16666667				
+DO44093	Female	61	0:LIVING	0				
+DO44094	Male	69	0:LIVING	0				
+DO44095	Male	57	0:LIVING	0				
+DO44096	Male	61	0:LIVING	0				
+DO44097	Male	76	0:LIVING	0				
+DO44103	Female	49	0:LIVING	0				
+DO44111	Female	49	0:LIVING	0				
+DO44273	Female	57	0:LIVING	0				
+DO44285	Female	21	1:DECEASED	29				
+DO44462	Female	60	0:LIVING	0				
+DO44465	Female	71	0:LIVING	0				
+DO44469	Male	84	0:LIVING	0				
+DO44478	Female	49	0:LIVING	0				
+DO44485	Male	62	0:LIVING	0				
+DO4449	Female	56	0:LIVING	0				
+DO44496	Male	70	0:LIVING	0				
+DO44515	Male	58	0:LIVING	0				
+DO44517	Male	59	0:LIVING	0				
+DO44520	Male	61	0:LIVING	0				
+DO44525	Male	79	0:LIVING	0				
+DO44528	Male	51	0:LIVING	0				
+DO4473	Female	38	0:LIVING	0				
+DO44740	Male	73	0:LIVING	152.1666667				
+DO44744	Male	46	1:DECEASED	22.91666667				
+DO44806	Male	65	1:DECEASED	3.666666667				
+DO44808	Male	74	1:DECEASED	52.83333333				
+DO44828	Female	65	0:LIVING	152.1666667				
+DO44832	Male	70	1:DECEASED	39.08333333				
+DO44872	Female	70	0:LIVING	0				
+DO44875	Female	72	1:DECEASED	271.5				
+DO44877	Male	52	0:LIVING	0				
+DO44883	Male	75	1:DECEASED	0.916666667				
+DO44885	Male	77	0:LIVING	0				
+DO44888	Female	64	1:DECEASED	77.58333333				
+DO44889	Female	75	1:DECEASED	55				
+DO44890	Female	51	0:LIVING	0				
+DO44919	Male	80	0:LIVING	0				
+DO44930	Female	67	0:LIVING	0				
+DO44966	Female	84	0:LIVING	0				
+DO44974	Male	47	0:LIVING	0				
+DO44978	Male	70	0:LIVING	0				
+DO44982	Male	67	1:DECEASED	34.91666667				
+DO44986	Female	56	0:LIVING	0				
+DO44994	Male	75	1:DECEASED	16.16666667				
+DO45009	Female	76	0:LIVING	0				
+DO45029	Female	73	0:LIVING	192.0833333	no treatment		Lifelong non-smoker (<100 cigarettes smoked in lifetime)	Unknown
+DO45031	Male	66	1:DECEASED	250.3333333	no treatment		Current smoker (includes daily smokers non-daily/occasional smokers)	no
+DO45033	Female	62	1:DECEASED	64.58333333	no treatment		Lifelong non-smoker (<100 cigarettes smoked in lifetime)	Unknown
+DO45035	Male	58	0:LIVING	162.8333333	chemotherapy	unknown	Current smoker (includes daily smokers non-daily/occasional smokers)	yes
+DO45037	Female	67	1:DECEASED	73.25	no treatment		Current smoker (includes daily smokers non-daily/occasional smokers)	no
+DO45039	Male	58	1:DECEASED	79.25	no treatment		Lifelong non-smoker (<100 cigarettes smoked in lifetime)	yes
+DO45041	Female	69	0:LIVING	182.3333333	no treatment		Lifelong non-smoker (<100 cigarettes smoked in lifetime)	no
+DO45043	Male	56	1:DECEASED	136.1666667	no treatment		Current smoker (includes daily smokers non-daily/occasional smokers)	yes
+DO45045	Male	57	0:LIVING	147.3333333	no treatment		Current smoker (includes daily smokers non-daily/occasional smokers)	Unknown
+DO45047	Female	40	1:DECEASED	94.41666667	no treatment		Lifelong non-smoker (<100 cigarettes smoked in lifetime)	no
+DO45049	Male	73	0:LIVING	158.75	no treatment		Lifelong non-smoker (<100 cigarettes smoked in lifetime)	no
+DO45051	Female	57	1:DECEASED	67.66666667	no treatment		Smoking history not documented	no
+DO45053	Female	47	0:LIVING	124.5	no treatment		Smoking history not documented	no
+DO45055	Female	60	0:LIVING	249.25	no treatment		Smoking history not documented	no
+DO45057	Male	65	1:DECEASED	258.3333333	no treatment		Current smoker (includes daily smokers non-daily/occasional smokers)	yes
+DO45059	Female	49	0:LIVING	411.25	chemotherapy	unknown	Lifelong non-smoker (<100 cigarettes smoked in lifetime)	yes
+DO45061	Male	53	1:DECEASED	272.9166667	chemotherapy	unknown	Current smoker (includes daily smokers non-daily/occasional smokers)	yes
+DO45064	Male	66	1:DECEASED	255.3333333	no treatment		Current smoker (includes daily smokers non-daily/occasional smokers)	yes
+DO45065	Male	41	1:DECEASED	61.66666667	no treatment		Smoking history not documented	no
+DO45067	Male	66	0:LIVING	341.4166667	no treatment		Lifelong non-smoker (<100 cigarettes smoked in lifetime)	yes
+DO45069	Male	58	0:LIVING	94.75	no treatment		Current smoker (includes daily smokers non-daily/occasional smokers)	yes
+DO45071	Male	58	0:LIVING	139.9166667	no treatment		Lifelong non-smoker (<100 cigarettes smoked in lifetime)	yes
+DO45073	Male	50	1:DECEASED	448.1666667	no treatment		Current smoker (includes daily smokers non-daily/occasional smokers)	yes
+DO45075	Male	66	0:LIVING	306.9166667	no treatment		Current smoker (includes daily smokers non-daily/occasional smokers)	yes
+DO45077	Male	66	0:LIVING	444.75	no treatment		Lifelong non-smoker (<100 cigarettes smoked in lifetime)	yes
+DO45079	Male	59	0:LIVING	454.6666667	chemotherapy	unknown	Current smoker (includes daily smokers non-daily/occasional smokers)	no
+DO45081	Male	63	1:DECEASED	75.33333333	no treatment		Current smoker (includes daily smokers non-daily/occasional smokers)	yes
+DO45083	Male	62	0:LIVING	137.75	no treatment		Lifelong non-smoker (<100 cigarettes smoked in lifetime)	Unknown
+DO45085	Male	68	0:LIVING	50.25	no treatment		Lifelong non-smoker (<100 cigarettes smoked in lifetime)	yes
+DO45087	Male	56	1:DECEASED	64.16666667	no treatment		Current smoker (includes daily smokers non-daily/occasional smokers)	yes
+DO45089	Male	45	0:LIVING	334.1666667	no treatment		Current smoker (includes daily smokers non-daily/occasional smokers)	no
+DO45091	Male	56	1:DECEASED	110				
+DO45092	Male	62	1:DECEASED	100				
+DO45093	Male	71	1:DECEASED	60				
+DO45094	Male	76	0:LIVING	137.5				
+DO45095	Male	66	0:LIVING	135				
+DO45096	Male	69	1:DECEASED	107.5				
+DO45097	Male	69	0:LIVING	135				
+DO45099	Male	46	0:LIVING	132.5				
+DO45101	Male	63	0:LIVING	140				
+DO45103	Male	47	0:LIVING	37.5				
+DO45105	Male	61	0:LIVING	140				
+DO45107	Female	63	0:LIVING	142.5				
+DO45109	Male	63	0:LIVING	132.5				
+DO45111	Male	74	0:LIVING	132.5				
+DO45113	Male	58	0:LIVING	130				
+DO45115	Male	81	0:LIVING	70				
+DO45117	Female	73	1:DECEASED	92.5				
+DO45119	Male	74	1:DECEASED	42.5				
+DO45121	Male	61	0:LIVING	127.5				
+DO45123	Female	78	1:DECEASED	47.5				
+DO45125	Male	58	0:LIVING	140				
+DO45127	Male	73	1:DECEASED	35				
+DO45129	Male	61	0:LIVING	122.5				
+DO45131	Male	53	1:DECEASED	30				
+DO45133	Male	64	1:DECEASED	55				
+DO45135	Male	77	0:LIVING	117.5				
+DO45137	Male	38	0:LIVING	110				
+DO45139	Male	63	0:LIVING	110				
+DO45141	Male	73	0:LIVING	110				
+DO45143	Male	69	0:LIVING	107.5				
+DO45145	Male	78	1:DECEASED	5				
+DO45147	Male	57	1:DECEASED	60				
+DO45149	Female	70	0:LIVING	105				
+DO45151	Male	64	0:LIVING	102.5				
+DO45153	Female	77	0:LIVING	115				
+DO45155	Male	69	0:LIVING	180				
+DO45157	Male	62	0:LIVING	165				
+DO45159	Male	65	0:LIVING	122.5				
+DO45161	Male	74	1:DECEASED	45				
+DO45163	Male	76	0:LIVING	80				
+DO45165	Male	75	0:LIVING	57.5				
+DO45167	Male	67	1:DECEASED	120				
+DO45169	Male	74	0:LIVING	112.5				
+DO45171	Male	56	0:LIVING	50				
+DO45173	Male	63	0:LIVING	97.5				
+DO45175	Male	74	0:LIVING	95				
+DO45177	Female	81	0:LIVING	105				
+DO45179	Female	78	0:LIVING	50				
+DO45181	Female	84	0:LIVING	100				
+DO45183	Female	72	1:DECEASED	47.5				
+DO45185	Male	89	0:LIVING	50				
+DO45187	Female	32	0:LIVING	105				
+DO45189	Female	85	0:LIVING	100				
+DO45191	Female	61	0:LIVING	100				
+DO45193	Female	68	1:DECEASED	10				
+DO45195	Male	62	0:LIVING	32.5				
+DO45197	Male	51	0:LIVING	97.5				
+DO45199	Female	86	0:LIVING	112.5				
+DO45201	Male	49	0:LIVING	75				
+DO45203	Female	71	0:LIVING	97.5				
+DO45205	Female	67	1:DECEASED	7.5				
+DO45207	Male	68	0:LIVING	87.5				
+DO45209	Male	70	0:LIVING	112.5				
+DO45211	Male	76	0:LIVING	20				
+DO45213	Male	58	0:LIVING	100				
+DO45215	Male	65	0:LIVING	97.5				
+DO45217	Female	69	1:DECEASED	22.5				
+DO45219	Male	78	0:LIVING	90				
+DO45221	Female	75	1:DECEASED	32.5				
+DO45223	Male	67	0:LIVING	85				
+DO45225	Male	69	0:LIVING	87.5				
+DO45227	Female	57	0:LIVING	85				
+DO45229	Male	74	0:LIVING	82.5				
+DO45231	Male	84	0:LIVING	77.5				
+DO45233	Male	83	0:LIVING	75				
+DO45235	Female	68	0:LIVING	75				
+DO45237	Male	58	0:LIVING	75				
+DO45239	Male	42	0:LIVING	72.5				
+DO45241	Male	49	0:LIVING	90				
+DO45243	Female	74	0:LIVING	77.5				
+DO45245	Female	75	1:DECEASED	20				
+DO45247	Female	31	0:LIVING	17.5				
+DO45249	Male	57	0:LIVING	52.5				
+DO45251	Female	57	0:LIVING	75				
+DO45253	Male	50	0:LIVING	72.5				
+DO45255	Male	81	0:LIVING	60				
+DO45257	Male	46	0:LIVING	67.5				
+DO45259	Male	65	0:LIVING	27.5				
+DO45261	Male	74	0:LIVING	82.5				
+DO45263	Male	67	1:DECEASED	22.5				
+DO45265	Male	73	0:LIVING	85				
+DO45267	Male	73	1:DECEASED	47.5				
+DO45269	Male	59	0:LIVING	62.5				
+DO45271				0				
+DO45273	Male	62	0:LIVING	40				
+DO45277	Male	64	0:LIVING	50				
+DO45279	Male	67	0:LIVING	107.5				
+DO45281	Male	83	0:LIVING	62.5				
+DO45283	Male	60	0:LIVING	42.5				
+DO45285	Male	59	0:LIVING	40				
+DO45287	Male	74	0:LIVING	32.5				
+DO45289	Female	78	0:LIVING	30				
+DO45291	Male	69	0:LIVING	47.5				
+DO45293	Male	68	0:LIVING	37.5				
+DO45295	Male	76	0:LIVING	25				
+DO45297	Female	61	1:DECEASED	105				
+DO45299	Female	70	0:LIVING	120				
+DO45301	Male	56	1:DECEASED	120				
+DO45303	Female	62	0:LIVING	82.5				
+DO45305	Male	66	0:LIVING	25				
+DO45307	Female	54	1:DECEASED	20				
+DO45309	Male	73	1:DECEASED	2.5				
+DO4557	Female	49	1:DECEASED	82.58333333				
+DO46325	Female	54	1:DECEASED	39.75				
+DO46327	Female	54	1:DECEASED	15.33333333				
+DO46328	Female	52	1:DECEASED	81				
+DO46329	Female	52	1:DECEASED	141.5833333				
+DO46330	Female	60	1:DECEASED	57				
+DO46331	Female	72	1:DECEASED	51				
+DO46332	Female	56	1:DECEASED	57.41666667				
+DO46333	Female	58	1:DECEASED	29.91666667				
+DO46334	Female	77	1:DECEASED	41.33333333				
+DO46336	Female	70	1:DECEASED	55.33333333				
+DO46338	Female	59	1:DECEASED	49.66666667				
+DO46340	Female	62	1:DECEASED	51.33333333				
+DO46342	Female	67	1:DECEASED	116.5				
+DO46344	Female	46	1:DECEASED	53.5				
+DO46346	Female	54	1:DECEASED	98.91666667				
+DO46348	Female	58	1:DECEASED	23.91666667				
+DO4635	Female	52	0:LIVING	0				
+DO46350	Female	66	1:DECEASED	73.83333333				
+DO46352	Female	60	1:DECEASED	56.41666667				
+DO46354	Female	73	1:DECEASED	70.25				
+DO46356	Female	68	1:DECEASED	75.91666667				
+DO46358	Female	60	1:DECEASED	35.25				
+DO46360	Female	58	1:DECEASED	146.5833333				
+DO46362	Female	61	1:DECEASED	136.5833333				
+DO46364	Female	45	1:DECEASED	67.16666667				
+DO46366	Female	65	1:DECEASED	171.1666667				
+DO46368	Female	57	1:DECEASED	239.9166667				
+DO46370	Female	54	1:DECEASED	143.9166667				
+DO46372	Female	39	1:DECEASED	110.5				
+DO46374	Female	69	1:DECEASED	117.4166667				
+DO46376	Female	58	1:DECEASED	119.1666667				
+DO46378	Female	59	0:LIVING	70.25				
+DO46380	Female	51	1:DECEASED	118.5833333				
+DO46382	Female	62	1:DECEASED	25.91666667				
+DO46384	Female	55	1:DECEASED	51.16666667				
+DO46386	Female	49	1:DECEASED	96.83333333				
+DO46388	Female	74	1:DECEASED	34.41666667				
+DO46390	Female	65	1:DECEASED	31.16666667				
+DO46392	Female	48	1:DECEASED	52.33333333				
+DO46394	Female	61	1:DECEASED	86.58333333				
+DO46396	Female	64	1:DECEASED	48.58333333				
+DO46398	Female	66	0:LIVING	36.41666667				
+DO46400	Female	70	1:DECEASED	59.91666667				
+DO46402	Female	77	1:DECEASED	42.58333333				
+DO46404	Female	55	1:DECEASED	57.5				
+DO46408	Female	56	1:DECEASED	40.75				
+DO46412	Female	64	1:DECEASED	49.75				
+DO46416	Female	54	1:DECEASED	164.3333333				
+DO46420	Female	65	1:DECEASED	115				
+DO46424	Female	47	1:DECEASED	195.0833333				
+DO46448	Female	45	1:DECEASED	54.5				
+DO46473	Female	46	1:DECEASED	159.8333333				
+DO46488	Female	57	1:DECEASED	118.4166667				
+DO46493	Female	62	0:LIVING	69.91666667				
+DO46498	Female	62	0:LIVING	134.8333333				
+DO46503	Female	71	0:LIVING	79.16666667				
+DO46542	Female	55	1:DECEASED	95.58333333				
+DO46551	Female	58	1:DECEASED	87.91666667				
+DO46556	Female	69	0:LIVING	235.5				
+DO46560	Female	45	1:DECEASED	23.83333333				
+DO46561	Female	52	1:DECEASED	16.25				
+DO46566	Female	78	1:DECEASED	56.08333333				
+DO46568	Female	66	1:DECEASED	26.66666667				
+DO46571	Female	61	1:DECEASED	20.25				
+DO46576	Female	75	0:LIVING	11.08333333				
+DO46581	Female	66	1:DECEASED	34				
+DO46586	Female	55	1:DECEASED	84.91666667				
+DO46588	Female	74	1:DECEASED	36.5				
+DO46591	Female	58	1:DECEASED	16.25				
+DO46593	Female	49	1:DECEASED	78.08333333				
+DO46597	Female	60	1:DECEASED	32.75				
+DO46602	Female	74	1:DECEASED	17.08333333				
+DO46606	Female	73	0:LIVING	67				
+DO46611	Female	52	1:DECEASED	61.16666667				
+DO46744	Male	69	0:LIVING	159.6666667				
+DO46745	Male	48	0:LIVING	150.25				
+DO46747	Male	74	1:DECEASED	8.5				
+DO46749	Male	78	0:LIVING	114.9166667				
+DO46751	Male	76	1:DECEASED	50				
+DO46753	Female	59	0:LIVING	97.75				
+DO46755	Male	59	1:DECEASED	2.083333333				
+DO46757	Male	66	0:LIVING	41.91666667				
+DO46759	Male	61	0:LIVING	75.25				
+DO46761	Female	67	0:LIVING	63.66666667				
+DO46763	Male	79	0:LIVING	72.5				
+DO46765	Female	38	0:LIVING	64.91666667				
+DO46767	Female	65	0:LIVING	50.66666667				
+DO46769	Female	69	0:LIVING	53.16666667				
+DO46771	Female	45	0:LIVING	54.33333333				
+DO46773	Female	44	0:LIVING	48				
+DO46777	Male	81	0:LIVING	37.75				
+DO46779	Male	77	0:LIVING	36.41666667				
+DO46781	Male	56	0:LIVING	27.33333333				
+DO46783	Male	78	0:LIVING	29.16666667				
+DO46785	Male	59	0:LIVING	32.66666667				
+DO46787	Male	69	0:LIVING	0	no treatment		Smoking history not documented	Unknown
+DO46788	Male	72	0:LIVING	0	no treatment		Smoking history not documented	Unknown
+DO46789	Male	73	0:LIVING	0	no treatment		Smoking history not documented	Unknown
+DO46790	Male	71	0:LIVING	0	no treatment		Smoking history not documented	Unknown
+DO46792	Male	66	0:LIVING	0	no treatment		Smoking history not documented	Unknown
+DO46793	Male	58	0:LIVING	0	no treatment		Smoking history not documented	Unknown
+DO46795	Male	65	0:LIVING	0	no treatment		Smoking history not documented	Unknown
+DO46796	Male	51	0:LIVING	0	no treatment		Smoking history not documented	Unknown
+DO46813	Male	73	0:LIVING	0				
+DO46826	Male	39	0:LIVING	163.6666667				
+DO46827	Male	67	1:DECEASED	65.16666667				
+DO46828	Male	54	1:DECEASED	47				
+DO46830	Female	77	0:LIVING	170.3333333				
+DO46832	Male	55	1:DECEASED	0.166666667				
+DO46834	Female	52	1:DECEASED	81.5				
+DO46836	Male	79	1:DECEASED	150.3333333				
+DO46838	Male	61	0:LIVING	182.4166667				
+DO46841	Female	60	1:DECEASED	104.5				
+DO46844	Female	65	0:LIVING	174.75				
+DO46847	Female	57	0:LIVING	171.8333333				
+DO46850	Male	65	1:DECEASED	9.5				
+DO46853	Female	62	0:LIVING	176				
+DO46856	Male	73	0:LIVING	170.1666667				
+DO46859	Female	59	1:DECEASED	132.1666667				
+DO46862	Female	54	0:LIVING	136.3333333				
+DO46865	Male	67	0:LIVING	171.5				
+DO46869	Female	61	0:LIVING	19.08333333				
+DO46873	Male	69	1:DECEASED	128.25				
+DO46877	Male	61	0:LIVING	131.3333333				
+DO46881	Female	77	0:LIVING	160.5833333				
+DO46885	Male	45	1:DECEASED	54.66666667				
+DO46889	Male	60	1:DECEASED	83.08333333				
+DO46893	Female	62	1:DECEASED	12.16666667				
+DO46897	Female	48	0:LIVING	0.25				
+DO46901	Female	68	1:DECEASED	114.0833333				
+DO46905	Male	56	0:LIVING	19.33333333				
+DO46909	Male	78	0:LIVING	81.75				
+DO46913	Female	54	0:LIVING	148.9166667				
+DO46917	Male	58	0:LIVING	175.3333333				
+DO46921	Female	65	0:LIVING	167.1666667				
+DO46925	Female	66	0:LIVING	177.1666667				
+DO46929	Male	49	0:LIVING	0.083333333				
+DO46933	Male	73	0:LIVING	97.5				
+DO46937	Male	57	0:LIVING	169.6666667				
+DO46941	Male	72	0:LIVING	54.5				
+DO46945	Female	60	0:LIVING	160.1666667				
+DO46949	Female	76	1:DECEASED	39.5				
+DO4695	Female	70	0:LIVING	0				
+DO46953	Male	50	0:LIVING	154.3333333				
+DO46957	Female	75	0:LIVING	179.6666667				
+DO46961	Male	59	0:LIVING	152				
+DO46965	Male	39	0:LIVING	138.1666667				
+DO46969	Male	59	0:LIVING	151.0833333				
+DO46973	Male	78	0:LIVING	180				
+DO46977	Male	40	0:LIVING	187.0833333				
+DO46980	Female	56	1:DECEASED	85.75				
+DO46984	Male	65	0:LIVING	163.0833333				
+DO46988	Female	65	1:DECEASED	94.16666667				
+DO46992	Female	76	0:LIVING	153.5				
+DO46996	Male	48	1:DECEASED	155				
+DO47000	Female	43	0:LIVING	176.75				
+DO47004	Male	46	1:DECEASED	18.41666667				
+DO47012	Male	62	1:DECEASED	34.58333333				
+DO47016	Male	51	0:LIVING	164.6666667				
+DO47048	Female	59	0:LIVING	161				
+DO47052	Female	66	0:LIVING	140.5				
+DO47056	Male	54	0:LIVING	175.3333333				
+DO47060	Male	68	0:LIVING	161.8333333				
+DO47064	Female	49	0:LIVING	119.3333333				
+DO47068	Male	48	1:DECEASED	140.4166667				
+DO47072	Male	64	1:DECEASED	65.75				
+DO47076	Female	38	0:LIVING	155.5				
+DO47080	Female	50	0:LIVING	155.3333333				
+DO47084	Female	57	1:DECEASED	6.166666667				
+DO47088	Male	70	1:DECEASED	103.8333333				
+DO47092	Male	67	0:LIVING	154.3333333				
+DO47096	Female	55	0:LIVING	171.6666667				
+DO47100	Male	67	0:LIVING	147.8333333				
+DO47104	Male	50	0:LIVING	131.75				
+DO47108	Female	65	1:DECEASED	85.66666667				
+DO47112	Female	70	0:LIVING	153.9166667				
+DO47116	Male	56	1:DECEASED	39.75				
+DO47120	Male	60	0:LIVING	166.5833333				
+DO47124	Male	57	0:LIVING	148.6666667				
+DO47128	Male	66	0:LIVING	188.6666667				
+DO47132	Female	61	0:LIVING	178.5833333				
+DO47136	Female	69	0:LIVING	33.75				
+DO47140	Male	70	0:LIVING	161.3333333				
+DO47144	Female	69	0:LIVING	175.1666667				
+DO47147	Male	58	0:LIVING	162				
+DO47150	Female	59	0:LIVING	154.9166667				
+DO47153	Male	54	1:DECEASED	85.75				
+DO47156	Female	60	0:LIVING	161				
+DO47159	Female	83	1:DECEASED	116.8333333				
+DO47162	Male	52	0:LIVING	124.0833333				
+DO47165	Female	51	0:LIVING	168.4166667				
+DO47168	Male	69	0:LIVING	165				
+DO47171	Male	65	1:DECEASED	39.5				
+DO47174	Male	70	1:DECEASED	125.6666667				
+DO4719	Female	70	0:LIVING	0				
+DO472	Male	53	0:LIVING	0				
+DO47234	Male	47	0:LIVING	171.1666667				
+DO47237	Male	53	0:LIVING	159.5833333				
+DO47240	Female	70	1:DECEASED	70				
+DO47243	Male	57	0:LIVING	188.3333333				
+DO47246	Male	50	0:LIVING	38.25				
+DO47249	Female	75	1:DECEASED	63.5				
+DO47255	Male	67	0:LIVING	0				
+DO47268	Male	48	0:LIVING	0				
+DO47331	Male	71	1:DECEASED	93.66666667				
+DO47451	Male	53	0:LIVING	0				
+DO47542	Female	36	1:DECEASED	33				
+DO4766	Female	64	0:LIVING	0				
+DO477	Male	79	1:DECEASED	5.416666667				
+DO47737	Male	52	0:LIVING	0				
+DO47747	Male	74	0:LIVING	0				
+DO47753	Male	65	0:LIVING	0				
+DO47785	Male	72	0:LIVING	0				
+DO47817	Male	51	0:LIVING	0				
+DO47841	Male	70	0:LIVING	0				
+DO47859	Female	65	0:LIVING	0				
+DO47863	Female	90	0:LIVING	0				
+DO479	Male	34	0:LIVING	0				
+DO47911	Female	54	0:LIVING	0				
+DO47929	Male	72	0:LIVING	0				
+DO4796	Female	48	0:LIVING	0				
+DO47997	Male	63	0:LIVING	0				
+DO48040	Male	44	0:LIVING	0				
+DO48065	Female	63	0:LIVING	0				
+DO48084	Male	33	0:LIVING	0				
+DO48103	Female	55	0:LIVING	0				
+DO48159	Female	45	0:LIVING	0				
+DO483	Female	67	0:LIVING	0				
+DO48474	Male	62	0:LIVING	0				
+DO48482	Male	65	0:LIVING	0				
+DO48495	Male	57	0:LIVING	0				
+DO48505	Male	58	0:LIVING	0				
+DO48509	Male	66	0:LIVING	0				
+DO48516	Male	50	0:LIVING	0				
+DO48518	Male	76	1:DECEASED	114.3333333				
+DO48520	Female	59	0:LIVING	44.75				
+DO48539	Male	38	1:DECEASED	17.41666667				
+DO48541	Male	68	0:LIVING	35.75				
+DO48545	Male	56	0:LIVING	30.83333333				
+DO48552	Male	25	0:LIVING	0				
+DO48553	Male	64	0:LIVING	40.16666667				
+DO48554	Male	38	0:LIVING	22.91666667				
+DO48557	Male	52	0:LIVING	18.91666667				
+DO48573	Male	71	0:LIVING	20.16666667				
+DO48574	Female	75	0:LIVING	5.083333333				
+DO48577	Male	71	0:LIVING	113.5	radiation therapy	complete response	Smoking history not documented	Unknown
+DO48578	Female	59	0:LIVING	0.583333333				
+DO48581	Male	64	0:LIVING	3.333333333				
+DO48672	Male	81	0:LIVING	37.5				
+DO48674	Male	80	0:LIVING	105				
+DO48677	Male	58	0:LIVING	95				
+DO48679	Male	72	0:LIVING	100				
+DO48681	Male	57	0:LIVING	75				
+DO48682	Female	72	1:DECEASED	10				
+DO48684	Female	71	1:DECEASED	67.5				
+DO48686	Male	75	0:LIVING	82.5				
+DO48687	Female	73	0:LIVING	10				
+DO48689	Male	63	0:LIVING	75				
+DO48691	Male	71	0:LIVING	75				
+DO48692	Female	77	0:LIVING	75				
+DO48693	Male	71	0:LIVING	75				
+DO48694	Male	71	0:LIVING	70				
+DO48695	Male	77	0:LIVING	60				
+DO48697	Female	64	1:DECEASED	67.5				
+DO48700	Female	78	0:LIVING	67.5				
+DO48701	Male	78	0:LIVING	65				
+DO48703	Male	64	0:LIVING	62.5				
+DO48704	Female	68	0:LIVING	62.5				
+DO48706	Male	72	0:LIVING	72.5				
+DO48709	Male	74	0:LIVING	75				
+DO48712	Male	50	0:LIVING	67.5				
+DO48715	Female	58	1:DECEASED	57.5				
+DO48716	Male	71	0:LIVING	60				
+DO48717	Male	54	1:DECEASED	15				
+DO48719	Male	80	0:LIVING	57.5				
+DO48720	Female	62	0:LIVING	47.5				
+DO48721	Female	58	0:LIVING	75				
+DO48723	Male	73	0:LIVING	50				
+DO48725	Male	66	0:LIVING	65				
+DO48727	Female	81	1:DECEASED	32.5				
+DO48728	Female	74	0:LIVING	12.5				
+DO48730	Female	73	0:LIVING	52.5				
+DO48732	Male	73	0:LIVING	52.5				
+DO48733	Male	72	0:LIVING	50				
+DO48736	Female	76	0:LIVING	50				
+DO48737	Male	52	0:LIVING	60				
+DO48738	Male	83	0:LIVING	65				
+DO48741	Male	64	0:LIVING	20				
+DO48742	Male	76	0:LIVING	50				
+DO48743	Female	69	0:LIVING	47.5				
+DO48746	Male	76	0:LIVING	47.5				
+DO48747	Male	62	0:LIVING	45				
+DO48751	Male	68	1:DECEASED	40				
+DO48753	Male	55	0:LIVING	42.5				
+DO48757	Female	68	0:LIVING	40				
+DO48759	Male	73	0:LIVING	60				
+DO48760	Female	70	0:LIVING	57.5				
+DO48761	Male	55	0:LIVING	72.5				
+DO48888	Male	20	0:LIVING	114.1666667			Smoking history not documented	Unknown
+DO48889	Female	42	1:DECEASED	93.83333333			Smoking history not documented	Unknown
+DO48890	Female	23	0:LIVING	60.91666667			Smoking history not documented	Unknown
+DO48891	Female	32	0:LIVING	35.5			Smoking history not documented	Unknown
+DO48892	Male	23	0:LIVING	45.66666667			Smoking history not documented	Unknown
+DO48893	Male	28	0:LIVING	30.41666667			Smoking history not documented	Unknown
+DO48894	Male	27	0:LIVING	76.08333333			Smoking history not documented	Unknown
+DO48895	Male	25	0:LIVING	104			Smoking history not documented	Unknown
+DO48896	Male	22	1:DECEASED	121.75			Smoking history not documented	Unknown
+DO48897	Female	22	0:LIVING	60.91666667			Smoking history not documented	Unknown
+DO48898	Female	29	0:LIVING	96.41666667			Smoking history not documented	Unknown
+DO48899	Male	23		0			Smoking history not documented	Unknown
+DO48900	Female	31	0:LIVING	79.66666667			Smoking history not documented	Unknown
+DO48901	Female	29	0:LIVING	85			Smoking history not documented	Unknown
+DO48902	Female	29	0:LIVING	61.16666667			Smoking history not documented	Unknown
+DO48904	Male	38	1:DECEASED	91.33333333			Smoking history not documented	Unknown
+DO48905	Male	32	0:LIVING	0			Smoking history not documented	Unknown
+DO48906	Female	49		0			Smoking history not documented	Unknown
+DO48907	Male	31		0			Smoking history not documented	Unknown
+DO48909	Female	39	0:LIVING	0			Smoking history not documented	Unknown
+DO48911	Female	23	0:LIVING	0			Smoking history not documented	Unknown
+DO48912	Male	35	0:LIVING	0			Smoking history not documented	Unknown
+DO48914	Female	19		0			Smoking history not documented	Unknown
+DO48915	Female	31		0			Smoking history not documented	Unknown
+DO48916	Female	25		0			Smoking history not documented	Unknown
+DO48917	Female	22		0			Smoking history not documented	Unknown
+DO48918	Female	10		0			Smoking history not documented	Unknown
+DO48919	Male	13		0			Smoking history not documented	Unknown
+DO48920	Female	7		0			Smoking history not documented	Unknown
+DO48921	Male			0			Smoking history not documented	Unknown
+DO48922	Male	4	1:DECEASED	63.41666667			Smoking history not documented	Unknown
+DO48923	Female	10	1:DECEASED	35.5			Smoking history not documented	Unknown
+DO48924	Male	3	0:LIVING	48.16666667			Smoking history not documented	Unknown
+DO48925	Male	4	0:LIVING	5.083333333			Smoking history not documented	Unknown
+DO48926	Female			0			Smoking history not documented	Unknown
+DO48927	Female			0			Smoking history not documented	Unknown
+DO48929	Female			0			Smoking history not documented	Unknown
+DO48930	Female			0			Smoking history not documented	Unknown
+DO48932	Female			0			Smoking history not documented	Unknown
+DO48934	Male	4	0:LIVING	15.25			Smoking history not documented	Unknown
+DO48935	Male	5	0:LIVING	0			Smoking history not documented	Unknown
+DO48936	Male	7	0:LIVING	0			Smoking history not documented	Unknown
+DO48937	Male	9	0:LIVING	0			Smoking history not documented	Unknown
+DO48938	Male	21	0:LIVING	0			Smoking history not documented	Unknown
+DO48939	Female	11	0:LIVING	0			Smoking history not documented	Unknown
+DO48940	Male	16	0:LIVING	0			Smoking history not documented	Unknown
+DO48941	Male	11	0:LIVING	0			Smoking history not documented	Unknown
+DO48943	Female	6	0:LIVING	0			Smoking history not documented	Unknown
+DO48944	Male	27	0:LIVING	0			Smoking history not documented	Unknown
+DO48945	Male	26	0:LIVING	45.66666667			Smoking history not documented	Unknown
+DO48946	Female	22	0:LIVING	0			Smoking history not documented	Unknown
+DO48948	Male	3	0:LIVING	0			Smoking history not documented	Unknown
+DO48949	Male	12	0:LIVING	0			Smoking history not documented	Unknown
+DO48950	Male	3	0:LIVING	0			Smoking history not documented	Unknown
+DO48951	Female			0			Smoking history not documented	Unknown
+DO48952	Female	3		0			Smoking history not documented	Unknown
+DO48953	Female			0			Smoking history not documented	Unknown
+DO48955	Female			0			Smoking history not documented	Unknown
+DO48957	Male	8	0:LIVING	0			Smoking history not documented	Unknown
+DO48958	Male	9		0			Smoking history not documented	Unknown
+DO48959	Female	5	0:LIVING	0			Smoking history not documented	Unknown
+DO48961	Female			0			Smoking history not documented	Unknown
+DO48963	Male	9	0:LIVING	30.41666667			Smoking history not documented	Unknown
+DO48964	Male	5		0			Smoking history not documented	Unknown
+DO48965	Male	4	0:LIVING	30.41666667			Smoking history not documented	Unknown
+DO48966	Female	8		0			Smoking history not documented	Unknown
+DO48967	Female	4		0			Smoking history not documented	Unknown
+DO48968	Male	3		0			Smoking history not documented	Unknown
+DO48969	Female	9	0:LIVING	25.33333333			Smoking history not documented	Unknown
+DO48970	Female	2	0:LIVING	20.33333333			Smoking history not documented	Unknown
+DO48971	Male	18		0			Smoking history not documented	Unknown
+DO48972	Female	11		0			Smoking history not documented	Unknown
+DO48973	Female	10		0			Smoking history not documented	Unknown
+DO48974	Female			0			Smoking history not documented	Unknown
+DO48977	Female	43	0:LIVING	0				
+DO48987	Female	36	0:LIVING	0				
+DO48991	Female	46	1:DECEASED	47.5				
+DO48993	Female	43	0:LIVING	0				
+DO49001	Female	35	0:LIVING	0				
+DO49009	Female	34	0:LIVING	0				
+DO49014	Female	46	1:DECEASED	88.75				
+DO49074	Male	49	1:DECEASED	14				
+DO49076	Male	64	1:DECEASED	40				
+DO49078	Male	79	1:DECEASED	38.75				
+DO49079	Male	50	1:DECEASED	27.66666667				
+DO49080	Male	60	0:LIVING	6.916666667				
+DO49087	Female	68	1:DECEASED	21.66666667				
+DO49090	Female	77	1:DECEASED	12.66666667				
+DO49113	Female	46	0:LIVING	34.41666667				
+DO49127	Female	77	0:LIVING	32.66666667				
+DO49129	Male	50	0:LIVING	28.08333333				
+DO49133	Female	55	0:LIVING	15.66666667				
+DO49135	Male	65	0:LIVING	22.5				
+DO49137	Female	67	0:LIVING	19.33333333				
+DO49138	Male	74	1:DECEASED	19.16666667				
+DO49166	Female	40	0:LIVING	18.5				
+DO49168	Male	58	0:LIVING	12.41666667				
+DO49172	Female	60	1:DECEASED	85.08333333				
+DO49174				0				
+DO49178	Male	58	1:DECEASED	2.25				
+DO49181	Male	77	1:DECEASED	127.8333333				
+DO49183	Female	51	1:DECEASED	35.75				
+DO49184	Male	56	1:DECEASED	37.91666667				
+DO49193	Male	60	1:DECEASED	0.083333333				
+DO49204	Male	67	1:DECEASED	13				
+DO49418	Male	58	1:DECEASED	120.6666667	chemotherapy	complete response	Smoking history not documented	Unknown
+DO49419	Male	50	1:DECEASED	56.75	chemotherapy	complete response	Smoking history not documented	Unknown
+DO49420	Male	64	0:LIVING	115	chemotherapy	complete response	"Current reformed smoker, duration not specified"	Unknown
+DO49421	Female	74	1:DECEASED	32.08333333	combined chemo+radiation therapy	complete response	Smoking history not documented	yes
+DO49422	Male	74	1:DECEASED	39.58333333	chemotherapy	complete response	Lifelong non-smoker (<100 cigarettes smoked in lifetime)	yes
+DO49424	Male	84	1:DECEASED	28.41666667	no treatment		"Current reformed smoker, duration not specified"	Unknown
+DO49427	Female	69	0:LIVING	123.5833333	no treatment		Lifelong non-smoker (<100 cigarettes smoked in lifetime)	Unknown
+DO49430	Male	81	1:DECEASED	68.41666667	combined chemo+radiation therapy	complete response	Lifelong non-smoker (<100 cigarettes smoked in lifetime)	yes
+DO49433	Male	48	1:DECEASED	38	combined chemo+radiation therapy	complete response	Smoking history not documented	yes
+DO49436	Female	69	1:DECEASED	55.25	chemotherapy	complete response	Smoking history not documented	yes
+DO49439	Female	79	1:DECEASED	50.66666667	combined chemo+radiation therapy	complete response	Lifelong non-smoker (<100 cigarettes smoked in lifetime)	Unknown
+DO49442	Male	57	0:LIVING	111.3333333	chemotherapy	complete response	"Current reformed smoker, duration not specified"	Unknown
+DO49445	Female	60	0:LIVING	115.3333333	chemotherapy	complete response	Lifelong non-smoker (<100 cigarettes smoked in lifetime)	Unknown
+DO49448	Male	68	1:DECEASED	79.25	chemotherapy	complete response	"Current reformed smoker, duration not specified"	Unknown
+DO49451	Male	66	0:LIVING	94.25	chemotherapy	complete response	"Current reformed smoker, duration not specified"	Unknown
+DO49454	Female	74	1:DECEASED	24.5	chemotherapy	unknown	Smoking history not documented	Unknown
+DO49457	Female	53	0:LIVING	103.5	chemotherapy	complete response	Current smoker (includes daily smokers non-daily/occasional smokers)	Unknown
+DO49460	Female	64	1:DECEASED	63.91666667	chemotherapy	complete response	Lifelong non-smoker (<100 cigarettes smoked in lifetime)	Unknown
+DO49463	Female	78	1:DECEASED	60.83333333	chemotherapy	disease progression	"Current reformed smoker, duration not specified"	Unknown
+DO49466	Male	79	1:DECEASED	26	chemotherapy	unknown	Lifelong non-smoker (<100 cigarettes smoked in lifetime)	yes
+DO49475	Male	74	1:DECEASED	52.33333333	chemotherapy	disease progression	"Current reformed smoker, duration not specified"	Unknown
+DO49478	Male	81	0:LIVING	77.16666667	chemotherapy	complete response	"Current reformed smoker, duration not specified"	Unknown
+DO49481	Male	64	1:DECEASED	31.91666667	no treatment		Smoking history not documented	no
+DO49484	Male	67	0:LIVING	23.91666667	chemotherapy	unknown	Lifelong non-smoker (<100 cigarettes smoked in lifetime)	yes
+DO49528	Male	54	0:LIVING	27.83333333	chemotherapy	disease progression	Smoking history not documented	Unknown
+DO49529	Male	54	0:LIVING	28.16666667	chemotherapy	complete response	Smoking history not documented	Unknown
+DO49531	Male	49	1:DECEASED	6.333333333	no treatment		Smoking history not documented	Unknown
+DO49532	Female	39	0:LIVING	30.33333333	chemotherapy	disease progression	Smoking history not documented	Unknown
+DO49533	Male	39	0:LIVING	34.16666667			Smoking history not documented	Unknown
+DO49535	Female	59	1:DECEASED	73.66666667	chemotherapy	complete response	Smoking history not documented	Unknown
+DO49536	Male	46	0:LIVING	31.5	chemotherapy	complete response	Smoking history not documented	Unknown
+DO49537	Female	50	0:LIVING	32.33333333	chemotherapy	complete response	Smoking history not documented	Unknown
+DO496	Female	53	0:LIVING	0				
+DO4963	Female	36	1:DECEASED	45.66666667				
+DO49659	Male	63	0:LIVING	0				
+DO49695	Male	78	1:DECEASED	7.583333333				
+DO49728	Female	54	0:LIVING	0				
+DO49736	Male	79	0:LIVING	0				
+DO49738	Male	62	0:LIVING	0				
+DO49767	Male	73	0:LIVING	0				
+DO49768	Male	58	0:LIVING	0				
+DO498	Male	84	0:LIVING	0				
+DO49815	Male	56	0:LIVING	0				
+DO49880	Female	38	0:LIVING	0				
+DO49948	Female	26	0:LIVING	0				
+DO49954	Female	32	0:LIVING	0				
+DO49956	Female	40	0:LIVING	0				
+DO50090	Female	74	0:LIVING	0				
+DO5012	Female	52	0:LIVING	0				
+DO50306	Male	78	1:DECEASED	27.75	no treatment		"Current reformed smoker, duration not specified"	no
+DO50307	Male	73	0:LIVING	107.8333333	no treatment		Lifelong non-smoker (<100 cigarettes smoked in lifetime)	Unknown
+DO50309	Male	78	1:DECEASED	5.333333333	no treatment		"Current reformed smoker, duration not specified"	Unknown
+DO50311	Male	70	1:DECEASED	22.83333333	no treatment		Lifelong non-smoker (<100 cigarettes smoked in lifetime)	no
+DO50314	Female	81	1:DECEASED	142.5	no treatment		"Current reformed smoker, duration not specified"	yes
+DO50315	Female	87	0:LIVING	52	no treatment		Smoking history not documented	Unknown
+DO50316	Male	56	1:DECEASED	105.75	no treatment		Smoking history not documented	Unknown
+DO50318	Male	67	0:LIVING	105.3333333	no treatment		Current smoker (includes daily smokers non-daily/occasional smokers)	yes
+DO50319	Male	64	1:DECEASED	56	no treatment		"Current reformed smoker, duration not specified"	yes
+DO50320	Male	67	0:LIVING	169.0833333	no treatment		"Current reformed smoker, duration not specified"	yes
+DO50321	Male	83	1:DECEASED	26.66666667	no treatment		Smoking history not documented	Unknown
+DO50323	Male	67	0:LIVING	53.58333333	no treatment		"Current reformed smoker, duration not specified"	Unknown
+DO50325	Male	65	0:LIVING	109.3333333	no treatment		Lifelong non-smoker (<100 cigarettes smoked in lifetime)	no
+DO50326	Male	62	1:DECEASED	103.1666667	no treatment		Current smoker (includes daily smokers non-daily/occasional smokers)	no
+DO50327	Male	76	1:DECEASED	12.33333333	no treatment		"Current reformed smoker, duration not specified"	Unknown
+DO50328	Male	74	0:LIVING	91.66666667	no treatment		Lifelong non-smoker (<100 cigarettes smoked in lifetime)	no
+DO50329	Male	56	0:LIVING	47.66666667	no treatment		Lifelong non-smoker (<100 cigarettes smoked in lifetime)	no
+DO50330	Male	67	1:DECEASED	28.58333333	no treatment		Smoking history not documented	no
+DO50331	Male	75	1:DECEASED	74.16666667	no treatment		"Current reformed smoker, duration not specified"	yes
+DO50332	Male	78	1:DECEASED	72.08333333	no treatment		"Current reformed smoker, duration not specified"	no
+DO50334	Male	66	0:LIVING	81.91666667	no treatment		"Current reformed smoker, duration not specified"	no
+DO50336	Male	53	1:DECEASED	25.58333333	no treatment		"Current reformed smoker, duration not specified"	yes
+DO50337	Male	69	1:DECEASED	43.08333333	no treatment		Current smoker (includes daily smokers non-daily/occasional smokers)	no
+DO50338	Female	80	0:LIVING	73.66666667	no treatment		Lifelong non-smoker (<100 cigarettes smoked in lifetime)	yes
+DO50339	Female	79	1:DECEASED	56	no treatment		Current smoker (includes daily smokers non-daily/occasional smokers)	yes
+DO50340	Male	71	0:LIVING	82.58333333	no treatment		"Current reformed smoker, duration not specified"	yes
+DO50341	Male	77	1:DECEASED	52.41666667	no treatment		"Current reformed smoker, duration not specified"	no
+DO50342	Male	66	1:DECEASED	16.5	no treatment		"Current reformed smoker, duration not specified"	yes
+DO50343	Male	77	0:LIVING	14.08333333	no treatment		Lifelong non-smoker (<100 cigarettes smoked in lifetime)	yes
+DO50345	Male	75	0:LIVING	44.41666667	no treatment		"Current reformed smoker, duration not specified"	yes
+DO50346	Male	65	1:DECEASED	49.41666667	no treatment		Smoking history not documented	no
+DO50348	Male	68	0:LIVING	39.83333333	no treatment		"Current reformed smoker, duration not specified"	no
+DO50349	Male	72	0:LIVING	50.91666667	no treatment		Current smoker (includes daily smokers non-daily/occasional smokers)	yes
+DO50350	Male	51	1:DECEASED	27	no treatment		Current smoker (includes daily smokers non-daily/occasional smokers)	no
+DO50354	Male	61	1:DECEASED	45.58333333	no treatment		"Current reformed smoker, duration not specified"	Unknown
+DO50355	Male	60	1:DECEASED	39.83333333	no treatment		Current smoker (includes daily smokers non-daily/occasional smokers)	no
+DO50356	Male	66	1:DECEASED	32.5	no treatment		"Current reformed smoker, duration not specified"	Unknown
+DO50357	Male	59	0:LIVING	95.83333333	no treatment		"Current reformed smoker, duration not specified"	no
+DO50362	Male	64	0:LIVING	9.75	no treatment		Smoking history not documented	Unknown
+DO50364	Male	59	0:LIVING	55.08333333	no treatment		Smoking history not documented	Unknown
+DO50365	Female	73	1:DECEASED	28.75	no treatment		Lifelong non-smoker (<100 cigarettes smoked in lifetime)	no
+DO50367	Male	51	0:LIVING	60.33333333	no treatment		"Current reformed smoker, duration not specified"	yes
+DO50370	Male	71	0:LIVING	58.08333333	no treatment		"Current reformed smoker, duration not specified"	yes
+DO50372	Male	63	0:LIVING	47.66666667	no treatment		"Current reformed smoker, duration not specified"	no
+DO50374	Male	50	1:DECEASED	34.08333333	no treatment		Lifelong non-smoker (<100 cigarettes smoked in lifetime)	yes
+DO50381	Male	58	1:DECEASED	33.25	no treatment		Lifelong non-smoker (<100 cigarettes smoked in lifetime)	no
+DO50382	Male	74	1:DECEASED	48.41666667	no treatment		"Current reformed smoker, duration not specified"	no
+DO50383	Male	75	1:DECEASED	32.5	no treatment		Lifelong non-smoker (<100 cigarettes smoked in lifetime)	no
+DO50384	Male	82	0:LIVING	44.66666667	no treatment		"Current reformed smoker, duration not specified"	yes
+DO50385	Male	76	1:DECEASED	52.16666667	no treatment		"Current reformed smoker, duration not specified"	yes
+DO50387	Male	81	0:LIVING	87.58333333	no treatment		Current smoker (includes daily smokers non-daily/occasional smokers)	yes
+DO50388	Male	71	0:LIVING	76.16666667	no treatment		"Current reformed smoker, duration not specified"	yes
+DO50389	Male	65	1:DECEASED	75.83333333	no treatment		"Current reformed smoker, duration not specified"	no
+DO50390	Male	67	0:LIVING	56.08333333	no treatment		"Current reformed smoker, duration not specified"	no
+DO50392	Male	49	0:LIVING	62.33333333	no treatment		"Current reformed smoker, duration not specified"	Unknown
+DO50393	Male	76	1:DECEASED	34.25	no treatment		Current smoker (includes daily smokers non-daily/occasional smokers)	no
+DO50395	Male	74	0:LIVING	45.5	no treatment		Current smoker (includes daily smokers non-daily/occasional smokers)	no
+DO50396	Female	68	1:DECEASED	10.25	no treatment		Lifelong non-smoker (<100 cigarettes smoked in lifetime)	no
+DO50398	Female	47	0:LIVING	30	no treatment		Lifelong non-smoker (<100 cigarettes smoked in lifetime)	yes
+DO50399	Male	75	1:DECEASED	47.25	no treatment		Lifelong non-smoker (<100 cigarettes smoked in lifetime)	no
+DO50401	Male	77	0:LIVING	83.41666667	no treatment		Smoking history not documented	no
+DO50402	Female	50	1:DECEASED	27.41666667	no treatment		"Current reformed smoker, duration not specified"	yes
+DO50403	Male	58	1:DECEASED	46.41666667	no treatment		Current smoker (includes daily smokers non-daily/occasional smokers)	yes
+DO50405	Male	66	1:DECEASED	20.75	no treatment		Lifelong non-smoker (<100 cigarettes smoked in lifetime)	no
+DO50406	Male	74	0:LIVING	63.91666667	no treatment		"Current reformed smoker, duration not specified"	yes
+DO50407	Male	65	1:DECEASED	7	no treatment		"Current reformed smoker, duration not specified"	no
+DO50408	Male	57	0:LIVING	88.25	no treatment		Current smoker (includes daily smokers non-daily/occasional smokers)	yes
+DO50409	Male	67	1:DECEASED	48.33333333	no treatment		Smoking history not documented	Unknown
+DO50410	Male	76	1:DECEASED	32.16666667	no treatment		"Current reformed smoker, duration not specified"	Unknown
+DO50411	Male	72	1:DECEASED	25.41666667	no treatment		Smoking history not documented	no
+DO50412	Male	67	0:LIVING	33.41666667	no treatment		"Current reformed smoker, duration not specified"	Unknown
+DO50414	Male	44	0:LIVING	108.4166667			Smoking history not documented	Unknown
+DO50415	Male	61	0:LIVING	94.33333333	radiation therapy	unknown	Smoking history not documented	Unknown
+DO50416	Male	59	0:LIVING	78.08333333			Smoking history not documented	Unknown
+DO50417	Male	49	0:LIVING	114.6666667			Smoking history not documented	Unknown
+DO50418	Male	66	0:LIVING	103	other therapy	unknown	Smoking history not documented	Unknown
+DO50419	Male	66	0:LIVING	116.25	radiation therapy	unknown	Smoking history not documented	Unknown
+DO50420	Male	60	0:LIVING	118.75	radiation therapy	unknown	Smoking history not documented	Unknown
+DO50421	Male	66	0:LIVING	102.4166667			Smoking history not documented	Unknown
+DO50422	Male	61	0:LIVING	96.33333333			Smoking history not documented	Unknown
+DO50423	Male	64	0:LIVING	97.66666667			Smoking history not documented	Unknown
+DO50424	Male	57	0:LIVING	132.0833333			Smoking history not documented	Unknown
+DO50425	Male	63	0:LIVING	152.3333333			Smoking history not documented	Unknown
+DO50426	Male	59	0:LIVING	115.1666667			Smoking history not documented	Unknown
+DO50427	Male	56	0:LIVING	251.3333333			Smoking history not documented	Unknown
+DO50428	Male	72	0:LIVING	118.5833333			Smoking history not documented	Unknown
+DO50430	Male	54	0:LIVING	54.33333333	other therapy	unknown	Smoking history not documented	Unknown
+DO50431	Male	65	0:LIVING	98.75	other therapy	unknown	Smoking history not documented	Unknown
+DO50432	Male	71	0:LIVING	88.08333333	radiation therapy	unknown	Smoking history not documented	Unknown
+DO50434	Male	75	0:LIVING	83.58333333	no treatment		Lifelong non-smoker (<100 cigarettes smoked in lifetime)	Unknown
+DO50435	Male	53	0:LIVING	65.5	no treatment		"Current reformed smoker, duration not specified"	no
+DO50436	Male	61	0:LIVING	45.91666667	no treatment		Current smoker (includes daily smokers non-daily/occasional smokers)	yes
+DO50437	Male	58	0:LIVING	47.25	no treatment		Current smoker (includes daily smokers non-daily/occasional smokers)	Unknown
+DO50438	Female	70	0:LIVING	56.08333333	no treatment		"Current reformed smoker, duration not specified"	no
+DO50439	Male	56	0:LIVING	44.83333333	no treatment		Current smoker (includes daily smokers non-daily/occasional smokers)	no
+DO50440	Male	72	0:LIVING	51.58333333	no treatment		"Current reformed smoker, duration not specified"	yes
+DO50441	Male	60	0:LIVING	48.16666667	no treatment		"Current reformed smoker, duration not specified"	yes
+DO50442	Male	81	1:DECEASED	38.91666667	no treatment		Current smoker (includes daily smokers non-daily/occasional smokers)	no
+DO50443	Female	79	0:LIVING	33.41666667	no treatment		Smoking history not documented	Unknown
+DO50444	Male	77	0:LIVING	33.25	no treatment		"Current reformed smoker, duration not specified"	Unknown
+DO50445	Female	79	0:LIVING	71.66666667	no treatment		"Current reformed smoker, duration not specified"	no
+DO50446	Male	75	0:LIVING	57	no treatment		Smoking history not documented	Unknown
+DO50447	Male	72	1:DECEASED	25.5	no treatment		"Current reformed smoker, duration not specified"	no
+DO50448	Male	79	0:LIVING	58.91666667	no treatment		"Current reformed smoker, duration not specified"	no
+DO50449	Male	59	0:LIVING	53.08333333	no treatment		Current smoker (includes daily smokers non-daily/occasional smokers)	yes
+DO50450	Male	78	1:DECEASED	2.666666667	no treatment		Lifelong non-smoker (<100 cigarettes smoked in lifetime)	no
+DO50451	Female	43	0:LIVING	36.41666667	no treatment		Lifelong non-smoker (<100 cigarettes smoked in lifetime)	no
+DO50452	Male	61	0:LIVING	39.58333333	no treatment		Current smoker (includes daily smokers non-daily/occasional smokers)	yes
+DO50453	Male	68	0:LIVING	45.5	no treatment		"Current reformed smoker, duration not specified"	no
+DO50454	Male	73	0:LIVING	38.08333333	no treatment		Current smoker (includes daily smokers non-daily/occasional smokers)	yes
+DO5046	Female	61	0:LIVING	0				
+DO50772	Male	70	0:LIVING	55				
+DO50774	Female	68	0:LIVING	60				
+DO50776	Male	75	0:LIVING	57.5				
+DO50778	Male	60	0:LIVING	52.5				
+DO50780	Male	70	1:DECEASED	55				
+DO50783	Male	62	0:LIVING	40				
+DO50785	Male	37	1:DECEASED	7.5				
+DO50787	Male	63	0:LIVING	40				
+DO50789	Female	73	0:LIVING	47.5				
+DO50791	Female	79	1:DECEASED	40				
+DO50793	Male	76	0:LIVING	45				
+DO50796	Male	69	0:LIVING	45				
+DO50798	Male	77	1:DECEASED	2.5				
+DO50799	Female	66	0:LIVING	45				
+DO50800	Male	74	0:LIVING	42.5				
+DO50801				0				
+DO50802	Male	49	0:LIVING	77.5				
+DO50803	Female	62	0:LIVING	45				
+DO50804	Male	81	0:LIVING	60				
+DO50805	Male	72	0:LIVING	57.5				
+DO50806	Male	70	0:LIVING	45				
+DO50807	Male	67	0:LIVING	45				
+DO50808	Male	68	0:LIVING	47.5				
+DO50809	Male	56	1:DECEASED	60				
+DO50811	Male	62	0:LIVING	37.5				
+DO50813	Male	56	0:LIVING	35				
+DO50814	Male	83	0:LIVING	35				
+DO50815	Male	62	0:LIVING	12.5				
+DO50816	Male	63	0:LIVING	32.5				
+DO50817	Male	75	0:LIVING	32.5				
+DO50818	Male	65	0:LIVING	42.5				
+DO50819	Female	72	0:LIVING	42.5				
+DO50820	Female	77	0:LIVING	42.5				
+DO50822	Male	66	0:LIVING	42.5				
+DO50825	Male	70	0:LIVING	32.5				
+DO50827	Female	48	0:LIVING	40				
+DO50829	Male	78	0:LIVING	47.5				
+DO50831	Male	52	0:LIVING	42.5				
+DO50832	Male	73	0:LIVING	7.5				
+DO50834	Male	72	0:LIVING	45				
+DO50837	Female	53	0:LIVING	40				
+DO50839	Female	47	0:LIVING	27.5				
+DO50840	Male	49	0:LIVING	27.5				
+DO50842	Female	75	0:LIVING	25				
+DO50844	Male	75	0:LIVING	25				
+DO50845	Male	72	0:LIVING	17.5				
+DO50848	Male	74	0:LIVING	40				
+DO50850	Male	74	0:LIVING	60				
+DO50851	Male	80	0:LIVING	45				
+DO50855	Male	47	0:LIVING	47.5				
+DO50857	Male	72	0:LIVING	17.5				
+DO50859	Male	77	0:LIVING	15				
+DO51044	Male	71	0:LIVING	0	no treatment		Smoking history not documented	Unknown
+DO51045	Male	79	0:LIVING	0	no treatment		Smoking history not documented	Unknown
+DO51046	Male	72	0:LIVING	0	no treatment		Smoking history not documented	Unknown
+DO51047	Male	74	0:LIVING	0	no treatment		Smoking history not documented	Unknown
+DO51048	Male	70	0:LIVING	0	no treatment		Smoking history not documented	Unknown
+DO51049	Male	68	0:LIVING	0	no treatment		Smoking history not documented	Unknown
+DO51050	Male	71	0:LIVING	0	no treatment		Smoking history not documented	Unknown
+DO51051	Male	61	0:LIVING	0	no treatment		Smoking history not documented	Unknown
+DO51052	Male	75	0:LIVING	0	no treatment		Smoking history not documented	Unknown
+DO51053	Male	61	0:LIVING	0	no treatment		Smoking history not documented	Unknown
+DO51054	Male	73	0:LIVING	0	no treatment		Smoking history not documented	Unknown
+DO51055	Male	78	0:LIVING	0	no treatment		Smoking history not documented	Unknown
+DO51056	Male	68	0:LIVING	0	no treatment		Smoking history not documented	Unknown
+DO51057	Male	80	0:LIVING	0	no treatment		Smoking history not documented	Unknown
+DO51058	Male	68	0:LIVING	0	no treatment		Smoking history not documented	Unknown
+DO51059	Male	71	0:LIVING	0	no treatment		Smoking history not documented	Unknown
+DO51060	Male	63	0:LIVING	0	no treatment		Smoking history not documented	Unknown
+DO51061	Male	71	0:LIVING	0	no treatment		Smoking history not documented	Unknown
+DO51062	Male	72	0:LIVING	0	no treatment		Smoking history not documented	Unknown
+DO51063	Male	54	0:LIVING	0	no treatment		Smoking history not documented	Unknown
+DO51064	Male	70	0:LIVING	0	no treatment		Smoking history not documented	Unknown
+DO51065	Male	55	0:LIVING	0	no treatment		Smoking history not documented	Unknown
+DO51066	Male	70	0:LIVING	0	no treatment		Smoking history not documented	Unknown
+DO51067	Male	74	0:LIVING	0	no treatment		Smoking history not documented	Unknown
+DO51068	Male	56	0:LIVING	0	no treatment		Smoking history not documented	Unknown
+DO51069	Male	59	0:LIVING	0	no treatment		Smoking history not documented	Unknown
+DO51070	Male	57	0:LIVING	0	no treatment		Smoking history not documented	Unknown
+DO51071	Male	74	0:LIVING	0	no treatment		Smoking history not documented	Unknown
+DO51072	Male	60	0:LIVING	0	no treatment		Smoking history not documented	Unknown
+DO51073	Male	52	0:LIVING	0	no treatment		Smoking history not documented	Unknown
+DO51074	Male	74	0:LIVING	0	no treatment		Smoking history not documented	Unknown
+DO51075	Male	63	0:LIVING	0	no treatment		Smoking history not documented	Unknown
+DO51076	Male	62	0:LIVING	0	no treatment		Smoking history not documented	Unknown
+DO51077	Male	65	0:LIVING	0	no treatment		Smoking history not documented	Unknown
+DO51078	Male	66	0:LIVING	0	no treatment		Smoking history not documented	Unknown
+DO51079	Male	60	0:LIVING	0	no treatment		Smoking history not documented	Unknown
+DO51080	Male	51	0:LIVING	0	no treatment		Smoking history not documented	Unknown
+DO51081	Male	75	0:LIVING	0	no treatment		Smoking history not documented	Unknown
+DO51082	Male	71	0:LIVING	0	no treatment		Smoking history not documented	Unknown
+DO51083	Male	67	0:LIVING	0	no treatment		Smoking history not documented	Unknown
+DO51084	Male	61	0:LIVING	0	no treatment		Smoking history not documented	Unknown
+DO51085	Male	71	0:LIVING	0	no treatment		Smoking history not documented	Unknown
+DO51086	Male	70	0:LIVING	0	no treatment		Smoking history not documented	Unknown
+DO51087	Male	70	0:LIVING	0	no treatment		Smoking history not documented	Unknown
+DO51088	Male	59	0:LIVING	0	no treatment		Smoking history not documented	Unknown
+DO51089	Male	55	0:LIVING	0	no treatment		Smoking history not documented	Unknown
+DO51090	Male	66	0:LIVING	0	no treatment		Smoking history not documented	Unknown
+DO51091	Male	56	0:LIVING	0	no treatment		Smoking history not documented	Unknown
+DO51092	Male	60	0:LIVING	0	no treatment		Smoking history not documented	Unknown
+DO51093	Male	54	0:LIVING	0	no treatment		Smoking history not documented	Unknown
+DO51094	Male	66	0:LIVING	0	no treatment		Smoking history not documented	Unknown
+DO51095	Male	61	0:LIVING	0	no treatment		Smoking history not documented	Unknown
+DO51096	Male	52	0:LIVING	0	no treatment		Smoking history not documented	Unknown
+DO51097	Male	71	0:LIVING	0	no treatment		Smoking history not documented	Unknown
+DO51098	Male	63	0:LIVING	0	no treatment		Smoking history not documented	Unknown
+DO51099	Male	49	0:LIVING	0	no treatment		Smoking history not documented	Unknown
+DO51100	Male	55	0:LIVING	0	no treatment		Smoking history not documented	Unknown
+DO51101	Male	65	0:LIVING	0	no treatment		Smoking history not documented	Unknown
+DO51102	Male	62	0:LIVING	0	no treatment		Smoking history not documented	Unknown
+DO51103	Male	66	0:LIVING	0	no treatment		Smoking history not documented	Unknown
+DO51104	Male	63	0:LIVING	0	no treatment		Smoking history not documented	Unknown
+DO51105	Male	66	0:LIVING	0	no treatment		Smoking history not documented	Unknown
+DO51106	Male	44	0:LIVING	0	no treatment		Smoking history not documented	Unknown
+DO51107	Male	59	0:LIVING	0	no treatment		Smoking history not documented	Unknown
+DO51108	Male	68	0:LIVING	0	no treatment		Smoking history not documented	Unknown
+DO51109	Male	64	0:LIVING	0	no treatment		Smoking history not documented	Unknown
+DO51110	Male	69	0:LIVING	0	no treatment		Smoking history not documented	Unknown
+DO51111	Male	53	0:LIVING	0	no treatment		Smoking history not documented	Unknown
+DO51112	Male	60	0:LIVING	0	no treatment		Smoking history not documented	Unknown
+DO51113	Male	57	0:LIVING	0	no treatment		Smoking history not documented	Unknown
+DO51114	Male	61	0:LIVING	0	no treatment		Smoking history not documented	Unknown
+DO51115	Male	56	0:LIVING	0	no treatment		Smoking history not documented	Unknown
+DO51116	Male	52	0:LIVING	0	no treatment		Smoking history not documented	Unknown
+DO51117	Male	60	0:LIVING	0	no treatment		Smoking history not documented	Unknown
+DO51118	Male	60	0:LIVING	0	no treatment		Smoking history not documented	Unknown
+DO51119	Male	59	0:LIVING	0	no treatment		Smoking history not documented	Unknown
+DO51120	Male	57	0:LIVING	0	no treatment		Smoking history not documented	Unknown
+DO51121	Male	52	0:LIVING	0	no treatment		Smoking history not documented	Unknown
+DO51122	Male	55	0:LIVING	0	no treatment		Smoking history not documented	Unknown
+DO51123	Male	65	0:LIVING	0	no treatment		Smoking history not documented	Unknown
+DO51124	Male	60	0:LIVING	0	no treatment		Smoking history not documented	Unknown
+DO51125	Male	55	0:LIVING	0	no treatment		Smoking history not documented	Unknown
+DO51126	Male	51	0:LIVING	0	no treatment		Smoking history not documented	Unknown
+DO51127	Male	58	0:LIVING	0	no treatment		Smoking history not documented	Unknown
+DO51128	Male	66	0:LIVING	0	no treatment		Smoking history not documented	Unknown
+DO51129	Male	65	0:LIVING	0	no treatment		Smoking history not documented	Unknown
+DO51130	Male	70	0:LIVING	0	no treatment		Smoking history not documented	Unknown
+DO51131	Male	57	0:LIVING	0	no treatment		Smoking history not documented	Unknown
+DO51132	Male	56	0:LIVING	0	no treatment		Smoking history not documented	Unknown
+DO51133	Male	62	0:LIVING	0	no treatment		Smoking history not documented	Unknown
+DO51134	Male	71	0:LIVING	0	no treatment		Smoking history not documented	Unknown
+DO51135	Male	60	0:LIVING	0	no treatment		Smoking history not documented	Unknown
+DO51136	Male	63	0:LIVING	0	no treatment		Smoking history not documented	Unknown
+DO51137	Male	63	0:LIVING	0	no treatment		Smoking history not documented	Unknown
+DO51138	Male	60	0:LIVING	0	no treatment		Smoking history not documented	Unknown
+DO51139	Male	59	0:LIVING	0	no treatment		Smoking history not documented	Unknown
+DO51140	Male	59	0:LIVING	0	no treatment		Smoking history not documented	Unknown
+DO51141	Male	63	0:LIVING	0	no treatment		Smoking history not documented	Unknown
+DO51142	Male	69	0:LIVING	0	no treatment		Smoking history not documented	Unknown
+DO51143	Male	69	0:LIVING	0	no treatment		Smoking history not documented	Unknown
+DO51144	Male	67	0:LIVING	0	no treatment		Smoking history not documented	Unknown
+DO51145	Male	58	0:LIVING	0	no treatment		Smoking history not documented	Unknown
+DO51146	Male	63	0:LIVING	0	no treatment		Smoking history not documented	Unknown
+DO51147	Male	66	0:LIVING	0	no treatment		Smoking history not documented	Unknown
+DO51148	Male	54	0:LIVING	0	no treatment		Smoking history not documented	Unknown
+DO51149	Male	60	0:LIVING	0	no treatment		Smoking history not documented	Unknown
+DO51150	Male	61	0:LIVING	0	no treatment		Smoking history not documented	Unknown
+DO51151	Male	57	0:LIVING	0	no treatment		Smoking history not documented	Unknown
+DO51152	Male	55	0:LIVING	0	no treatment		Smoking history not documented	Unknown
+DO51153	Male	57	0:LIVING	0	no treatment		Smoking history not documented	Unknown
+DO51154	Male	58	0:LIVING	0	no treatment		Smoking history not documented	Unknown
+DO51155	Male	61	0:LIVING	0	no treatment		Smoking history not documented	Unknown
+DO51156	Male	45	0:LIVING	0	no treatment		Smoking history not documented	Unknown
+DO51157	Male	58	0:LIVING	0	no treatment		Smoking history not documented	Unknown
+DO51158	Male	58	0:LIVING	0	no treatment		Smoking history not documented	Unknown
+DO51159	Male	43	0:LIVING	0	no treatment		Smoking history not documented	Unknown
+DO51169	Male	35	0:LIVING	59				
+DO51170	Male	41	0:LIVING	251.3333333				
+DO51171	Female	74	0:LIVING	245.25				
+DO51172	Male	62	0:LIVING	226.9166667				
+DO51173	Female	39	0:LIVING	103.6666667				
+DO51174	Male	63	0:LIVING	126.5833333				
+DO51175	Female	71	1:DECEASED	34.41666667				
+DO51176	Female	64	0:LIVING	114.8333333				
+DO51177	Male	36	0:LIVING	89.33333333				
+DO51178	Male	53	1:DECEASED	10.08333333				
+DO51179	Male	64	0:LIVING	204.6666667				
+DO51180	Male	56	0:LIVING	0				
+DO51181	Female	26	0:LIVING	200.1666667				
+DO51182	Male	50	1:DECEASED	43.5				
+DO51184	Female	34	0:LIVING	195.4166667				
+DO51185	Male	17	0:LIVING	0				
+DO51187	Female	69	0:LIVING	193.1666667				
+DO51251	Male	51	1:DECEASED	22.5				
+DO51465	Female	74	1:DECEASED	102.1666667	chemotherapy	complete response	Lifelong non-smoker (<100 cigarettes smoked in lifetime)	Unknown
+DO51466	Male	69	1:DECEASED	29.25	chemotherapy	complete response	Lifelong non-smoker (<100 cigarettes smoked in lifetime)	Unknown
+DO51467	Male	67	1:DECEASED	39.25	combined chemo+radiation therapy	complete response	Lifelong non-smoker (<100 cigarettes smoked in lifetime)	Unknown
+DO51468	Male	69	1:DECEASED	90.25	combined chemo+radiation therapy	complete response	Smoking history not documented	no
+DO51469	Female	80	1:DECEASED	26.16666667	no treatment		Smoking history not documented	Unknown
+DO51470	Female	51	1:DECEASED	37	combined chemo+radiation therapy	complete response	"Current reformed smoker, duration not specified"	Unknown
+DO51471				0				
+DO51472	Female	65	1:DECEASED	49.16666667	chemotherapy	complete response	Lifelong non-smoker (<100 cigarettes smoked in lifetime)	Unknown
+DO51473	Female	76	1:DECEASED	357.4166667	combined chemo+radiation therapy	complete response	Lifelong non-smoker (<100 cigarettes smoked in lifetime)	no
+DO51474	Male	63	0:LIVING	157.5	chemotherapy	complete response	Lifelong non-smoker (<100 cigarettes smoked in lifetime)	Unknown
+DO51475	Female	58	1:DECEASED	152	chemotherapy	complete response	"Current reformed smoker, duration not specified"	Unknown
+DO51476	Female	45	1:DECEASED	131.3333333	no treatment		Smoking history not documented	Unknown
+DO51477	Male	56	0:LIVING	42	chemotherapy	complete response	Lifelong non-smoker (<100 cigarettes smoked in lifetime)	yes
+DO51478	Male	69	1:DECEASED	25.91666667	combined chemo+radiation therapy	disease progression	Smoking history not documented	Unknown
+DO51479	Male	70	0:LIVING	140.9166667	no treatment		Smoking history not documented	yes
+DO51480	Female	41	1:DECEASED	19	combined chemo+radiation therapy	complete response	Smoking history not documented	no
+DO51481	Female	59	1:DECEASED	48.91666667	combined chemo+radiation therapy	complete response	Smoking history not documented	yes
+DO51483	Female	67	1:DECEASED	8.916666667	no treatment		Smoking history not documented	Unknown
+DO51484	Female	63	1:DECEASED	121.6666667	chemotherapy	complete response	"Current reformed smoker, duration not specified"	Unknown
+DO51485	Female	74	1:DECEASED	156.5833333	combined chemo+radiation therapy	complete response	Lifelong non-smoker (<100 cigarettes smoked in lifetime)	yes
+DO51486	Female	56	0:LIVING	43.16666667	chemotherapy	unknown	Lifelong non-smoker (<100 cigarettes smoked in lifetime)	no
+DO51487	Female	69	0:LIVING	212.9166667	combined chemo+radiation therapy	complete response	Lifelong non-smoker (<100 cigarettes smoked in lifetime)	no
+DO51488	Female	55	0:LIVING	48.25	chemotherapy	complete response	Lifelong non-smoker (<100 cigarettes smoked in lifetime)	yes
+DO51489	Female	60	0:LIVING	134.3333333	chemotherapy	complete response	"Current reformed smoker, duration not specified"	Unknown
+DO51490	Female	78	1:DECEASED	19.33333333	no treatment		Lifelong non-smoker (<100 cigarettes smoked in lifetime)	no
+DO51491	Male	83	0:LIVING	82.33333333	chemotherapy	complete response	Smoking history not documented	Unknown
+DO51492	Female	57	1:DECEASED	23.5	chemotherapy	disease progression	"Current reformed smoker, duration not specified"	Unknown
+DO51493	Female	52	1:DECEASED	42.66666667	combined chemo+radiation therapy	complete response	Lifelong non-smoker (<100 cigarettes smoked in lifetime)	Unknown
+DO51494	Male	59	1:DECEASED	52.58333333	no treatment		Smoking history not documented	yes
+DO51495	Male	66	1:DECEASED	60.75	combined chemo+radiation therapy	complete response	Lifelong non-smoker (<100 cigarettes smoked in lifetime)	yes
+DO51496	Female	70	1:DECEASED	16.41666667	no treatment		Smoking history not documented	Unknown
+DO51497	Female	70	1:DECEASED	26.08333333	no treatment		"Current reformed smoker, duration not specified"	Unknown
+DO51498	Female	40	1:DECEASED	24.5	chemotherapy	disease progression	Smoking history not documented	Unknown
+DO51499	Male	64	1:DECEASED	18.5	chemotherapy	stable disease	Lifelong non-smoker (<100 cigarettes smoked in lifetime)	no
+DO51500	Female	69	0:LIVING	40.16666667	no treatment		Current smoker (includes daily smokers non-daily/occasional smokers)	yes
+DO51501	Male	53	1:DECEASED	24.5	combined chemo+radiation therapy	complete response	Smoking history not documented	yes
+DO51502	Male	47	1:DECEASED	25.83333333	chemotherapy	unknown	Lifelong non-smoker (<100 cigarettes smoked in lifetime)	yes
+DO51503	Female	46	1:DECEASED	69.75	combined chemo+radiation therapy	complete response	Lifelong non-smoker (<100 cigarettes smoked in lifetime)	yes
+DO51504	Female	67	1:DECEASED	41.16666667	chemotherapy	complete response	Lifelong non-smoker (<100 cigarettes smoked in lifetime)	Unknown
+DO51505	Female	64	1:DECEASED	29.25	chemotherapy	disease progression	"Current reformed smoker, duration not specified"	Unknown
+DO51506	Female	62	1:DECEASED	109.6666667	chemotherapy	complete response	Lifelong non-smoker (<100 cigarettes smoked in lifetime)	Unknown
+DO51507	Male	73	1:DECEASED	214.25	combined chemo+radiation therapy	complete response	Smoking history not documented	Unknown
+DO51508	Female	83		0	chemotherapy	complete response	"Current reformed smoker, duration not specified"	Unknown
+DO51509	Male	66	1:DECEASED	42.91666667	chemotherapy	complete response	Lifelong non-smoker (<100 cigarettes smoked in lifetime)	yes
+DO51510	Male	43	1:DECEASED	23.91666667	chemotherapy	complete response	Current smoker (includes daily smokers non-daily/occasional smokers)	Unknown
+DO51511	Female	67	1:DECEASED	57.33333333	chemotherapy	complete response	Lifelong non-smoker (<100 cigarettes smoked in lifetime)	Unknown
+DO51512	Male	42	1:DECEASED	15.33333333	chemotherapy	disease progression	Lifelong non-smoker (<100 cigarettes smoked in lifetime)	Unknown
+DO51513	Female	85	0:LIVING	64.08333333	chemotherapy	complete response	Lifelong non-smoker (<100 cigarettes smoked in lifetime)	Unknown
+DO51514	Male	61	1:DECEASED	99.25	chemotherapy	complete response	Lifelong non-smoker (<100 cigarettes smoked in lifetime)	Unknown
+DO51515	Male	73	0:LIVING	149.9166667	no treatment		"Current reformed smoker, duration not specified"	Unknown
+DO51518	Female	66	1:DECEASED	10.75	no treatment		Smoking history not documented	Unknown
+DO51519	Female	70	1:DECEASED	48.25	combined chemo+radiation therapy	complete response	Lifelong non-smoker (<100 cigarettes smoked in lifetime)	yes
+DO51520	Male	73	1:DECEASED	11.58333333	no treatment		Lifelong non-smoker (<100 cigarettes smoked in lifetime)	no
+DO51521	Female	78		0	combined chemo+radiation therapy	complete response	Current smoker (includes daily smokers non-daily/occasional smokers)	Unknown
+DO51522	Female	50	1:DECEASED	16.75	chemotherapy	unknown	"Current reformed smoker, duration not specified"	Unknown
+DO51523	Male	48	1:DECEASED	26.5	combined chemo+radiation therapy	complete response	Smoking history not documented	Unknown
+DO51524	Male	79	0:LIVING	104.25	chemotherapy	complete response	Lifelong non-smoker (<100 cigarettes smoked in lifetime)	Unknown
+DO51525	Male	38	1:DECEASED	57.5	chemotherapy	complete response	Lifelong non-smoker (<100 cigarettes smoked in lifetime)	Unknown
+DO51527	Female	86	1:DECEASED	29.08333333	no treatment		Smoking history not documented	Unknown
+DO51528	Male	62	0:LIVING	193.75	chemotherapy	complete response	Smoking history not documented	Unknown
+DO51529	Male	87	1:DECEASED	23	combined chemo+radiation therapy	disease progression	Current reformed smoker for > 15 years	no
+DO51530	Female	43	1:DECEASED	55.83333333	no treatment		Smoking history not documented	Unknown
+DO51531	Male	48	1:DECEASED	106.0833333	combined chemo+radiation therapy	complete response	Smoking history not documented	yes
+DO51532	Female	59	0:LIVING	164.4166667	chemotherapy	complete response	Lifelong non-smoker (<100 cigarettes smoked in lifetime)	Unknown
+DO51533	Male	67	0:LIVING	347.75	combined chemo+radiation therapy	complete response	Lifelong non-smoker (<100 cigarettes smoked in lifetime)	Unknown
+DO51534	Female	79	1:DECEASED	23.16666667	chemotherapy	disease progression	Lifelong non-smoker (<100 cigarettes smoked in lifetime)	yes
+DO51535	Male	84	1:DECEASED	63.66666667	combined chemo+radiation therapy	complete response	Smoking history not documented	yes
+DO51536	Female	82	1:DECEASED	37.16666667	no treatment		Lifelong non-smoker (<100 cigarettes smoked in lifetime)	yes
+DO51537	Male	73	1:DECEASED	58.25	combined chemo+radiation therapy	complete response	Smoking history not documented	Unknown
+DO51538	Female	76	1:DECEASED	30.08333333	chemotherapy	complete response	Lifelong non-smoker (<100 cigarettes smoked in lifetime)	Unknown
+DO51540	Female	69	1:DECEASED	11.75	combined chemo+radiation therapy	complete response	Lifelong non-smoker (<100 cigarettes smoked in lifetime)	Unknown
+DO51541	Male	81	1:DECEASED	27.08333333	combined chemo+radiation therapy	complete response	Lifelong non-smoker (<100 cigarettes smoked in lifetime)	yes
+DO51542	Female	54	1:DECEASED	30.75	chemotherapy	disease progression	Lifelong non-smoker (<100 cigarettes smoked in lifetime)	Unknown
+DO51543	Female	76	1:DECEASED	119.25	chemotherapy	complete response	Lifelong non-smoker (<100 cigarettes smoked in lifetime)	Unknown
+DO51544	Male	69	1:DECEASED	19.5	combined chemo+radiation therapy	complete response	Lifelong non-smoker (<100 cigarettes smoked in lifetime)	Unknown
+DO51545	Female	75	1:DECEASED	15.83333333	chemotherapy	complete response	Smoking history not documented	Unknown
+DO51546	Female	73	0:LIVING	18.33333333	no treatment		Lifelong non-smoker (<100 cigarettes smoked in lifetime)	Unknown
+DO51548	Female	55	0:LIVING	181.4166667	chemotherapy	complete response	Smoking history not documented	Unknown
+DO51549	Female	76	0:LIVING	19.08333333	combined chemo+radiation therapy	complete response	Lifelong non-smoker (<100 cigarettes smoked in lifetime)	yes
+DO51551	Female	54	0:LIVING	0				
+DO51592	Female	49	1:DECEASED	53				
+DO51594	Female	50	0:LIVING	0				
+DO51600	Female	58	0:LIVING	0				
+DO51731	Male	71	0:LIVING	0				
+DO51953	Male	67	1:DECEASED	116			Current reformed smoker for > 15 years	yes
+DO51954	Male	49	1:DECEASED	77.75			Current reformed smoker for > 15 years	yes
+DO51955	Male	65	1:DECEASED	448.5			Current reformed smoker for > 15 years	yes
+DO51956	Male	62	1:DECEASED	242.8333333			Lifelong non-smoker (<100 cigarettes smoked in lifetime)	yes
+DO51958	Male	66	1:DECEASED	259.3333333			Lifelong non-smoker (<100 cigarettes smoked in lifetime)	yes
+DO51959	Male	66	1:DECEASED	106.1666667			Current reformed smoker for > 15 years	yes
+DO51960	Male	55	1:DECEASED	318.6666667			Lifelong non-smoker (<100 cigarettes smoked in lifetime)	yes
+DO51962	Male	56	1:DECEASED	355.1666667			Current reformed smoker for > 15 years	yes
+DO51964	Male	67	1:DECEASED	163			Current reformed smoker for > 15 years	yes
+DO51965	Male	58	1:DECEASED	110.1666667			Lifelong non-smoker (<100 cigarettes smoked in lifetime)	yes
+DO51967	Female	54	0:LIVING	508.25	other therapy	unknown	Lifelong non-smoker (<100 cigarettes smoked in lifetime)	no
+DO51989	Female	61	0:LIVING	160.9166667	other therapy	unknown	Smoking history not documented	Unknown
+DO51992	Female	42	0:LIVING	399	other therapy	unknown	Smoking history not documented	Unknown
+DO5200	Female	72	1:DECEASED	130.25				
+DO52029	Male	57	0:LIVING	0				
+DO52120	Male	44	1:DECEASED	48.25				
+DO52122	Female	43	0:LIVING	165.5				
+DO52123	Male	56	0:LIVING	451.25				
+DO52124	Male	58	1:DECEASED	196.5833333				
+DO52125	Male	79	1:DECEASED	11.66666667				
+DO52126	Male	50	0:LIVING	362.1666667				
+DO52127	Female	41	0:LIVING	355				
+DO52128	Male	42	0:LIVING	230.9166667				
+DO52129	Female	46	0:LIVING	235.6666667				
+DO52131	Male	38	0:LIVING	298				
+DO52132	Female	71	1:DECEASED	23.91666667				
+DO52134	Male	71	0:LIVING	276.5833333				
+DO52135	Female	47	0:LIVING	171.1666667				
+DO52136	Female	70	0:LIVING	265.5				
+DO52137	Female	30	1:DECEASED	130.8333333				
+DO52139	Female	61	0:LIVING	128.5				
+DO52140	Male	63	0:LIVING	65.75				
+DO52141	Female	46	0:LIVING	98.91666667				
+DO52142	Female	62	0:LIVING	95				
+DO52143	Male	59	0:LIVING	102				
+DO52144	Male	71	0:LIVING	55.83333333				
+DO52146	Male	75	0:LIVING	96				
+DO52147	Male	48	0:LIVING	89				
+DO52148	Male	64	0:LIVING	98.91666667				
+DO52149	Female	66	0:LIVING	45.08333333				
+DO52150	Male	40	0:LIVING	91.41666667				
+DO52151	Male	56	0:LIVING	91.33333333				
+DO52152	Female	44	0:LIVING	90.16666667				
+DO52153	Male	57	0:LIVING	89				
+DO52154	Male	71	0:LIVING	88.5				
+DO52155	Male	60	0:LIVING	63.08333333				
+DO52156	Male	53	0:LIVING	83.91666667				
+DO52158	Male	55	0:LIVING	83.91666667				
+DO52159	Male	50	0:LIVING	82.16666667				
+DO52161	Male	69	1:DECEASED	0.25				
+DO52162	Female	20	0:LIVING	79.66666667				
+DO52164	Male	66	0:LIVING	66.91666667				
+DO52171	Male	50	0:LIVING	0				
+DO52172	Female	26	0:LIVING	0				
+DO522	Female	64	0:LIVING	0				
+DO52307	Female	58	1:DECEASED	53.25				
+DO5249	Female	34	0:LIVING	0				
+DO52497	Male	49	0:LIVING	90.25	no treatment		Smoking history not documented	Unknown
+DO52498	Male	48	0:LIVING	92.25	no treatment		Smoking history not documented	Unknown
+DO52499	Male	46	0:LIVING	62	no treatment		Smoking history not documented	Unknown
+DO52500	Male	50	0:LIVING	0	no treatment		Smoking history not documented	Unknown
+DO52501	Male	47	0:LIVING	16.75	no treatment		Smoking history not documented	Unknown
+DO52502	Male	49	0:LIVING	61.5	radiation therapy	unknown	Smoking history not documented	Unknown
+DO52503	Male	40	0:LIVING	121.75	no treatment		Smoking history not documented	Unknown
+DO52504	Male	48	0:LIVING	112.75	radiation therapy	unknown	Smoking history not documented	Unknown
+DO52505	Male	48	0:LIVING	35.25	no treatment		Smoking history not documented	Unknown
+DO52506	Male	48	0:LIVING	33.5	other therapy	stable disease	Smoking history not documented	Unknown
+DO52507	Male	44	0:LIVING	120.5	no treatment		Smoking history not documented	Unknown
+DO52508	Male	43	0:LIVING	92.75	no treatment		Smoking history not documented	Unknown
+DO52509	Male	46	0:LIVING	98.25	no treatment		Smoking history not documented	Unknown
+DO52510	Male	49	0:LIVING	90	no treatment	disease progression	Lifelong non-smoker (<100 cigarettes smoked in lifetime)	Unknown
+DO52511	Male	50	0:LIVING	62	no treatment		Smoking history not documented	Unknown
+DO52512	Male	50	0:LIVING	86.25	no treatment		Lifelong non-smoker (<100 cigarettes smoked in lifetime)	Unknown
+DO52513	Male	47	0:LIVING	94.5	no treatment		Smoking history not documented	Unknown
+DO52514	Male	50	0:LIVING	101.25	no treatment		Smoking history not documented	Unknown
+DO52516	Male	48	1:DECEASED	27.25	other therapy	disease progression	Current smoker (includes daily smokers non-daily/occasional smokers)	yes
+DO52518	Male	50	0:LIVING	120.75	no treatment		Smoking history not documented	Unknown
+DO52520	Male	48	0:LIVING	91.25	no treatment		Smoking history not documented	Unknown
+DO52522	Male	41	0:LIVING	120.75	no treatment		Smoking history not documented	Unknown
+DO52524	Male	40	0:LIVING	2.25	no treatment		Smoking history not documented	yes
+DO52526	Male	48	0:LIVING	33.25	no treatment		Smoking history not documented	yes
+DO52528	Male	50	0:LIVING	57.5	no treatment		Current reformed smoker for <= 15 years	yes
+DO52530	Male	47	0:LIVING	89	no treatment		Smoking history not documented	Unknown
+DO52532	Male	50	0:LIVING	95.5	no treatment		Smoking history not documented	Unknown
+DO52534	Male	47	0:LIVING	152.75	no treatment		Smoking history not documented	Unknown
+DO52538	Female	59	1:DECEASED	0	radiation therapy	unknown	Smoking history not documented	Unknown
+DO52539	Female	39		0	chemotherapy	complete response	Lifelong non-smoker (<100 cigarettes smoked in lifetime)	Unknown
+DO52540	Female	52	1:DECEASED	0	chemotherapy	complete response	Lifelong non-smoker (<100 cigarettes smoked in lifetime)	yes
+DO52541	Female	41	0:LIVING	0	chemotherapy	unknown	Smoking history not documented	Unknown
+DO52542	Female	61	0:LIVING	0	chemotherapy	unknown	Smoking history not documented	Unknown
+DO52543	Female	56	0:LIVING	0	chemotherapy	unknown	Current smoker (includes daily smokers non-daily/occasional smokers)	Unknown
+DO52544	Female	43		0	chemotherapy	unknown	Smoking history not documented	Unknown
+DO52545	Female	64		0	radiation therapy	unknown	Smoking history not documented	Unknown
+DO52546	Female	65		0	other therapy		Smoking history not documented	Unknown
+DO52547	Female			0	other therapy		Smoking history not documented	Unknown
+DO52548	Female	41	0:LIVING	0	chemotherapy	unknown	Current smoker (includes daily smokers non-daily/occasional smokers)	Unknown
+DO52549	Female	79	0:LIVING	0	chemotherapy	unknown	Smoking history not documented	Unknown
+DO52550	Female	46	0:LIVING	0	other therapy		Lifelong non-smoker (<100 cigarettes smoked in lifetime)	Unknown
+DO52551	Female	36	0:LIVING	0	other therapy		Current smoker (includes daily smokers non-daily/occasional smokers)	Unknown
+DO52552	Female	62	0:LIVING	0	other therapy		Lifelong non-smoker (<100 cigarettes smoked in lifetime)	Unknown
+DO52553	Female	30	0:LIVING	0	chemotherapy	complete response	Smoking history not documented	Unknown
+DO52554	Female	46	0:LIVING	0	chemotherapy	unknown	Smoking history not documented	Unknown
+DO52555	Female	68	0:LIVING	0	chemotherapy	unknown	Current smoker (includes daily smokers non-daily/occasional smokers)	Unknown
+DO52556	Female	56	0:LIVING	0	chemotherapy	complete response	Lifelong non-smoker (<100 cigarettes smoked in lifetime)	yes
+DO52557	Female	41	0:LIVING	0	chemotherapy	unknown	Lifelong non-smoker (<100 cigarettes smoked in lifetime)	yes
+DO52558	Female	43	0:LIVING	0	chemotherapy	complete response	Smoking history not documented	Unknown
+DO52559	Female	42	0:LIVING	0	combined chemo+radiation therapy	complete response	Lifelong non-smoker (<100 cigarettes smoked in lifetime)	yes
+DO52560	Female	70	0:LIVING	0	other therapy	complete response	Smoking history not documented	Unknown
+DO52561	Female	75		0	other therapy		Smoking history not documented	Unknown
+DO52562	Female	49	0:LIVING	0	chemotherapy	unknown	Lifelong non-smoker (<100 cigarettes smoked in lifetime)	yes
+DO52564	Female			0				
+DO52565	Male			0				
+DO52566	Female			0				
+DO52567	Male			0				
+DO52568	Female			0				
+DO52569	Female			0				
+DO52570	Female			0				
+DO52571	Female			0				
+DO52572	Male			0				
+DO52573	Male			0				
+DO52574	Female			0				
+DO52575	Female			0				
+DO52576	Female			0				
+DO52577	Male			0				
+DO52578	Male			0				
+DO52579	Female			0				
+DO52580	Male			0				
+DO52581	Male			0				
+DO52582	Male			0				
+DO52583	Male			0				
+DO52584	Female			0				
+DO52585	Male			0				
+DO52587	Female			0				
+DO52588	Female			0				
+DO52589	Male			0				
+DO52590	Male			0				
+DO52591	Male			0				
+DO52592	Male			0				
+DO52593	Male			0				
+DO52594	Male			0				
+DO52595	Male			0				
+DO52596	Female			0				
+DO52597	Female			0				
+DO52598	Female			0				
+DO52599	Female			0				
+DO52600	Female			0				
+DO52601	Female			0				
+DO52602	Male			0				
+DO52603	Male			0				
+DO52604	Female			0				
+DO52605	Male			0				
+DO52606	Male			0				
+DO52607	Female			0				
+DO52608	Male			0				
+DO52610	Male			0				
+DO52611	Female			0				
+DO52612	Female			0				
+DO52613	Female			0				
+DO52615	Female			0				
+DO52616	Male			0				
+DO52617	Female			0				
+DO52618	Male			0				
+DO52619	Male			0				
+DO52620	Female			0				
+DO52621	Female			0				
+DO52622	Female			0				
+DO52623	Male			0				
+DO52625	Male			0				
+DO52626	Male			0				
+DO52627	Male			0				
+DO52629	Male			0				
+DO52630	Male			0				
+DO52631	Male			0				
+DO52632	Male			0				
+DO52633	Male			0				
+DO52635	Male			0				
+DO52636	Female			0				
+DO52637	Male			0				
+DO52638	Female			0				
+DO52639	Male			0				
+DO52640	Male			0				
+DO52641	Female			0				
+DO52642	Female			0				
+DO52643	Female			0				
+DO52645	Female			0				
+DO52646	Female			0				
+DO52647	Male	46	0:LIVING	8.833333333	other therapy	partial response	Smoking history not documented	Unknown
+DO52648	Female	78	1:DECEASED	12.75	other therapy	disease progression	Smoking history not documented	Unknown
+DO52649	Female	68	0:LIVING	22.75	other therapy	complete response	Smoking history not documented	Unknown
+DO52650	Male	84	0:LIVING	10.66666667	other therapy	partial response	Smoking history not documented	Unknown
+DO52651	Female	72	0:LIVING	61.75	other therapy	stable disease	Smoking history not documented	Unknown
+DO52652	Female	75	0:LIVING	22.16666667	other therapy	complete response	Smoking history not documented	Unknown
+DO52653	Female	69	0:LIVING	31.41666667	other therapy	complete response	Smoking history not documented	Unknown
+DO52654	Female	70	0:LIVING	171.9166667	other therapy	complete response	Smoking history not documented	Unknown
+DO52655	Female	75	0:LIVING	42.58333333	other therapy	complete response	Smoking history not documented	Unknown
+DO52656	Male	41	0:LIVING	176.6666667	other therapy	complete response	Smoking history not documented	Unknown
+DO52657	Male	74	0:LIVING	38.66666667	other therapy	complete response	Smoking history not documented	Unknown
+DO52658	Male	52	0:LIVING	44.33333333	other therapy	partial response	Smoking history not documented	Unknown
+DO52659	Female	62	0:LIVING	57.75	other therapy	complete response	Smoking history not documented	Unknown
+DO52660	Male	47	0:LIVING	90.08333333	other therapy	partial response	Smoking history not documented	Unknown
+DO52661	Male	40	0:LIVING	113.4166667	other therapy	complete response	Smoking history not documented	Unknown
+DO52662	Male	43	0:LIVING	71.58333333	other therapy	partial response	Smoking history not documented	Unknown
+DO52663	Female	76	0:LIVING	22.08333333	other therapy	complete response	Smoking history not documented	Unknown
+DO52664	Male	50	0:LIVING	33.33333333	other therapy	disease progression	Smoking history not documented	Unknown
+DO52665	Male	46	0:LIVING	19.33333333	other therapy	complete response	Smoking history not documented	Unknown
+DO52666	Female	57	0:LIVING	83	other therapy	complete response	Smoking history not documented	Unknown
+DO52667	Male	73	0:LIVING	28.25	other therapy	stable disease	Smoking history not documented	Unknown
+DO52668	Male	4	0:LIVING	188.4166667	other therapy	complete response	Smoking history not documented	Unknown
+DO52669	Female	67	0:LIVING	49.33333333	other therapy	disease progression	Smoking history not documented	Unknown
+DO52670	Female	75	1:DECEASED	5.916666667	other therapy	stable disease	Smoking history not documented	Unknown
+DO52671	Female	74	1:DECEASED	16.16666667	other therapy	disease progression	Smoking history not documented	Unknown
+DO52672	Female	55	0:LIVING	10	other therapy	complete response	Smoking history not documented	Unknown
+DO52673	Female	60	0:LIVING	60	other therapy	complete response	Smoking history not documented	Unknown
+DO52674	Female	53	0:LIVING	230.1666667	other therapy	complete response	Smoking history not documented	Unknown
+DO52675	Female	70	0:LIVING	29.83333333	other therapy	complete response	Smoking history not documented	Unknown
+DO52676	Female	55	0:LIVING	118.25	other therapy	complete response	Smoking history not documented	Unknown
+DO52677	Female	42	0:LIVING	163.9166667	other therapy	complete response	Smoking history not documented	Unknown
+DO52679	Female	36	0:LIVING	22.83333333	other therapy	complete response	Smoking history not documented	Unknown
+DO52680	Female	64	0:LIVING	120.8333333	other therapy	complete response	Smoking history not documented	Unknown
+DO52681	Male	54	0:LIVING	241	other therapy	partial response	Smoking history not documented	Unknown
+DO52682	Female	56	0:LIVING	48	other therapy	stable disease	Smoking history not documented	Unknown
+DO52683	Female	44	0:LIVING	319.6666667	other therapy	complete response	Smoking history not documented	Unknown
+DO52684	Male	46	1:DECEASED	31.66666667	other therapy	complete response	Smoking history not documented	Unknown
+DO52685	Female	62	0:LIVING	62.16666667	other therapy	complete response	Smoking history not documented	Unknown
+DO52686	Male	62	0:LIVING	201.1666667	other therapy	partial response	Smoking history not documented	Unknown
+DO52687	Female	65	0:LIVING	17.41666667	other therapy	complete response	Smoking history not documented	Unknown
+DO52688	Female	60	0:LIVING	162.8333333	other therapy	complete response	Smoking history not documented	Unknown
+DO52689	Male	68	0:LIVING	118.5833333	other therapy	partial response	Smoking history not documented	Unknown
+DO52690	Female	74	0:LIVING	22.16666667	other therapy	complete response	Smoking history not documented	Unknown
+DO52691	Male	10	0:LIVING	78.08333333	other therapy	complete response	Smoking history not documented	Unknown
+DO52692	Female	79	0:LIVING	26.41666667	other therapy	complete response	Smoking history not documented	Unknown
+DO52693	Female	62	0:LIVING	64.58333333	other therapy	complete response	Smoking history not documented	Unknown
+DO52694	Female	72	0:LIVING	226.5	other therapy	complete response	Smoking history not documented	Unknown
+DO52695	Female	74	0:LIVING	37.5	other therapy	stable disease	Smoking history not documented	Unknown
+DO52696	Male	10	0:LIVING	195.6666667	other therapy	complete response	Smoking history not documented	Unknown
+DO52698	Male	49	0:LIVING	168.1666667	other therapy	unknown	Smoking history not documented	Unknown
+DO52699	Male	65	0:LIVING	523.0833333	chemotherapy	unknown	Current reformed smoker for > 15 years	Unknown
+DO52700	Male	62	0:LIVING	597.8333333	chemotherapy	unknown	Current reformed smoker for > 15 years	Unknown
+DO52701	Male	57	0:LIVING	492.3333333	chemotherapy	unknown	Current reformed smoker for <= 15 years	Unknown
+DO52702	Male	68	0:LIVING	442.9166667	chemotherapy	unknown	Current reformed smoker for > 15 years	Unknown
+DO52703	Male	63	0:LIVING	369.0833333	chemotherapy	unknown	Current reformed smoker for > 15 years	Unknown
+DO52704	Male	71	1:DECEASED	121.25	no treatment		Smoking history not documented	Unknown
+DO52705	Male	75	1:DECEASED	185.5833333	chemotherapy	unknown	Current reformed smoker for <= 15 years	Unknown
+DO52706	Female	75	0:LIVING	159.5	chemotherapy	unknown	Smoking history not documented	Unknown
+DO52707	Male	72	0:LIVING	395.25	chemotherapy	unknown	Current reformed smoker for > 15 years	Unknown
+DO52708	Male	75	0:LIVING	177.25	other therapy	unknown	Current reformed smoker for > 15 years	yes
+DO52709	Female	63	0:LIVING	521.1666667	chemotherapy	unknown	Smoking history not documented	Unknown
+DO52710	Male	86	1:DECEASED	98.08333333	chemotherapy	unknown	Current reformed smoker for > 15 years	Unknown
+DO52711	Male	60	1:DECEASED	224.8333333	no treatment		Current reformed smoker for > 15 years	Unknown
+DO52712	Female	56	0:LIVING	398.8333333	no treatment		Lifelong non-smoker (<100 cigarettes smoked in lifetime)	yes
+DO52713	Female	50	0:LIVING	756.25	no treatment		Current reformed smoker for > 15 years	yes
+DO52714	Female	70	0:LIVING	317.3333333	no treatment		Smoking history not documented	Unknown
+DO52715	Male	56	0:LIVING	396.8333333	other therapy	unknown	Smoking history not documented	Unknown
+DO52716	Female	61	0:LIVING	109.1666667	other therapy	unknown	Smoking history not documented	Unknown
+DO52717	Female	71	1:DECEASED	197.75	chemotherapy	unknown	Smoking history not documented	Unknown
+DO52718	Male	40	0:LIVING	257.25	chemotherapy	unknown	Current reformed smoker for <= 15 years	yes
+DO52719	Male	53	0:LIVING	297.8333333	chemotherapy	unknown	Smoking history not documented	Unknown
+DO52720	Female	61	0:LIVING	252.8333333	other therapy	unknown	Current reformed smoker for <= 15 years	yes
+DO52721	Male	73	0:LIVING	130	no treatment		Lifelong non-smoker (<100 cigarettes smoked in lifetime)	yes
+DO52722	Female	82	0:LIVING	144.0833333	chemotherapy	unknown	Smoking history not documented	Unknown
+DO52723	Male	58	0:LIVING	202.4166667	other therapy	unknown	Current reformed smoker for > 15 years	Unknown
+DO52724	Male	84	1:DECEASED	7	chemotherapy	unknown	Smoking history not documented	Unknown
+DO52725	Female	70	0:LIVING	273.75	no treatment		Smoking history not documented	Unknown
+DO52726	Female	52	0:LIVING	0	other therapy	stable disease		
+DO52727	Male	56	1:DECEASED	517.4166667	chemotherapy	disease progression		
+DO52729	Male	77	1:DECEASED	152.1666667	other therapy	stable disease		
+DO52731	Female	38	0:LIVING	0	other therapy	stable disease		
+DO52732	Female	75	1:DECEASED	365.25	other therapy	stable disease		
+DO52733	Female	53	0:LIVING	0	chemotherapy	stable disease		
+DO52734	Male	78	1:DECEASED	121.75	chemotherapy	disease progression		
+DO52735	Male	78	1:DECEASED	91.25	other therapy	stable disease		
+DO52736	Female	50	0:LIVING	0	other therapy	stable disease		
+DO52737	Male	64	1:DECEASED	426.0833333	chemotherapy	stable disease		
+DO52738	Male	39	1:DECEASED	791.4166667	other therapy	stable disease		
+DO52739	Female	66	1:DECEASED	91.25	other therapy	disease progression		
+DO52740	Male	45	1:DECEASED	913.1666667	other therapy	disease progression		
+DO52741	Female	64	0:LIVING	0	chemotherapy	stable disease		
+DO52742	Female	72	0:LIVING	0	chemotherapy	stable disease		
+DO52743	Male	34	0:LIVING	0	chemotherapy	stable disease		
+DO52744	Female	54	0:LIVING	0	other therapy	stable disease		
+DO52745	Male	64	0:LIVING	0	other therapy	stable disease		
+DO52747	Female	74	1:DECEASED	30.41666667	chemotherapy	disease progression		
+DO52749	Female	58	0:LIVING	0	other therapy	stable disease		
+DO52750	Female	65	1:DECEASED	395.6666667	chemotherapy	stable disease		
+DO52751	Male	70	1:DECEASED	395.6666667	chemotherapy	stable disease		
+DO52752	Male	50	1:DECEASED	426.0833333	other therapy	stable disease		
+DO52753	Female	45	0:LIVING	0	other therapy	stable disease		
+DO52754	Male	46	0:LIVING	0	chemotherapy	stable disease		
+DO52756	Female	70	0:LIVING	0	other therapy	stable disease		
+DO52757	Male	27	1:DECEASED	426.0833333	no treatment			
+DO52758	Female	59	0:LIVING	0	other therapy	stable disease		
+DO52760	Male	85	0:LIVING	0	chemotherapy	stable disease		
+DO52761	Male	57	1:DECEASED	608.75	other therapy	stable disease		
+DO52762	Female	53	0:LIVING	0	other therapy	stable disease		
+DO52763	Male	59	1:DECEASED	395.6666667	other therapy	stable disease		
+DO5312	Female	45	0:LIVING	0				
+DO5347	Female	37	0:LIVING	0				
+DO536	Male	65	1:DECEASED	6.75				
+DO5375	Female	39	0:LIVING	0				
+DO548	Male	57	0:LIVING	0				
+DO555	Female	79	0:LIVING	0				
+DO561	Male	54	0:LIVING	0				
+DO5626	Female	40	0:LIVING	0				
+DO5661	Female	78	1:DECEASED	289.3333333				
+DO5696	Female	62	0:LIVING	0				
+DO5745	Female	58	0:LIVING	0				
+DO575	Female	43	0:LIVING	0				
+DO5808	Female	59	0:LIVING	0				
+DO6144	Female	59	0:LIVING	0				
+DO6231	Female	66	0:LIVING	0				
+DO6249	Female	50	1:DECEASED	90.25				
+DO6252	Female	26	1:DECEASED	13.83333333				
+DO6255	Female	58	0:LIVING	0				
+DO6314	Female	30	0:LIVING	0				
+DO6332	Female	25	0:LIVING	0				
+DO6350	Male	44	1:DECEASED	464.4166667	chemotherapy	unknown	Current reformed smoker for <= 15 years	Unknown
+DO6351	Female	59	1:DECEASED	164.6666667	other therapy	unknown	Current reformed smoker for <= 15 years	Unknown
+DO6352	Male	45	0:LIVING	443.9166667	chemotherapy	unknown	Current reformed smoker for > 15 years	Unknown
+DO6353	Female	41	0:LIVING	371	other therapy	unknown	Current reformed smoker for <= 15 years	Unknown
+DO6354	Male	46	0:LIVING	372.75	other therapy	unknown	Lifelong non-smoker (<100 cigarettes smoked in lifetime)	Unknown
+DO6360	Male	49	1:DECEASED	390.3333333	chemotherapy	unknown	Current reformed smoker for <= 15 years	yes
+DO6362	Male	70		98.16666667	other therapy	unknown	Current reformed smoker for > 15 years	Unknown
+DO6364	Female	59	0:LIVING	461.25	other therapy	unknown	Lifelong non-smoker (<100 cigarettes smoked in lifetime)	Unknown
+DO6368	Male	55	0:LIVING	392.1666667	chemotherapy	unknown	Lifelong non-smoker (<100 cigarettes smoked in lifetime)	yes
+DO6370	Male	59	0:LIVING	580.4166667	chemotherapy	unknown	Current reformed smoker for > 15 years	Unknown
+DO6378	Male	59	0:LIVING	297.0833333	chemotherapy	unknown	Current reformed smoker for <= 15 years	Unknown
+DO6382	Male	57	0:LIVING	327.4166667	other therapy	unknown	Current smoker (includes daily smokers non-daily/occasional smokers)	Unknown
+DO6386	Female	66	0:LIVING	273.3333333	chemotherapy	unknown	Lifelong non-smoker (<100 cigarettes smoked in lifetime)	Unknown
+DO6388	Male	47	1:DECEASED	263.1666667	other therapy	unknown	Current reformed smoker for > 15 years	Unknown
+DO639	Male	69	0:LIVING	0				
+DO6390	Male	58	1:DECEASED	394.25	chemotherapy	unknown	Current reformed smoker for > 15 years	Unknown
+DO6394	Male	64	1:DECEASED	217.5833333	other therapy	unknown	Lifelong non-smoker (<100 cigarettes smoked in lifetime)	Unknown
+DO6396	Male	76	1:DECEASED	196.9166667	no treatment		Smoking history not documented	Unknown
+DO6398	Male	69	1:DECEASED	332.25	chemotherapy	unknown	Smoking history not documented	Unknown
+DO6402	Male	58	0:LIVING	262	other therapy	unknown	Lifelong non-smoker (<100 cigarettes smoked in lifetime)	Unknown
+DO6410	Male	53	1:DECEASED	221.0833333	other therapy	unknown	Current reformed smoker for <= 15 years	Unknown
+DO6418	Male	62	1:DECEASED	171.4166667	other therapy	unknown	Current reformed smoker for <= 15 years	Unknown
+DO6428	Female	78	1:DECEASED	206.9166667	chemotherapy	unknown	Smoking history not documented	Unknown
+DO6430	Male	52	1:DECEASED	304.1666667	other therapy	unknown	Current reformed smoker for <= 15 years	Unknown
+DO6432	Male	65	0:LIVING	315.5833333	other therapy	unknown	Current reformed smoker for > 15 years	Unknown
+DO6434	Female	45	1:DECEASED	283.9166667	other therapy	unknown	Lifelong non-smoker (<100 cigarettes smoked in lifetime)	Unknown
+DO6436	Female	55	1:DECEASED	160.5833333	other therapy	unknown	Lifelong non-smoker (<100 cigarettes smoked in lifetime)	Unknown
+DO6438	Female	57	0:LIVING	356.4166667	other therapy	unknown	Lifelong non-smoker (<100 cigarettes smoked in lifetime)	Unknown
+DO6450	Male	45	0:LIVING	370.8333333	other therapy	unknown	Current smoker (includes daily smokers non-daily/occasional smokers)	Unknown
+DO6456	Female	76	1:DECEASED	270.5	chemotherapy	unknown	Smoking history not documented	Unknown
+DO6470	Male	69	0:LIVING	135.8333333	other therapy	unknown	Smoking history not documented	Unknown
+DO6474	Male	66	0:LIVING	216.3333333	chemotherapy	unknown	Current reformed smoker for > 15 years	Unknown
+DO6492	Male	49	0:LIVING	289.5833333	other therapy	unknown	Current reformed smoker for > 15 years	Unknown
+DO6504	Male	68	1:DECEASED	211.9166667	chemotherapy	unknown	Lifelong non-smoker (<100 cigarettes smoked in lifetime)	yes
+DO6513	Female	73	0:LIVING	150.5833333	monoclonal antibodies (for liquid tumours)	unknown	Smoking history not documented	Unknown
+DO6549	Female	56	0:LIVING	272.4166667	no treatment		Smoking history not documented	Unknown
+DO6552	Male	61	1:DECEASED	201.1666667	no treatment		Current smoker (includes daily smokers non-daily/occasional smokers)	Unknown
+DO6558	Female	86	1:DECEASED	86.41666667	no treatment		Smoking history not documented	Unknown
+DO6561	Female	63	1:DECEASED	57.16666667	other therapy	unknown	Smoking history not documented	Unknown
+DO6565	Male	65	1:DECEASED	83.41666667	monoclonal antibodies (for liquid tumours)	unknown	Current reformed smoker for > 15 years	Unknown
+DO6580	Male	61	1:DECEASED	96.08333333	other therapy	unknown	Current reformed smoker for > 15 years	Unknown
+DO6585	Male	80	0:LIVING	277.25	no treatment		Smoking history not documented	Unknown
+DO6610	Female	67	0:LIVING	186.25	chemotherapy	unknown	Lifelong non-smoker (<100 cigarettes smoked in lifetime)	yes
+DO6665	Male	61	0:LIVING	246.9166667	chemotherapy	unknown	Lifelong non-smoker (<100 cigarettes smoked in lifetime)	Unknown
+DO669	Male	77	1:DECEASED	5.166666667				
+DO6690	Male	80	1:DECEASED	7.833333333	chemotherapy	unknown	Smoking history not documented	Unknown
+DO6695	Female	82	0:LIVING	221.5833333	chemotherapy	unknown	Smoking history not documented	Unknown
+DO6730	Male	67	0:LIVING	217	no treatment		Current reformed smoker for > 15 years	Unknown
+DO6742	Male	62	0:LIVING	420.1666667	chemotherapy	unknown	Smoking history not documented	Unknown
+DO6748	Male	66	0:LIVING	297.6666667	other therapy	unknown	Current reformed smoker for > 15 years	Unknown
+DO675	Female	81	1:DECEASED	45.33333333				
+DO6754	Male	40		20.33333333	no treatment		Smoking history not documented	Unknown
+DO689	Female	59	1:DECEASED	12.83333333				
+DO6898	Female	76	1:DECEASED	86.5	chemotherapy	unknown	Current reformed smoker for <= 15 years	Unknown
+DO6934	Male	68	1:DECEASED	224.8333333	chemotherapy	unknown	Smoking history not documented	Unknown
+DO6940	Male	75	1:DECEASED	119.8333333	no treatment		Smoking history not documented	Unknown
+DO6946	Male	50	0:LIVING	156.8333333	other therapy	unknown	Current reformed smoker for > 15 years	Unknown
+DO695	Male	73	1:DECEASED	49.41666667				
+DO7018	Male	60	0:LIVING	107.3333333	no treatment		Current reformed smoker for > 15 years	yes
+DO7024	Male	50	0:LIVING	783.5833333	no treatment		Lifelong non-smoker (<100 cigarettes smoked in lifetime)	Unknown
+DO7084	Male	60	1:DECEASED	155.4166667	no treatment		Smoking history not documented	Unknown
+DO7108	Male	63	0:LIVING	155.6666667	no treatment		Current reformed smoker for <= 15 years	yes
+DO7112	Male	78	0:LIVING	262.5	other therapy	unknown	Current reformed smoker for > 15 years	yes
+DO7124	Male	86	1:DECEASED	72.83333333	other therapy	unknown	Smoking history not documented	Unknown
+DO7136	Female	55	0:LIVING	322.75	no treatment		Smoking history not documented	Unknown
+DO7166	Male	62	0:LIVING	157.5	other therapy	unknown	Current smoker (includes daily smokers non-daily/occasional smokers)	yes
+DO7172	Male	61	1:DECEASED	456.0833333	other therapy	unknown	Lifelong non-smoker (<100 cigarettes smoked in lifetime)	yes
+DO7196	Male	74	0:LIVING	388.75	no treatment		Smoking history not documented	Unknown
+DO720	Female	80	1:DECEASED	8.25				
+DO7214	Female	71	0:LIVING	332.0833333	chemotherapy	unknown	Lifelong non-smoker (<100 cigarettes smoked in lifetime)	no
+DO7280	Male	51	0:LIVING	197.4166667	chemotherapy	unknown	Smoking history not documented	Unknown
+DO7304	Male	59	0:LIVING	176.0833333	other therapy	unknown	Smoking history not documented	Unknown
+DO7322	Female	47	1:DECEASED	678.4166667	chemotherapy	unknown	Smoking history not documented	Unknown
+DO7328	Male	45		152.3333333	other therapy	unknown	Smoking history not documented	Unknown
+DO7358	Male	70	1:DECEASED	136.6666667	chemotherapy	unknown	Smoking history not documented	Unknown
+DO7801	Male	46	0:LIVING	0				
+DO7822	Male	59	0:LIVING	0				
+DO7831	Male	74	0:LIVING	0				
+DO7858	Male	73	0:LIVING	0				
+DO7934	Male	47	0:LIVING	0				
+DO7990	Female	57	0:LIVING	0				
+DO8004	Female	80	0:LIVING	0				
+DO804	Male	63	1:DECEASED	37.75				
+DO8047	Male	69	0:LIVING	0				
+DO822	Male	65	0:LIVING	0				
+DO8264	Male	57	0:LIVING	0				
+DO828	Male	52	0:LIVING	0				
+DO8360	Male	58	0:LIVING	0				
+DO8447	Male	43	0:LIVING	0				
+DO856	Male	76	1:DECEASED	11.83333333				
+DO8658	Male	69	0:LIVING	0				
+DO8730	Male	65	0:LIVING	0				
+DO8842	Male	61	0:LIVING	0				
+DO8858	Female	64	0:LIVING	0				
+DO8898	Female	81	0:LIVING	0				
+DO9034	Female	53	0:LIVING	0				
+DO9042	Male	68	1:DECEASED	5.083333333				
+DO9074	Female	72	0:LIVING	0				
+DO9106	Female	47	0:LIVING	0				
+DO9226	Male	82	0:LIVING	0				
+DO9700	Male	65	0:LIVING	0				
+DO9708	Male	66	0:LIVING	0				
+DO9732	Female	78	1:DECEASED	0				
+DO9788	Female	73	0:LIVING	0				
+DO9876	Male	75	1:DECEASED	10.16666667				
+DO9940	Female	78	0:LIVING	0				
